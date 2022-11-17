@@ -55,7 +55,7 @@ Vous pouvez rejoindre la petite communauté d'utilisateurs de mod de Herobrine.f
 [7]: https://fabulously-optimized.gitbook.io/modpack/readme/language-support
 [8]: https://github.com/HB-Modding-Crew/Herobrine.fr-Optimized
 [9]: https://github.com/HB-Modding-Crew/Herobrine.fr-Optimized/issues/257
-[10]: https://discord.gg/NYCM2mxv
+[10]: https://discord.gg/CKBdqQrFf8
 [11]: https://fabulously-optimized.gitbook.io/modpack/
 [12]: https://github.com/HB-Modding-Crew/Herobrine.fr-Optimized/blob/main/INCLUDED-MODS.md
 [13]: https://fabulously-optimized.gitbook.io/modpack/readme/server-setup
