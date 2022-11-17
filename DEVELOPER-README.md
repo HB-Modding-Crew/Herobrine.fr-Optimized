@@ -1,4 +1,4 @@
-# Fabulously Optimized repository
+# Herobrine.fr - Optimized repository
 
 Welcome to my repository.
 Here you'll find the resources for:

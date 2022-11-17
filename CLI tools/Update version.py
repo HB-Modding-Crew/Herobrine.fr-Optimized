@@ -1,7 +1,7 @@
 import os, json
 
 user_path = os.path.expanduser("~")
-cf_path = user_path + "/curseforge/minecraft/Instances/Fabulously Optimized/"
+cf_path = user_path + "/curseforge/minecraft/Instances/Herobrine.fr - Optimized/"
 title_screen_path = cf_path + "config/isxander-main-menu-credits.json"
 warning_path = cf_path + "config/fabric_loader_dependencies.json"
 
@@ -16,14 +16,14 @@ title_screen_obj = load_json(title_screen_path)
 existing_version = title_screen_obj["main_menu"]["bottom_right"][0]["text"]
 
 print("Current version: " + existing_version)
-new_version = input("Enter new version: Fabulously Optimized ")
+new_version = input("Enter new version: Herobrine.fr - Optimized ")
 
-title_screen_obj["main_menu"]["bottom_right"][0]["text"] = "Fabulously Optimized " + new_version
+title_screen_obj["main_menu"]["bottom_right"][0]["text"] = "Herobrine.fr - Optimized " + new_version
 save_file(title_screen_path, title_screen_obj)
 
 warning_file_obj = load_json(warning_path)
 try:
-    warning_file_obj["overrides"]["fabric-api"]["+recommends"]["Fabulously Optimized"] = ">" + new_version
+    warning_file_obj["overrides"]["fabric-api"]["+recommends"]["Herobrine.fr - Optimized"] = ">" + new_version
 except KeyError:
-    warning_file_obj["overrides"]["fabric"]["+recommends"]["Fabulously Optimized"] = ">" + new_version
+    warning_file_obj["overrides"]["fabric"]["+recommends"]["Herobrine.fr - Optimized"] = ">" + new_version
 save_file(warning_path, warning_file_obj)

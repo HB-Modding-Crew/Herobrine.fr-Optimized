@@ -10,8 +10,8 @@ mod3=
 mod4=
 mod5=
 
-# Upgrading Fabulously Optimized
-echo "Checking for Fabulously Optimized upgrades..."
+# Upgrading Herobrine.fr - Optimized
+echo "Checking for Herobrine.fr - Optimized upgrades..."
 cd ..
 mcver="$(jq -r '.components[]|select(.cachedName=="Minecraft")|.version' mmc-pack.json)"
 if [ -d .minecraft ]; then

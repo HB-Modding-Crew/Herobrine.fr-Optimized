@@ -1,4 +1,4 @@
-# Fabulously Optimized
+# Herobrine.fr - Optimized
 
 A Fabric-based modpack for Minecraft that focuses on performance and graphics optimizations.
 
@@ -50,7 +50,7 @@ More notable videos:
 * [Review of some mods on the pack](https://www.youtube.com/watch?v=8OBkqn4Z4ek) by PD
 
 ## Included Mods
-Fabulously Optimized has [a complete list of all the mods included](INCLUDED-MODS.md). Besides the mods that are used in the latest version, it also lists the mods used in older major versions, alternative mods and library mods that are essential for the modpack to work.
+Herobrine.fr - Optimized has [a complete list of all the mods included](INCLUDED-MODS.md). Besides the mods that are used in the latest version, it also lists the mods used in older major versions, alternative mods and library mods that are essential for the modpack to work.
 
 See also: [List of bugs fixed in the modpack](https://fabulously-optimized.gitbook.io/modpack/readme/changed-options#fixed-bugs)
 
@@ -77,32 +77,32 @@ By using this modpack, you agree to the following:
     > Caution: Online play is offered by third-party servers that are not owned, operated, or supervised by Mojang Studios or Microsoft. During online play, you may be exposed to unmoderated chat messages or other types of user-generated content that may not be suitable for everyone. 
     *  [The "social interactions" screen](https://minecraft.fandom.com/wiki/Social_Interactions_screen#Usage) can be used by pressing the key `P` in-game or the `Player Reporting` button in the pause menu.
     * On servers where Mojang's chat reporting is optional, the modpack opts out of it for the playing user. Chat status icons are changed to provide more accurate information about the signing state of the server. [Read more](https://fabulously-optimized.gitbook.io/modpack/readme/chat-reporting-faq).
-* Fabulously Optimized does not host any capes or other cosmetics, nor does it encourage users to buy them from any provider. Instead, the modpack encourages users to [prefer free cosmetics](https://fabulously-optimized.gitbook.io/modpack/readme/free-cape), while also giving them options to use any paid cosmetics they've previously obtained from certain providers.  
-* Yes, you can fork/remix this pack [according to the license](https://github.com/Fabulously-Optimized/fabulously-optimized/blob/main/LICENSE.md). You cannot, however, use the "Fabulously Optimized" name or logo to _represent_ your fork (only to mention what you forked from).
+* Herobrine.fr - Optimized does not host any capes or other cosmetics, nor does it encourage users to buy them from any provider. Instead, the modpack encourages users to [prefer free cosmetics](https://fabulously-optimized.gitbook.io/modpack/readme/free-cape), while also giving them options to use any paid cosmetics they've previously obtained from certain providers.  
+* Yes, you can fork/remix this pack [according to the license](https://github.com/Fabulously-Optimized/fabulously-optimized/blob/main/LICENSE.md). You cannot, however, use the "Herobrine.fr - Optimized" name or logo to _represent_ your fork (only to mention what you forked from).
 
 <br>
 <details>
   
   <summary>Free badges for forks <a href="https://intergrav.github.io/devins-badges-docs">by Devin</a></summary>
   
-  <img alt="Built on Fabulously Optimized" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@2/assets/cozy/built-with/fabulously-optimized_vector.svg">
+  <img alt="Built on Herobrine.fr - Optimized" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@2/assets/cozy/built-with/fabulously-optimized_vector.svg">
   
   Markdown and HTML for Modrinth/GitHub below; for CurseForge just select and copy the image to get it with the link.
   ```html
   <!-- Markdown -->
-  [![Built on Fabulously Optimized](https://raw.githubusercontent.com/intergrav/devins-badges/v2/assets/cozy/built-with/fabulously-optimized_64h.png)](https://github.com/Fabulously-Optimized/fabulously-optimized)
+  [![Built on Herobrine.fr - Optimized](https://raw.githubusercontent.com/intergrav/devins-badges/v2/assets/cozy/built-with/fabulously-optimized_64h.png)](https://github.com/Fabulously-Optimized/fabulously-optimized)
 
   <!-- HTML (resizeable) -->
-  <img alt="Built on Fabulously Optimized" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@2/assets/cozy/built-with/fabulously-optimized_vector.svg">
+  <img alt="Built on Herobrine.fr - Optimized" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@2/assets/cozy/built-with/fabulously-optimized_vector.svg">
   ```
-  <img alt="Built on Fabulously Optimized" height="40" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@2/assets/compact/built-with/fabulously-optimized_vector.svg">
+  <img alt="Built on Herobrine.fr - Optimized" height="40" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@2/assets/compact/built-with/fabulously-optimized_vector.svg">
   
   Markdown and HTML for Modrinth/GitHub below; for CurseForge just select and copy the image to get it with the link.
   ```html
   <!-- Markdown -->
-  ![Built on Fabulously Optimized](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@2/assets/compact/built-with/fabulously-optimized_46h.png)
+  ![Built on Herobrine.fr - Optimized](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@2/assets/compact/built-with/fabulously-optimized_46h.png)
   <!-- HTML (resizeable) -->
-  <img alt="Built on Fabulously Optimized" height="40" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@2/assets/compact/built-with/fabulously-optimized_vector.svg">
+  <img alt="Built on Herobrine.fr - Optimized" height="40" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@2/assets/compact/built-with/fabulously-optimized_vector.svg">
   ```
   
 </details>

@@ -1,9 +1,9 @@
 import os, shutil
 
 user_path = os.path.expanduser("~")
-cf_path = user_path + "/curseforge/minecraft/Instances/Fabulously Optimized/"
-mmc_path = user_path + "/Documents/MultiMC/instances/Fabulously Optimized/"
-git_path = user_path + "/Documents/GitHub/fabulously-optimized/"
+cf_path = user_path + "/curseforge/minecraft/Instances/Herobrine.fr - Optimized/"
+mmc_path = "E:/mmc-stable-win32/MultiMC/MultiMC.exe/Herobrine.fr - Optimized/"
+git_path = "E:\Bureau\Progs\Perso\HB-Modding-Crew\Modpackwork\Herobrine.fr-Optimized"
 minecraft_version = "1.19.2"
 packwiz_path = git_path + "Packwiz/" + minecraft_version
 

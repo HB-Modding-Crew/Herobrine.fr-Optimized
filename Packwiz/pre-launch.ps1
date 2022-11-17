@@ -5,7 +5,7 @@ $mods = @(
     'AnotherMod.jar'
 )
 
-# Upgrading Fabulously Optimized
+# Upgrading Herobrine.fr - Optimized
 Write-Output "Checking for FO updates..."
 Set-Location ..
 

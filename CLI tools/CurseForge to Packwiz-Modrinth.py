@@ -5,9 +5,9 @@ from pathlib import Path
 import toml # pip install toml
 
 user_path = os.path.expanduser("~")
-git_path = user_path + "\\Documents\\GitHub\\fabulously-optimized\\"
+git_path = "E:/Bureau/Progs/Perso/HB-Modding-Crew/Modpackwork/Herobrine.fr-Optimized/"
 minecraft_version = "1.19.2"
-packwiz_path = git_path + "Packwiz\\" + minecraft_version + "\\"
+packwiz_path = git_path + "Packwiz/" + minecraft_version + "/"
 packwiz_exe_path = "..\packwiz.exe"
 mods_path = packwiz_path + "mods"
 packwiz_manifest = "pack.toml"
@@ -69,8 +69,8 @@ if not is_legacy and not refresh_only:
 # Export packwiz pack via mmc-export method
 if mmc_export_packwiz_export and not refresh_only:
     mmc_zip_root = str(Path(cf_zip_path).parents[0])
-    mmc_zip_path = mmc_zip_root + "\\Fabulously Optimized " + pack_version + ".zip"
-    packwiz_config = git_path + "Packwiz\\mmc-export.toml"
+    mmc_zip_path = mmc_zip_root + "/Herobrine.fr - Optimized " + pack_version + ".zip"
+    packwiz_config = git_path + "Packwiz/mmc-export.toml"
 
     cmd = f'mmc-export -i "{mmc_zip_path}" -f packwiz --modrinth-search loose -o "{mmc_zip_root}" -c "{packwiz_config}" -v {pack_version} --provider-priority Modrinth CurseForge Other --scheme mmc_export_packwiz_output'
     os.system(cmd)
@@ -85,14 +85,14 @@ if mmc_export_packwiz_export and not refresh_only:
 # Export Modrinth pack and manifest via mmc-export method
 if mmc_export_modrinth_export:
     mmc_zip_root = str(Path(cf_zip_path).parents[0])
-    mmc_zip_path = mmc_zip_root + "\\Fabulously Optimized " + pack_version + ".zip"
-    modrinth_config = git_path + "Modrinth\\mmc-export.toml"
+    mmc_zip_path = mmc_zip_root + "/Herobrine.fr - Optimized " + pack_version + ".zip"
+    modrinth_config = git_path + "Modrinth/mmc-export.toml"
 
     cmd = f'mmc-export -i "{mmc_zip_path}" -f Modrinth --modrinth-search loose -o "{mmc_zip_root}" -c "{modrinth_config}" -v {pack_version} --scheme {"{name}-{version}"}'
     os.system(cmd)
 
     if is_legacy == False:
-        extract_file(mmc_zip_root + "\\Fabulously Optimized-" + pack_version + ".mrpack", "modrinth.index.json", git_path + "\\" + "Modrinth", "Modrinth manifest", "Git")
+        extract_file(mmc_zip_root + "/Herobrine.fr - Optimized-" + pack_version + ".mrpack", "modrinth.index.json", git_path + "/" + "Modrinth", "Modrinth manifest", "Git")
 
 # Export Modrinth pack and manifest via packwiz method
 if packwiz_modrinth_export:
@@ -100,7 +100,7 @@ if packwiz_modrinth_export:
     for pack in os.listdir(packwiz_path):
         if pack.endswith('.mrpack'):
             if is_legacy == False:
-                extract_file(packwiz_path + "\\" + pack, "modrinth.index.json", git_path + "\\" + "Modrinth", "Modrinth manifest", "Git")
-            os.replace(packwiz_path + "\\" + pack, os.path.expanduser("~/Desktop") + "\\" + pack)
+                extract_file(packwiz_path + "/" + pack, "modrinth.index.json", git_path + "/" + "Modrinth", "Modrinth manifest", "Git")
+            os.replace(packwiz_path + "/" + pack, os.path.expanduser("~/Desktop") + "/" + pack)
             print("Moved " + pack + " to desktop")
     os.system(packwiz_exe_path + " refresh")

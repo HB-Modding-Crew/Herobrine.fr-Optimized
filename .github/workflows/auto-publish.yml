@@ -22,7 +22,7 @@ jobs:
        - name: Publish to CurseForge
          uses: Kir-Antipov/mc-publish@v3.2
          with:
-           curseforge-id: 396246
+           curseforge-id: 704638
            curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
            curseforge-files: '*.zip'
            loaders: fabric
@@ -44,7 +44,7 @@ jobs:
        - name: Publish to Modrinth
          uses: Kir-Antipov/mc-publish@v3.2
          with:
-           modrinth-id: 1KVo5zza
+           modrinth-id: 2FonbpBI
            modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
            modrinth-unfeature-mode: subset
            modrinth-files: '*.mrpack'
