@@ -5,6 +5,6 @@ This is the changelog for the Fabric modpack [Herobrine.fr - Optimized](https://
 
 ### 1.0.0 (2022-11-17)
 
-- Fork de Fabulously Optimised.
+- Fork de Fabulously Optimized.
 - Modifications du fork pour avoir une compatibilité complète avec Herobrine.fr
 - Première release pour entamer le processus de développement
