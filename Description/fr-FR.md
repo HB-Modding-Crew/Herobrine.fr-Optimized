@@ -12,6 +12,8 @@ Herobrine.fr - Optimized offre généralement de meilleurs performances que Opti
 
 Herobrine.fr - Optimized [supporte presque toutes les features de Optifine][2], incluant les shaders, les textures connectées, et le zoom. Le ressource pack HB est actuellement complètement compatible.
 
+![Alt text](https://github.com/HB-Modding-Crew/Herobrine.fr-Optimized/images/demo_textures.png?raw=true "Toutes les textures fonctionnent!")
+
 ### Ajustements mineurs
 
 Herobrine.fr - Optimized [inclus des ajustements mineurs][4] qui n'enlèvent pas la sensation vanilla, comme l'augmentation de l'historique du chat, le mode plein écran fenêtré, et des fixs de bug connus de minecraft.
