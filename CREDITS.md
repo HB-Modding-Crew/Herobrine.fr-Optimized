@@ -1,4 +1,4 @@
-# Credits
+# Credits (Fabulously Optimized)
 ### Direct contributions
 
 * [TheYTG123](https://www.curseforge.com/members/theytg123/projects) on CurseForge who helped me with Jumploader to release the 1.16.3 version a little faster

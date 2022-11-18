@@ -25,7 +25,7 @@ packwiz_modrinth_export = False
 def extract_file(from_zip, from_file, to_path, from_desc, to_desc):
     with ZipFile(from_zip, 'r') as zip:
         if from_file in zip.namelist():
-                zip.extract(from_file, to_path)
+                ret=zip.extract(from_file, to_path)
                 print("Copied " + from_desc + " to " + to_desc)
         else:
             print("Skipped " + from_desc + " copying to " + to_desc + ", didn't exist")

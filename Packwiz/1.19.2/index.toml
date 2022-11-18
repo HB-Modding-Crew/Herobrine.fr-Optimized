@@ -2,7 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "resourcepacks/Mod Menu Helper.zip"
-hash = "425114942a90c349ab52c6c978d852704d9c2fce9a664484052630cf23141cad"
+hash = "03c07eef6d4b6500b2a9cd69f5afd9e9780c862226f1c1b09749510b3de6715f"
+
+[[files]]
+file = "resourcepacks/PACK_HB_FUTURE_VERSION.zip"
+hash = "a3077312ba9735a731a2b63a93ddb0ecb7b81e8f812e0474f5cb18b432dbcd57"
 
 [[files]]
 file = "mods/cem.pw.toml"
@@ -192,11 +196,6 @@ metafile = true
 [[files]]
 file = "mods/animatica.pw.toml"
 hash = "b2451871487ef2e41cfec332541661e0ba81e4a2aabe4fcb7099e9b9b6cd8391"
-metafile = true
-
-[[files]]
-file = "mods/advancementinfo.pw.toml"
-hash = "9478cb934811737d6ed6ff6094f68493d3b72d65540b8dee027e65db5dfa2ce2"
 metafile = true
 
 [[files]]

@@ -6,6 +6,11 @@ name = "Mod Menu Helper"
 filename = "Mod Menu Helper.zip"
 action = "override"
 
+[[Resource]]
+name = "PACK_HB_FUTURE_VERSION"
+filename = "PACK_HB_FUTURE_VERSION.zip"
+action = "override"
+
 [[File]]
 name = "Copy all 3 folders!"
 filename = "Copy all 3 folders!"
