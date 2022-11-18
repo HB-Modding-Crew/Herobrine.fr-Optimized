@@ -1,7 +1,6 @@
 import os, json
 
-user_path = os.path.expanduser("~")
-cf_path = user_path + "/curseforge/minecraft/Instances/Herobrine.fr - Optimized/"
+cf_path = "/mnt/c/Users/paulb/curseforge/minecraft/Instances/Herobrine.fr - Optimized/"
 title_screen_path = cf_path + "config/isxander-main-menu-credits.json"
 warning_path = cf_path + "config/fabric_loader_dependencies.json"
 

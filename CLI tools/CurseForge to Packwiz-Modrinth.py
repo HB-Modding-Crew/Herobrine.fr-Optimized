@@ -4,8 +4,7 @@ from shutil import unpack_archive
 from pathlib import Path
 import toml # pip install toml
 
-user_path = os.path.expanduser("~")
-git_path = "E:/Bureau/Progs/Perso/HB-Modding-Crew/Modpackwork/Herobrine.fr-Optimized/"
+git_path = "/mnt/e/Bureau/Progs/Perso/HB-Modding-Crew/Modpackwork/Herobrine.fr-Optimized/"
 minecraft_version = "1.19.2"
 packwiz_path = git_path + "Packwiz/" + minecraft_version + "/"
 packwiz_exe_path = "..\packwiz.exe"
@@ -39,7 +38,7 @@ if not refresh_only:
 os.chdir(packwiz_path)
 if not refresh_only:
     cf_zip_path = input("Please drag the CurseForge zip file here: ")[3:][:-1] # Because dragging the file adds "& " and double quotes
-    pack_version = "-".join(str(Path(cf_zip_path).with_suffix("")).split("-")[1:])
+    pack_version = cf_zip_path.split("-")[-1].removesuffix(".zip")
 
 if not mmc_export_packwiz_export and not refresh_only:    
     # Update pack.toml first
@@ -69,10 +68,11 @@ if not is_legacy and not refresh_only:
 # Export packwiz pack via mmc-export method
 if mmc_export_packwiz_export and not refresh_only:
     mmc_zip_root = str(Path(cf_zip_path).parents[0])
-    mmc_zip_path = mmc_zip_root + "/Herobrine.fr - Optimized " + pack_version + ".zip"
+    mmc_zip_path = mmc_zip_root + "/Herobrine.fr-Optimized-mmc-" + pack_version + ".zip"
     packwiz_config = git_path + "Packwiz/mmc-export.toml"
 
     cmd = f'mmc-export -i "{mmc_zip_path}" -f packwiz --modrinth-search loose -o "{mmc_zip_root}" -c "{packwiz_config}" -v {pack_version} --provider-priority Modrinth CurseForge Other --scheme mmc_export_packwiz_output'
+    print(cmd)
     os.system(cmd)
 
     packwiz_zip_path = Path(mmc_zip_root) / "mmc_export_packwiz_output.zip" 
@@ -85,10 +85,11 @@ if mmc_export_packwiz_export and not refresh_only:
 # Export Modrinth pack and manifest via mmc-export method
 if mmc_export_modrinth_export:
     mmc_zip_root = str(Path(cf_zip_path).parents[0])
-    mmc_zip_path = mmc_zip_root + "/Herobrine.fr - Optimized " + pack_version + ".zip"
+    mmc_zip_path = mmc_zip_root + "/Herobrine.fr-Optimized-mmc-" + pack_version + ".zip"
     modrinth_config = git_path + "Modrinth/mmc-export.toml"
 
     cmd = f'mmc-export -i "{mmc_zip_path}" -f Modrinth --modrinth-search loose -o "{mmc_zip_root}" -c "{modrinth_config}" -v {pack_version} --scheme {"{name}-{version}"}'
+    print(cmd)
     os.system(cmd)
 
     if is_legacy == False:

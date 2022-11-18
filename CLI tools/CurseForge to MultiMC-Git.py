@@ -1,9 +1,8 @@
 import os, shutil
 
-user_path = os.path.expanduser("~")
-cf_path = user_path + "/curseforge/minecraft/Instances/Herobrine.fr - Optimized/"
-mmc_path = "E:/mmc-stable-win32/MultiMC/MultiMC.exe/Herobrine.fr - Optimized/"
-git_path = "E:\Bureau\Progs\Perso\HB-Modding-Crew\Modpackwork\Herobrine.fr-Optimized"
+cf_path = "/mnt/c/Users/paulb/curseforge/minecraft/Instances/Herobrine.fr-Optimized/"
+mmc_path = "/mnt/e/mmc-stable-win32/MultiMC/instances/Herobrine.fr-Optimized/"
+git_path = "/mnt/e/Bureau/Progs/Perso/HB-Modding-Crew/Modpackwork/Herobrine.fr-Optimized/"
 minecraft_version = "1.19.2"
 packwiz_path = git_path + "Packwiz/" + minecraft_version
 
@@ -39,13 +38,13 @@ def copy_file(from_path, to_path, from_desc, to_desc):
 
 # CurseForge to MultiMC
 
-remove_dir(mmc_path + "minecraft/config/", "MultiMC configs")
-remove_file(mmc_path + "minecraft/options.txt", "MultiMC options.txt")
-remove_dir(mmc_path + "minecraft/mods/", "MultiMC mods")
-remove_dir(mmc_path + "minecraft/resourcepacks/", "MultiMC resourcepacks")
-copy_dir(cf_path + "config/", mmc_path + "minecraft/config/", "CurseForge configs", "MultiMC")
-copy_dir(cf_path + "mods/", mmc_path + "minecraft/mods/", "CurseForge mods", "MultiMC")
-copy_dir(cf_path + "resourcepacks/", mmc_path + "minecraft/resourcepacks/", "CurseForge resource packs", "MultiMC")
+remove_dir(mmc_path + ".minecraft/config/", "MultiMC configs")
+remove_file(mmc_path + ".minecraft/options.txt", "MultiMC options.txt")
+remove_dir(mmc_path + ".minecraft/mods/", "MultiMC mods")
+remove_dir(mmc_path + ".minecraft/resourcepacks/", "MultiMC resourcepacks")
+copy_dir(cf_path + "config/", mmc_path + ".minecraft/config/", "CurseForge configs", "MultiMC")
+copy_dir(cf_path + "mods/", mmc_path + ".minecraft/mods/", "CurseForge mods", "MultiMC")
+copy_dir(cf_path + "resourcepacks/", mmc_path + ".minecraft/resourcepacks/", "CurseForge resource packs", "MultiMC")
 
 # CurseForge to Git 
 

@@ -1,3 +1,7 @@
 *.jar
 *.exe
+*.zip
+*.mrpack
+.vscode/
+.python-version
 Packwiz/packwiz

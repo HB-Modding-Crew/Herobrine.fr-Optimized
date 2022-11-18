@@ -26,7 +26,7 @@ jobs:
            curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
            curseforge-files: '*.zip'
            loaders: fabric
-           game-versions: '1.19.2'
+           game-versions: 1.19.2
            version: ${{ steps.get_version.outputs.version }} for 1.19.2 (CurseForge)  
            
   publish-to-modrinth:
