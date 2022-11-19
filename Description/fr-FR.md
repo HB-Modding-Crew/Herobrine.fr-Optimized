@@ -1,4 +1,4 @@
-# Herobrine.fr - Optimized
+# English description below !
 
 [![Built on Fabulously Optimized](https://raw.githubusercontent.com/intergrav/devins-badges/v2/assets/cozy/built-with/fabulously-optimized_64h.png)](https://github.com/Fabulously-Optimized/fabulously-optimized)
 
@@ -12,13 +12,13 @@ Herobrine.fr - Optimized offre généralement de meilleurs performances que Opti
 
 Herobrine.fr - Optimized [supporte presque toutes les features de Optifine][2], incluant les shaders, les textures connectées, et le zoom. Le ressource pack HB est actuellement complètement compatible.
 
-![Alt text](images/demo_textures.png?raw=true "Toutes les textures fonctionnent!")
+![Alt text](https://raw.githubusercontent.com/HB-Modding-Crew/Herobrine.fr-Optimized/main/images/demo_textures.png "Toutes les textures fonctionnent!")
 
 ### Ajustements mineurs
 
 Herobrine.fr - Optimized [inclus des ajustements mineurs][4] qui n'enlèvent pas la sensation vanilla, comme l'augmentation de l'historique du chat, le mode plein écran fenêtré, et des fixs de bug connus de minecraft.
 
-### Marche partout
+### Fonctionne partout
 
 Herobrine.fr - Optimized est designé pour marcher sur n'importe quel serveur ou monde, même si il est évident qu'il sera peu utilisé en dehors de Herobrine.fr. Il peut être également être [utilisé avec 5 launcher, et est hébergé sur 3 sites][6].
 
@@ -47,6 +47,28 @@ Vous pouvez rejoindre la petite communauté d'utilisateurs de mod de Herobrine.f
 > **A**: [Rejoins le discord de la communauté !][10]
 
 ### En utilisant ce modpack, [vous acceptez de jouer malgré le disclaimer suivant][15].
+---
+
+  
+# English description:
+
+This modpack was made and is maintained for a French roleplay community: Herobrine.fr . It's a fork of Fabulously Optimized modified for our usage.
+
+Differences with Fabulously Optimized:
+
+> Full french translation for the mod menu
+
+> Some tweaks in the default configuration for a better adaptation to our resource pack
+
+> Community resource packs added in the modpack
+
+> Community server in the default server list
+
+> Removed advancement mod
+
+This modpack will have it's own evolution independant from Fabulously Optimized from now. New mods will be added and deleted in the future.
+
+If you want to use it and need support for any reason, you can join our [discord server][10].
 
 [1]: https://github.com/HB-Modding-Crew/Herobrine.fr-Optimized/blob/main/INCLUDED-MODS.md#smooth
 [2]: https://fabulously-optimized.gitbook.io/modpack/readme/give-up-optifine
