@@ -1,0 +1,37 @@
+name: Modification de documentation
+description: Suggérer une modification de la documentation
+labels: documentation
+body:
+- type: markdown
+  attributes:
+    value: |
+      Avant de demander votre changement, [veuillez rechercher](https://github.com/HB-Modding-Crew/Herobrine.fr-Optimized/issues) s'il a déjà été demandé.
+
+- type: dropdown
+  attributes:
+    label: Type de changement
+    description: Quel type de changement est requis
+    multiple: false
+    options:
+      - Correction d'une erreur (faute de langue, information érronée)
+      - Mise à jour de vielles informations qui ne sont plus d'actualité
+      - Ajout d'une information qui n'est pas trouvable
+
+- type: input
+  attributes:
+    label: Pages à modifier
+    description: Veillez renseigner les liens http si ils existent
+    placeholder: |
+      https://hb-modding-crew.gitbook.io/herobrine-optimized/...
+      https://github.com/HB-Modding-Crew/Herobrine.fr-Optimized/...
+      ...
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Description
+    description: Description des changements/ajouts requis
+  validations:
+      required: true
+

@@ -1,4 +1,4 @@
-name: Setting change
+name: Changement de configuration
 description: Suggérer un changement d'option/config/keybind/etc dans un mod ou un outil existant
 labels: option
 body:
