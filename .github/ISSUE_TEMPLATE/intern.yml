@@ -2,7 +2,7 @@ name: Tâche interne
 description: Tâche à effectuer par les développeurs, ne devrait pas être demandé par une personne externe. Créer seulement si on vous le demande !
 labels: intern
 body:
-- type: input
+- type: textarea
   attributes:
     label: Modifications à effectuer
     description: Décrire les modifications
