@@ -5,6 +5,10 @@ Ceci est le changelog pour le modpack Fabric [Herobrine.fr - Optimized](https://
 
 ### 1.0.2 (2022-11-20)
 
+Mods:
+- Update de certains mods
+- Mode Cull Clouds ajouté
+
 Configuration:
 - CIT: N'autorise plus les broken path
 - Enhanced Block Entity: Activation des smooth lighting

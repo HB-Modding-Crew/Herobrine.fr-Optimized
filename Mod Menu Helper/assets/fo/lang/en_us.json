@@ -14,6 +14,7 @@
   "modmenu.summaryTranslation.citresewn": "OptiFine's custom items\n§9✎§8 Toggle mod, allow broken packs, ...",
   "modmenu.summaryTranslation.colormatic": "OptiFine's custom colors\n§9✎§8 Clear sky/void, light smoothing",
   "modmenu.summaryTranslation.continuity": "OptiFine's connected textures\n§9✎§8 Toggle mod, method, resource packs",
+  "modmenu.summaryTranslation.cullclouds": "Faster clouds\n§8✎ (no options)",
   "modmenu.summaryTranslation.cull-less-leaves": "Faster tree leaves\n§9✎§8 Toggle mod, leaf depth",
   "modmenu.summaryTranslation.cem": "OptiFine's custom entities (alpha)\n§9✎§8 OptiFine support, model fix",
   "modmenu.summaryTranslation.debugify": "Fixes bugs, disables Mojang's diagnostics sending\n§9✎§8 See FO wiki for more info",

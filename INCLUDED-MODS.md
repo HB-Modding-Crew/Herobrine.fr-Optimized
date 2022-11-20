@@ -7,6 +7,7 @@ Les mods sélectionnés sont inspirés, mais pas limités par la [liste d'altern
 ## Smooth
 | Name | Author | 1.19.2 | Description |
 |---|---|:---:|---|
+| [Cull Couds](https://www.curseforge.com/minecraft/mc-mods/cullclouds) | [yugamiineena](https://www.curseforge.com/members/yugamiineena/) | ✔️ | Rend les nuages plus performants |
 | [Dynamic FPS](https://www.curseforge.com/minecraft/mc-mods/dynamic-fps) | [juliand665](https://www.curseforge.com/members/juliand665) | ✔️ | Minimise l'impact du jeu sur les performances de la machine quand il est minimisé |
 | [Enhanced Block Entities](https://www.curseforge.com/minecraft/mc-mods/enhanced-block-entities) | [FoundationGames](https://www.curseforge.com/members/FoundationGames) | ✔️ | Permet de rendre les coffres, panneaux, lits ect.. plus rapidement |
 | [Entity Culling](https://www.curseforge.com/minecraft/mc-mods/entityculling) | [tr9zw](https://www.curseforge.com/members/tr9zw) | ✔️ | Empêche minecraft de rendre les entités qui sont derrière un mur |
