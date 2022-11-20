@@ -3,6 +3,8 @@ Ceci est le changelog pour le modpack Fabric [Herobrine.fr - Optimized](https://
 
 ## 1.19.2
 
+### 1.0.2 (2022-11-20)
+
 ### 1.0.1 (2022-11-18)
 
 Remaniement du mod pack pour être plus adapté à Herobrine.fr.
