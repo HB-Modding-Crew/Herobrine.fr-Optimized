@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Herobrine.fr - Optimized",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "",
   "files": [
     {
@@ -116,7 +116,7 @@
     },
     {
       "projectID": 447673,
-      "fileID": 4010306,
+      "fileID": 4098348,
       "required": true
     },
     {
@@ -161,12 +161,22 @@
     },
     {
       "projectID": 634062,
-      "fileID": 4056445,
+      "fileID": 4082460,
+      "required": true
+    },
+    {
+      "projectID": 473131,
+      "fileID": 3857552,
       "required": true
     },
     {
       "projectID": 308702,
-      "fileID": 4066826,
+      "fileID": 4100232,
+      "required": true
+    },
+    {
+      "projectID": 696026,
+      "fileID": 4062483,
       "required": true
     },
     {
@@ -186,7 +196,7 @@
     },
     {
       "projectID": 667299,
-      "fileID": 4035772,
+      "fileID": 4087063,
       "required": true
     },
     {
@@ -206,7 +216,7 @@
     },
     {
       "projectID": 455508,
-      "fileID": 4023645,
+      "fileID": 4095268,
       "required": true
     },
     {
@@ -245,13 +255,13 @@
       "required": true
     },
     {
-      "projectID": 697845,
-      "fileID": 4072963,
+      "projectID": 408481,
+      "fileID": 3966267,
       "required": true
     },
     {
-      "projectID": 408481,
-      "fileID": 3966267,
+      "projectID": 697845,
+      "fileID": 4072963,
       "required": true
     },
     {
@@ -261,7 +271,7 @@
     },
     {
       "projectID": 568563,
-      "fileID": 3995037,
+      "fileID": 4090086,
       "required": true
     }
   ],

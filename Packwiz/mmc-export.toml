@@ -11,6 +11,11 @@ name = "PACK_HB_FUTURE_VERSION"
 filename = "PACK_HB_FUTURE_VERSION.zip"
 action = "override"
 
+[[Resource]]
+name = "LonguesGlacesNeige"
+filename = "LonguesGlacesNeige.zip"
+action = "override"
+
 [[File]]
 name = "Copy all 3 folders!"
 filename = "Copy all 3 folders!"

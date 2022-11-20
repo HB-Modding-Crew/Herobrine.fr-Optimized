@@ -1,12 +1,12 @@
 name = "Herobrine.fr - Optimized"
 author = "Paul Brancieq"
-version = "1.0.1"
+version = "1.0.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "04459f6ebffcbf487012fea561075775bdee60f1b5483d4e8aaaaa4183e4fd8e"
+hash = "1fd51e23d03e959f21e72f690eafaa5fab87f1511dccf8a32610fdb2be5d2c00"
 
 [versions]
 fabric = "0.14.10"

@@ -1,7 +1,7 @@
 {
     "formatVersion": 1,
     "game": "minecraft",
-    "versionId": "1.0.1",
+    "versionId": "1.0.2",
     "name": "Herobrine.fr - Optimized",
     "summary": "Improve your graphics and performance with this simple modpack. Experimental releases on Modrinth!",
     "files": [
@@ -27,18 +27,6 @@
                 "https://github.com/PuzzleMC/Puzzle/releases/download/v1.4.0/puzzle-1.4.0-1.19.jar"
             ],
             "fileSize": 134397
-        },
-        {
-            "path": "mods/sodium-extra-0.4.11+mc1.19.2-build.68.jar",
-            "hashes": {
-                "sha1": "367a728b7fb867c71a3f5958d1e04c2ade50e7d6",
-                "sha512": "ee74dcd37b05a31f786d39e2d3b9fbb7c2bce34c7e92a1839f021d420526e92ab4c19113237e4fa9d1e288bb94ea55accffa7d9ed5da8cd7c55cdc979ededa38"
-            },
-            "downloads": [
-                "https://cdn.modrinth.com/data/PtjYWJkn/versions/xJ8SShUa/sodium-extra-0.4.11%2Bmc1.19.2-build.68.jar",
-                "https://github.com/FlashyReese/sodium-extra-fabric/releases/download/mc1.19.2-0.4.11/sodium-extra-0.4.11%2Bmc1.19.2-build.68.jar"
-            ],
-            "fileSize": 199471
         },
         {
             "path": "mods/starlight-1.1.1+fabric.ae22326.jar",
@@ -74,6 +62,17 @@
                 "https://github.com/PepperCode1/Item-Model-Fix/releases/download/v1.0.3%2B1.19/item-model-fix-1.0.3%2B1.19.jar"
             ],
             "fileSize": 32537
+        },
+        {
+            "path": "mods/NoChatReports-FABRIC-1.19.2-v1.13.12.jar",
+            "hashes": {
+                "sha1": "298232cc392f0240191ea62c9cd4d2ff4a99ba97",
+                "sha512": "a742fddc9fa13e8bc0436ca0260ea89150f96d44774355abb635d417bcb478e4bb470db3908d6c2df2110233cf42ab1c7706f7105d125261b260930a920786ec"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/qQyHxfxd/versions/YuX53PIA/NoChatReports-FABRIC-1.19.2-v1.13.12.jar"
+            ],
+            "fileSize": 533396
         },
         {
             "path": "mods/mixintrace-1.1.1+1.17.jar",
@@ -178,6 +177,18 @@
             "fileSize": 1372575
         },
         {
+            "path": "mods/builtin-servers-2.0-BETA+1.19.jar",
+            "hashes": {
+                "sha1": "02450a1584ab93a75d7f5819b6861282ebbe8016",
+                "sha512": "97259360a1be4154c37e4c6742208bd4938b8b5f38322cd41bed631d6f67a855536e262910234f9b6780cdee1d7c15fa2d684a97d1c76652b8e3e981c94c25b1"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/IupkwRPf/versions/2.0-BETA%2B1.19/builtin-servers-2.0-BETA%2B1.19.jar",
+                "https://github.com/lucaargolo/builtin-servers/releases/download/2.0-BETA%2B1.19/builtin-servers-2.0-BETA%2B1.19.jar"
+            ],
+            "fileSize": 23720
+        },
+        {
             "path": "mods/CullLessLeaves-1.0.6.jar",
             "hashes": {
                 "sha1": "e721078b00197fbd71e294b5ab4702b6b64a0b71",
@@ -190,6 +201,18 @@
             "fileSize": 46651
         },
         {
+            "path": "mods/YetAnotherConfigLib-1.7.1.jar",
+            "hashes": {
+                "sha1": "9694c6e52e946820f9945e2b9ee8a463c1e426fd",
+                "sha512": "9c71c0b3b1ee8388f6a0fc3f1e07a5bf5fb63ce12c37248385c43a7cc29b8a540f75c25d3e64765f333812f37d47918a68e42b830391dca1e52f6f5f1c7540b4"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/1eAoo2KR/versions/mW3CVg5N/YetAnotherConfigLib-1.7.1.jar",
+                "https://github.com/isXander/YetAnotherConfigLib/releases/download/1.7.1/YetAnotherConfigLib-1.7.1.jar"
+            ],
+            "fileSize": 146278
+        },
+        {
             "path": "mods/morechathistory-1.19.1-1.1.1.jar",
             "hashes": {
                 "sha1": "b23419da24f1c7ae16c6e77e992a38491cccf2c8",
@@ -199,6 +222,17 @@
                 "https://cdn.modrinth.com/data/8qkXwOnk/versions/mc1.19.1-1.1.1/morechathistory-1.19.1-1.1.1.jar"
             ],
             "fileSize": 11223
+        },
+        {
+            "path": "mods/modmenu-4.1.1.jar",
+            "hashes": {
+                "sha1": "ed592cc344f5437c56011d1d591d5734e3c6bda7",
+                "sha512": "5f909b2b969e7ce2151f6ad7b821621648449f3668678b7d630022b9689a82024dfab0456624a7345f2dfdca7da0a620527150547bf2c8247ab98c90904b5c20"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/mOgUt4GM/versions/4dReZoTJ/modmenu-4.1.1.jar"
+            ],
+            "fileSize": 604293
         },
         {
             "path": "mods/Zoomify-2.8.0.jar",
@@ -213,18 +247,6 @@
             "fileSize": 439129
         },
         {
-            "path": "mods/iris-mc1.19.2-1.4.0.jar",
-            "hashes": {
-                "sha1": "2e62f68c5ae5b4b38728e84ab7779023677bd78a",
-                "sha512": "0915665be870ad7fd9c60ee661210ced2d6a993399890318a7b9bec39e0b349d92a596f80b8d4ef6571bb044305fc1190536deb7306c7094ceb3d3a5573ba1b2"
-            },
-            "downloads": [
-                "https://cdn.modrinth.com/data/YL57xq9U/versions/RRjXTE6G/iris-mc1.19.2-1.4.0.jar",
-                "https://github.com/IrisShaders/Iris/releases/download/1.19.x-v1.4.0/iris-mc1.19.2-1.4.0.jar"
-            ],
-            "fileSize": 2607995
-        },
-        {
             "path": "mods/language-reload-1.3.2.jar",
             "hashes": {
                 "sha1": "f35701734ae863b9736f35e09b1f3658b4b60d23",
@@ -235,6 +257,28 @@
                 "https://github.com/Jerozgen/LanguageReload/releases/download/v1.3.2/language-reload-1.3.2.jar"
             ],
             "fileSize": 42887
+        },
+        {
+            "path": "mods/sodium-extra-0.4.13+mc1.19.2-build.76.jar",
+            "hashes": {
+                "sha1": "5eef6eb9db670ee4e7d5067560b68df4445fd95c",
+                "sha512": "267e559c7c8d24d75ec0a95e2434ef51df564fd060817d5c5528cf47bcfee7f1478871a93fbea3d7613efb8ed7da217a78cf3da72f98b475bd74c000fe5673d3"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/PtjYWJkn/versions/Z9F12IDt/sodium-extra-0.4.13%2Bmc1.19.2-build.76.jar"
+            ],
+            "fileSize": 254622
+        },
+        {
+            "path": "mods/iris-mc1.19.2-1.4.2.jar",
+            "hashes": {
+                "sha1": "38961d841e4246c87e4b95bc57cf60aa8a895b0e",
+                "sha512": "211595ee757c1abf4fd9969e0f77ed22539e091f12fe877ea6bd8d579c56a0faf41e74e6a181f85dc738ff05e549e021c0295d7e71565bb5511f4659e691932d"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/YL57xq9U/versions/vujluWvJ/iris-mc1.19.2-1.4.2.jar"
+            ],
+            "fileSize": 2608782
         },
         {
             "path": "mods/colormatic-3.1.2+mc.1.19.jar",
@@ -319,15 +363,15 @@
             "fileSize": 6429255
         },
         {
-            "path": "mods/entity_texture_features_fabric_1.19.x-4.1.1.jar",
+            "path": "mods/cullclouds-0.1.0.jar",
             "hashes": {
-                "sha1": "0c059c382452f5e657af45a1717318ca9c771ecf",
-                "sha512": "0d427b9f8eb05e31f1d7608059ff49355100a48a4caf196d56b05db090af032e434ad9c5a4c7dfe55eb519663e91f1ddd29c5683a4a9df6faf8a229b49f962a2"
+                "sha1": "3dd0dd8417fb16c8d06a2ac67d847b54011f2b1c",
+                "sha512": "38b6ba62650f45f61741680b0eb401307cf7401dda4b24be4834c5d522300880f14a39d7403bb15a2460ecd7c70647dd4c4cdd8c39edded07c7cc462d84bd894"
             },
             "downloads": [
-                "https://cdn.modrinth.com/data/BVzZfTc1/versions/QsPxlaAU/entity_texture_features_fabric_1.19.x-4.1.1.jar"
+                "https://cdn.modrinth.com/data/WoKBoi0o/versions/IznPBwjd/cullclouds-0.1.0.jar"
             ],
-            "fileSize": 343674
+            "fileSize": 17641
         },
         {
             "path": "mods/borderless-mining-1.1.5+1.19.jar",
@@ -340,18 +384,6 @@
                 "https://github.com/comp500/BorderlessMining/releases/download/1.1.5%2B1.19/borderless-mining-1.1.5%2B1.19.jar"
             ],
             "fileSize": 107378
-        },
-        {
-            "path": "mods/YetAnotherConfigLib-1.6.0.jar",
-            "hashes": {
-                "sha1": "82296f5c091f6339f6539c54bde02343789c518a",
-                "sha512": "7a1f2729a4078230c13ed28812ecf5677d56ec5ba04bcbe5806692d791284f2a64661cdd50e4612b6bb37ed4cec33f3ac7f5b3c378aa0f5582443f8976af297f"
-            },
-            "downloads": [
-                "https://cdn.modrinth.com/data/1eAoo2KR/versions/EyhlJvkj/YetAnotherConfigLib-1.6.0.jar",
-                "https://github.com/isXander/YetAnotherConfigLib/releases/download/1.6.0/YetAnotherConfigLib-1.6.0.jar"
-            ],
-            "fileSize": 135212
         },
         {
             "path": "mods/nofade-1.18-2.0.1.jar",
@@ -413,18 +445,6 @@
             "fileSize": 171690
         },
         {
-            "path": "mods/modmenu-4.1.0.jar",
-            "hashes": {
-                "sha1": "1aad3aa7819d708938d014248fe5ebd850648910",
-                "sha512": "12064e0d64398aee7686ad95900ec2b83c8eebcb05be92ae330669f412dee1ac26a2502152d6d496c3627996e587ed30b5ad17938b65831eda04c47926a13b0b"
-            },
-            "downloads": [
-                "https://cdn.modrinth.com/data/mOgUt4GM/versions/NAs8eiQa/modmenu-4.1.0.jar",
-                "https://github.com/TerraformersMC/ModMenu/releases/download/v4.1.0/modmenu-4.1.0.jar"
-            ],
-            "fileSize": 604290
-        },
-        {
             "path": "mods/yosbr-0.1.1.jar",
             "hashes": {
                 "sha1": "0643830cab952fc96872702e681b863b550c8530",
@@ -457,17 +477,6 @@
                 "https://github.com/TeamMidnightDust/MidnightControls/releases/download/v1.7.1/midnightcontrols-1.7.1%2B1.19.jar"
             ],
             "fileSize": 545229
-        },
-        {
-            "path": "mods/NoChatReports-FABRIC-1.19.2-v1.13.11.jar",
-            "hashes": {
-                "sha1": "6f6f1d4e6f82fad21308acd2680cfed1570b283c",
-                "sha512": "8ddc2cf7feb9ca007f610092e8c27480c49126d333630935a27948ec41c56266b51ff6ad64938e1e7d1c78928cf84a6a4c160edc5192a69640bda56bdbdb31ff"
-            },
-            "downloads": [
-                "https://cdn.modrinth.com/data/qQyHxfxd/versions/gJAwS64G/NoChatReports-FABRIC-1.19.2-v1.13.11.jar"
-            ],
-            "fileSize": 527512
         },
         {
             "path": "mods/fabricskyboxes-0.6.0+mc1.19.2.jar",
@@ -561,6 +570,17 @@
                 "https://cdn.modrinth.com/data/uXXizFIs/versions/5.0.0-fabric/ferritecore-5.0.0-fabric.jar"
             ],
             "fileSize": 119108
+        },
+        {
+            "path": "mods/entity_texture_features_fabric_1.19.2-4.2.0.jar",
+            "hashes": {
+                "sha1": "6675b14106627aab49606f0d1273e6274f81544b",
+                "sha512": "d8f13617ad3d6b0525f2b5622b00e79d647305d618e99ea3abe1aa692ddebe773ccfc1c76d566d808586b6acd1c22aa919214ae217cb282a22e8623430f40f24"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/BVzZfTc1/versions/66q1EPRX/entity_texture_features_fabric_1.19.2-4.2.0.jar"
+            ],
+            "fileSize": 359468
         },
         {
             "path": "mods/lambdabettergrass-1.3.0+1.19.jar",
