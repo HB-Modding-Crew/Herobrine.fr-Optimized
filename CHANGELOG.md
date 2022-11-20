@@ -5,6 +5,20 @@ Ceci est le changelog pour le modpack Fabric [Herobrine.fr - Optimized](https://
 
 ### 1.0.2 (2022-11-20)
 
+Configuration:
+- CIT: N'autorise plus les broken path
+- Enhanced Block Entity: Activation des smooth lighting
+- ETF: Activation des skins transparents
+- ETF: Désactivation du clignement des yeux des mobs
+- ETF: Désactivation des broken path
+- Lambda better Grass: Désactivation (vote à effectuer pour savoir si il est à garder ou non)
+- LambDynamicLight: Lumières dynamiques détaillées.
+- LambDynamicLight: Lumières dynamiques d'entités.
+- LambDynamicLight: Désactivation de la sensibilité à l'eau
+
+Structure de projet:
+- Ne copie plus le options.txt de l'instance pour les mises à jour, utilisation de config/yosbr.options.txt à la place
+
 ### 1.0.1 (2022-11-18)
 
 Remaniement du mod pack pour être plus adapté à Herobrine.fr.
