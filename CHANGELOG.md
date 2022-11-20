@@ -7,7 +7,8 @@ Ceci est le changelog pour le modpack Fabric [Herobrine.fr - Optimized](https://
 
 Mods:
 - Update de certains mods
-- Mode Cull Clouds ajouté
+- Mod Cull Clouds ajouté
+- Mod Builtin Servers ajouté
 
 Configuration:
 - CIT: N'autorise plus les broken path
@@ -19,6 +20,7 @@ Configuration:
 - LambDynamicLight: Lumières dynamiques détaillées.
 - LambDynamicLight: Lumières dynamiques d'entités.
 - LambDynamicLight: Désactivation de la sensibilité à l'eau
+- Builtin Servers: Herobrine.fr ajouté comme serveur par défaut
 
 Structure de projet:
 - Ne copie plus le options.txt de l'instance pour les mises à jour, utilisation de config/yosbr.options.txt à la place

@@ -48,8 +48,6 @@ copy_dir(cf_path + "resourcepacks/", mmc_path + ".minecraft/resourcepacks/", "Cu
 remove_file(mmc_path + ".minecraft/options.txt", "MultiMC options.txt")
 remove_file(mmc_path + ".minecraft/servers.dat", "MultiMC servers.dat")
 remove_file(mmc_path + ".minecraft/servers.dat_old", "MultiMC servers.dat_old")
-copy_file(cf_path + "servers.dat", mmc_path + ".minecraft/servers.dat", "CurseForge servers.dat", "MultiMC")
-copy_file(cf_path + "servers.dat_old", mmc_path + ".minecraft/servers.dat_old", "CurseForge servers.dat_old", "MultiMC")
 
 # CurseForge to Git directory
 remove_dir(packwiz_path + "/config/", "Packwiz configs in Git")
@@ -61,5 +59,3 @@ copy_dir(cf_path + "resourcepacks/", packwiz_path + "/resourcepacks/", "CurseFor
 remove_file(packwiz_path + "/servers.dat", "Git servers.dat")
 remove_file(packwiz_path + "/servers.dat_old", "Git servers.dat_old")
 remove_file(packwiz_path + "/options.txt", "Git options.txt")
-copy_file(cf_path + "servers.dat", packwiz_path + "/servers.dat", "CurseForge servers.dat", "Git (Packwiz)")
-copy_file(cf_path + "servers.dat_old", packwiz_path + "/servers.dat_old", "CurseForge servers.dat_old", "Git (Packwiz)")

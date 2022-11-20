@@ -10,6 +10,7 @@
   "modmenu.summaryTranslation.bettermounthud": "Montre la barre de nourriture et d'xp à cheval\n§8✎ (pas d'options)",
   "modmenu.summaryTranslation.bobby": "§c*§r Garde les chunks chargés visibles sur serveur\n§9✎§8 Block entities, chunks dimensionels, garde le cache, ...",
   "modmenu.summaryTranslation.borderlessmining": "Plein écran avec le support pour Alt+Tab (opt-in)\n§9✎§8 Activer/désactiver le mod, support macOS, résolutions custom, ...",
+  "modmenu.summaryTranslation.builtinservers": "Charge une liste de serveurs par défaut\n§8✎ (pas d'options)",
   "modmenu.summaryTranslation.capes": "Capes d'Optifine et autre\n§9✎§8 Types, type préféré, elytra, ...",
   "modmenu.summaryTranslation.citresewn": "Items custom Optifine\n§9✎§8 Activer/désactiver le mod, autorise les broken paths, ...",
   "modmenu.summaryTranslation.colormatic": "Couleurs custom d'Optifine\n§9✎§8 Clear sky/void, lumière adoucie",
