@@ -5,26 +5,26 @@ body:
 - type: markdown
   attributes:
     value: |
-      Before you request a config change, [please search](https://github.com/HB-Modding-Crew/Herobrine.fr-Optimized/issues) if it has already been requested and see [if it has already been changed](https://fabulously-optimized.gitbook.io/modpack/readme/changed-options). 
-      If it has been changed and you don't see it, [make sure you are on the latest version](https://fabulously-optimized.gitbook.io/modpack/readme/update-instructions) and [reset your settings](https://fabulously-optimized.gitbook.io/modpack/readme/update-instructions#resetting-settings).
+      Avant de demander un changement de configuration, [veuillez rechercher](https://github.com/HB-Modding-Crew/Herobrine.fr-Optimized/issues) s'il a déjà été demandé et voir [s'il a déjà été modifié](https://fabulously-optimized.gitbook.io/modpack/readme/changed-options). 
+      S'il a été modifié et que vous ne le voyez pas, [assurez-vous que vous êtes sur la dernière version](https://fabulously-optimized.gitbook.io/modpack/readme/update-instructions) et [réinitialisez vos paramètres](https://fabulously-optimized.gitbook.io/modpack/readme/update-instructions#resetting-settings).
 
 - type: textarea
   attributes:
-    label: What config to change
-    description: Describe the change you want me to make. This is NOT the place to request new features that do not already exist in included mods, ask that from the mods themselves.
+    label: Quelle config changer
+    description: Décrivez le changement que vous voulez que je fasse. Ce n'est PAS le lieu pour demander de nouvelles fonctionnalités qui n'existent pas déjà dans les mods inclus, demandez cela aux mods eux-mêmes.
   validations:
     required: true
 
 - type: textarea
   attributes:
-    label: Why should it be changed
-    description: How can the change benefit everyone while keeping the experience "vanilla-like"?
+    label: Pourquoi devrait-il être changé
+    description: Comment le changement peut-il profiter à tous tout en gardant l'expérience "vanilla-like" ?
   validations:
     required: true
     
 - type: textarea
   attributes:
-    label: Additional details
-    description: Anything else you want to add?
+    label: Détails supplémentaires
+    description: Tout ce que vous voulez ajouter?
   validations:
     required: false
