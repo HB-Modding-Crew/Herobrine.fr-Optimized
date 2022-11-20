@@ -26,7 +26,7 @@ body:
       https://github.com/HB-Modding-Crew/Herobrine.fr-Optimized/...
       ...
   validations:
-    required: true
+    required: false
 
 - type: textarea
   attributes:
