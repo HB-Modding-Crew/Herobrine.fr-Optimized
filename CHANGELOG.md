@@ -10,6 +10,9 @@ Mods:
 - Mod Cull Clouds ajouté
 - Mod Builtin Servers ajouté
 
+Contenus:
+- Ajout du pack de texture hivers
+
 Configuration:
 - CIT: N'autorise plus les broken path
 - Enhanced Block Entity: Activation des smooth lighting
