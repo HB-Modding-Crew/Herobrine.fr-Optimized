@@ -1,100 +1,82 @@
-name: Mod request
-description: Suggest a new mod to be included in Herobrine.fr - Optimized
+name: Demande de mod
+description: Suggérer un mod à ajouter dans in Herobrine.fr - Optimized
 labels: mod
 body:
 - type: markdown
   attributes:
     value: |
       ## Mod name ⤴️
-      Before you request a mod, [please search](https://github.com/Fabulously-Optimized/fabulously-optimized/issues) if it has already been requested.
-      With this modpack, less is more. [Consider the principles as well.](https://fabulously-optimized.gitbook.io/modpack/readme/principles)
+      Avant de demander un mod, [cherchez](https://github.com/HB-Modding-Crew/Herobrine.fr-Optimized/issues) si quelqu'un d'autre ne l'a pas demandé auparavant.
+      Pour ce modpack, rester léger est important. [Veillez lire les principes du modpack](https://hb-modding-crew.gitbook.io/herobrine-optimized/general/principe) avant de faire votre demande.
 
 - type: input
   attributes:
-    label: CurseForge link
-    description: If it exists, please write it.
+    label: Lien Curseforge
+    description: Si le lien existe, renseignez le s'il vous plait.
     placeholder: https://www.curseforge.com/minecraft/mc-mods/...
   validations:
     required: false
       
 - type: dropdown
   attributes:
-    label: CurseForge Mod Distribution
-    description: If the mod is on CurseForge, please fill it.
+    label: Distribution curseforge du mod
+    description: Si le mod est sur CurseForge, remplissez le s'il vous plaît.
     multiple: false
     options:
-      - Allowed
-      - Not allowed
+      - Autorisée
+      - Non autorisée
   validations:
     required: false
     
 - type: markdown
   attributes:
     value: |
-      1. Go to https://cflookup.com
-      2. Paste the mod link to "Project Id / Slug" and click `Search project`
-      3. Look at the `Mod Distribution` value and select it above
+      1. Aller sur https://cflookup.com
+      2. Collez le lien du mod dans "Project Id / Slug" et cliquez sur `Search project`
+      3. Regardez la vleur `Mod Distribution` et sélectionnez la au dessus
 
 - type: input
   attributes:
-    label: Modrinth link
-    description: If it exists, please write it.
+    label: Lien Modrinth
+    description: Si le lien existe, renseignez le s'il vous plait.
     placeholder: https://modrinth.com/mod/...
   validations:
     required: false
 
 - type: input
   attributes:
-    label: Source/other link
-    description: For example, a GitHub repository. Optional.
+    label: Source ou autre lien
+    description: Un repository Github par exemple. Optionel.
     placeholder: https://...
   validations:
     required: false
 
-- type: input
+- type: textarea
   attributes:
-    label: Mod file size
-    description: Can be found on CurseForge, Modrinth and GitHub releases and is used to determine mod size-purpose ratio. Write "unknown" only if there are no public versions yet. 
-    placeholder: 123.45 KB
-  validations:
-    required: true
-
-- type: dropdown
-  attributes:
-    label: License
-    description: Can be found on CurseForge, Modrinth and GitHub sidebar. If you only have a GitHub link and you can't find it from the sidebar, it is ARR.
-    options:
-      - All Rights Reserved / ARR
-      - (any other license)
+    label: Description
+    description: Une courte description du mod. 
   validations:
     required: true
 
 - type: textarea
   attributes:
-    label: What it does
-    description: A short description of what the mod does. 
+    label: Pourquoi sur HB ?
+    description: Comment le mod peut-il profiter à tout le monde tout en gardant l'expérience "vanilla-like"?
   validations:
     required: true
 
 - type: textarea
   attributes:
-    label: Why should it be in the modpack
-    description: How can the mod benefit everyone while keeping the experience "vanilla-like"?
-  validations:
-    required: true
-
-- type: textarea
-  attributes:
-    label: Why shouldn't it be in the modpack
-    description: Don't forget to include any downsides of the mod, you know every mod has some.
+    label: Points négatifs
+    description: Les points négatifs qui pourraient gêner son intégration.
     placeholder: |
-      Examples: not available in CurseForge/Modrinth, still in beta, depends on something, has confusing settings, not very vanilla-like etc.
+      Si le mod est bugué, instable, ou trop lourd. Si il n'est pas disponible sur Curseforge ou Modrinth. Si le mod est toujours en béta. Si il est trop complexe.
   validations:
       required: true
     
 - type: textarea
   attributes:
-    label: Additional details
-    description: Anything else you want to add?
+    label: Autre
+    description: Quelque chose à ajouter ?
   validations:
     required: false

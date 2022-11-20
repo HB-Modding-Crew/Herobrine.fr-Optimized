@@ -56,7 +56,7 @@ Vous pouvez trouver de l'aide aux liens suivants:
 
 * [Wiki](https://fabulously-optimized.gitbook.io/modpack/) (how to install, update etc.)(Documentation de Fabulously Optimised, peut-être utilisée mais doit être réécrite pour Herobrine.fr - Optimized)
 * [Discord](https://discord.gg/CKBdqQrFf8) (support, update notifications, etc)
-* [Issues](https://github.com/Fabulously-Optimized/fabulously-optimized/issues) (mod suggestions, bug reports)
+* [Issues](https://github.com/HB-Modding-Crew/Herobrine.fr-Optimized/issues) (mod suggestions, bug reports)
 * [CurseForge listing comments](https://www.curseforge.com/minecraft/modpacks/fabulously-optimized#comments) (questions and general comments only)
 
 ## Disclaimers
