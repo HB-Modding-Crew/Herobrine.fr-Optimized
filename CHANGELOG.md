@@ -11,6 +11,9 @@ Modrinth:
 Mod Menu Helper:
 - Logo changé pour celui du HbModdingCrew
 
+Options:
+- Jeu passé en français par défaut
+
 ### 1.0.2 (2022-11-20)
 
 Mods:
