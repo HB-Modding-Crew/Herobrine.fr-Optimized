@@ -3,6 +3,14 @@ Ceci est le changelog pour le modpack Fabric [Herobrine.fr - Optimized](https://
 
 ## 1.19.2
 
+### 1.0.3 (2022-11-21)
+
+Modrinth:
+- La configuration est enfin inclue dans le modpack
+
+Mod Menu Helper:
+- Logo changé pour celui du HbModdingCrew
+
 ### 1.0.2 (2022-11-20)
 
 Mods:
