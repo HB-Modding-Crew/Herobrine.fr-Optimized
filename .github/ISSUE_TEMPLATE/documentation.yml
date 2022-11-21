@@ -17,7 +17,7 @@ body:
       - Mise à jour de vielles informations qui ne sont plus d'actualité
       - Ajout d'une information qui n'est pas trouvable
 
-- type: input
+- type: textarea
   attributes:
     label: Pages à modifier
     description: Veillez renseigner les liens http si ils existent
