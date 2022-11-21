@@ -29,7 +29,7 @@ def copy_to_archive(from_path, to_path, archive_path):
 
 # MultiMC to Git
 
-version = "1.0.2"
+version = "1.0.3"
 pattern = re.compile(r"\d+\.\d+\.\d+-?\w*\.?\d*")
 
 with open(mmc_path + "instance.cfg") as file:

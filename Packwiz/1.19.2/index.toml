@@ -1,8 +1,320 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/fabric_loader_dependencies.json"
+hash = "c8ae8c0d60dae2a4d2be864dbae3c6d837049c79a7ff10c87977a6d8575e6ac3"
+
+[[files]]
+file = "config/entityculling.json"
+hash = "0c78e42bc9ee8629e05830c89b882382dfa24c772c9b5a16d91225e1c63b11ad"
+
+[[files]]
+file = "config/isxander-main-menu-credits.json"
+hash = "2c05497c435c49027bffd3c31659df4cf93dd90dbf34c7f63d46cef37ae8fad3"
+
+[[files]]
+file = "config/gamecontrollerdatabase.txt"
+hash = "2cdbcdb5a72a93fb2d0e3b2e9a4133cd39e46e19bcc9d103a4a4c83aecf6ca94"
+
+[[files]]
+file = "config/fsb-interop.json"
+hash = "1966f13d3dbb8a4e9ef746f08468fc5b583bb5dc82ce187cacbf60da0cf2e585"
+
+[[files]]
+file = "config/itemmodelfix.json"
+hash = "f67460631e5dd59fd646347174cfe7b8de38be6556bb928bea4619cbd6f32616"
+
+[[files]]
+file = "config/holdthatchunk.json"
+hash = "acc20d0a92edcf0497ebb62c7c673a8d9c99d872890bb53027722390f453e9dc"
+
+[[files]]
+file = "config/dynamicfps.toml"
+hash = "00adc4f855ed41412f3c3eb48b859c4ae68b5f2c30ba4c332e66f38e79a0c449"
+
+[[files]]
+file = "config/iris.properties"
+hash = "2fa42646c822c29c892b8b985c0530ebf4e7207b248130f0e3af260a92f1f174"
+
+[[files]]
+file = "config/citresewn.json"
+hash = "1ea03400477ac2075d61ae58cfc573bc78ce954507d090ab69547de279918656"
+
+[[files]]
+file = "config/smoothboot.json"
+hash = "7eb2c9832f1adc79eb19fe0c0262d9cb7ed551cc59f79d4bdcf9373c3194c2c5"
+
+[[files]]
+file = "config/modmenu.json"
+hash = "d1d9c5f35f12e141b481457831dce52f2a381ccda7272ad432c16ed0fc1ff7a8"
+
+[[files]]
+file = "config/sodium-extra-options.json"
+hash = "c6712cbed3e4565440152a16c0e05862fee105629572563d03bf0dd2bc0c798a"
+
+[[files]]
+file = "config/ferritecore.mixin.properties"
+hash = "647c97bf8ba08a082324b85ed87ae43356109953b4140fe57847cf7b97448ecd"
+
+[[files]]
+file = "config/colormatic.properties"
+hash = "3dd3d96df0e45bb69a52846af7994995e6ea80804f844e7e9adb64a2040ce9d3"
+
+[[files]]
+file = "config/lambdabettergrass.toml"
+hash = "5f3efdb858e5044195015292c4de7f976d10746b6bbe88adefc29aafe986386b"
+
+[[files]]
+file = "config/cull-less-leaves.json"
+hash = "6bc92f3695f35c601c2adfa1f51e9f616df379288f2a260fd1f4011c5bad50ee"
+
+[[files]]
+file = "config/zoomify.json"
+hash = "8d61a625f65493f3e4f40f5e49cd0d5405b6e105b2d9c005950f78dbfb2095fa"
+
+[[files]]
+file = "config/citresewn-defaults.json"
+hash = "0b333b0bf9a0e573fa14f81610a621b488d5277c9e8f8c6a4c81e6a6cb37e482"
+
+[[files]]
+file = "config/advancementinfo.json5"
+hash = "82fb3f9fd7931ded27c4c0cc78b86bed8a82e2d17b587f26f3a094a8589e13e6"
+
+[[files]]
+file = "config/lambdynlights.toml"
+hash = "3d9a914b30b7ce9b1201a9c302536b96913dc9cbece0f10faa625f2e7f11fc33"
+
+[[files]]
+file = "config/sodium-extra.properties"
+hash = "a2f1b47c1eaa119ab34727f1d43c2506cb3d7f17ba8fb4efb49e20c8e0b58e70"
+
+[[files]]
+file = "config/animatica.properties"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/builtinservers.json"
+hash = "59d9a3421b06f76899ad02989671dd57860607e94ba9d78c84d689fa8e2f7651"
+
+[[files]]
+file = "config/farsight.json"
+hash = "7a9309407d0c2a571b4202c361d572212547f43cffb23b57b00d95f727055d62"
+
+[[files]]
+file = "config/sodium-options.json"
+hash = "02f8b740d03e1a5fb4354b6b6abfcf8716e99c51572e43f4feabf59837626faa"
+
+[[files]]
+file = "config/languagereload.json"
+hash = "01336df7e7dcd8b8523f4698a194d2547e79a0606470279fea24f84174330a4f"
+
+[[files]]
+file = "config/cem.conf"
+hash = "c869b1e1cf73b7b0d5ca03e4657fdbed845d85ab5aca0449248fd144545ecfb7"
+
+[[files]]
+file = "config/debugify-descriptions.json"
+hash = "9e0cfe1421d7f9bd81e0f00b8aa158f8e92bb4864e2674b4c6f5f0cda10db4fe"
+
+[[files]]
+file = "config/midnightcontrols.json"
+hash = "ca9e7616ad186e4f58161bdc6ac03fae2ce569f62e75f30307be2d50ab282cac"
+
+[[files]]
+file = "config/borderlessmining.json"
+hash = "d741b952938056e5c6d07bc3f85b28cbdb4f074ced9ab97220fcba2a43616b68"
+
+[[files]]
+file = "config/fabrishot.properties"
+hash = "1dcfef3ebaf23e7b79b43cd903125f59c0cae3f041f97251858e0c10f104bc0d"
+
+[[files]]
+file = "config/debugify.json"
+hash = "0bb77460e60ef6c004e8b024eec10ef4527e603baab90ccfd9733483c7ebcebf"
+
+[[files]]
+file = "config/puzzle.json"
+hash = "2ba66afa526d710c9b24d2f9b743cdf92634d45de63d16b0e856a2423a6fbf3b"
+
+[[files]]
+file = "config/sodium-mixins.properties"
+hash = "051558518a6f3350fadb1546346d937e7f78f69834a075bf91b59921f151cc26"
+
+[[files]]
+file = "config/entity_texture_features.json"
+hash = "20d11f8a36d90c2b4d0fdbae2bf105ef339976fa0527557d1ca762d8ae6622a7"
+
+[[files]]
+file = "config/enhanced_bes.properties"
+hash = "ca533d8079e7965ac14e70ffdc6d6af3b0dc7cb40a94a62e5b328744fe026216"
+
+[[files]]
+file = "config/tr7zwDonorSettings.json"
+hash = "ef73ff0fcd6f7e7f3727f493ab61fdc8a65d710475426a55f72eb772ef0ed309"
+
+[[files]]
+file = "config/indium-renderer.properties"
+hash = "a9bb0ba56f2828c892d294f048648d819a485220b3729ee43137a520669e3062"
+
+[[files]]
+file = "config/continuity.json"
+hash = "00267a602028cbb037dcb0b5f803db31bed284235ca9c1ea189ad4179311a2f4"
+
+[[files]]
+file = "config/lithium.properties"
+hash = "76765e8e5ff8e927d80beb0739aababcf36e7babfd94262f2afece256cc5cd2e"
+
+[[files]]
+file = "config/rrp.properties"
+hash = "2fd86b06cf329cbd28640aae5cdd86b8ad4cb278f0abec6705768a575eea8b16"
+
+[[files]]
+file = "config/crowdin.txt"
+hash = "fadbd1094e4079597c631b59da43ea2e315aa610c47282045384e888894ecc41"
+
+[[files]]
+file = "config/capes.json5"
+hash = "f3557f3ee0e8693f06c1942d4352cb3a43e783614f324d19277b149b40b9cbbd"
+
+[[files]]
+file = "config/midnightlib.json"
+hash = "f7f7122784c7a6bcdb034e663fd756e16ffe69a668cb1b334e2be622f8c7bd55"
+
+[[files]]
+file = "config/fabric/indigo-renderer.properties"
+hash = "35dc82e8105c54da05752112e85de9b696ed728a328472d15172346ed2754042"
+
+[[files]]
+file = "config/.puzzle_cache/mojangstudios.png"
+hash = "27b2ea2946ca5b00841ce7d1813b42dfb7e36b12ad50c7c9bea09053ac226cf3"
+
+[[files]]
+file = "config/NoChatReports/README.md"
+hash = "c52b76ccad2bd1063a22c7f6bb9e7c5db6b00fb53a6fd605585972ee0e5fc01f"
+
+[[files]]
+file = "config/NoChatReports/NCR-Client.json"
+hash = "7be72af68fc47f6bb11daf3f66f8112877aa6678c03d635c5da3b4ee95cec835"
+
+[[files]]
+file = "config/NoChatReports/NCR-Common.json"
+hash = "8d9d9216fbebe9dd98249c18bbcd310d3311d9ebf29b6df3c16c70e958b56593"
+
+[[files]]
+file = "config/NoChatReports/NCR-ServerWhitelist.json"
+hash = "fdf38fd061bb38e0389ffb008eb33f454f762e504080e8adf2ed5e3911554a8c"
+
+[[files]]
+file = "config/NoChatReports/NCR-Encryption.json"
+hash = "df34a1ed7b309c08deaf42c906fa2ea6f29bb3bf8395ce26593fac4834938496"
+
+[[files]]
+file = "config/yosbr/options.txt"
+hash = "3e65c39b906886f26dcf4d07181ab49f265c024a6428b21867bbccfdc247a699"
+
+[[files]]
+file = "config/yosbr/config/isxander-main-menu-credits.json"
+hash = "c56c68c3a9d8ddd576562582f9e6316bca35e66d08003bc1a13f887852c20818"
+
+[[files]]
+file = "config/yosbr/config/holdthatchunk.json"
+hash = "acc20d0a92edcf0497ebb62c7c673a8d9c99d872890bb53027722390f453e9dc"
+
+[[files]]
+file = "config/yosbr/config/dynamicfps.toml"
+hash = "00adc4f855ed41412f3c3eb48b859c4ae68b5f2c30ba4c332e66f38e79a0c449"
+
+[[files]]
+file = "config/yosbr/config/iris.properties"
+hash = "3f5878535aacbfea79ae6da2f9142963f5662af3141692f0ba945767c9096ce5"
+
+[[files]]
+file = "config/yosbr/config/citresewn.json"
+hash = "1ea03400477ac2075d61ae58cfc573bc78ce954507d090ab69547de279918656"
+
+[[files]]
+file = "config/yosbr/config/modmenu.json"
+hash = "d1d9c5f35f12e141b481457831dce52f2a381ccda7272ad432c16ed0fc1ff7a8"
+
+[[files]]
+file = "config/yosbr/config/colormatic.properties"
+hash = "3dd3d96df0e45bb69a52846af7994995e6ea80804f844e7e9adb64a2040ce9d3"
+
+[[files]]
+file = "config/yosbr/config/lambdabettergrass.toml"
+hash = "5f3efdb858e5044195015292c4de7f976d10746b6bbe88adefc29aafe986386b"
+
+[[files]]
+file = "config/yosbr/config/zoomify.json"
+hash = "8d61a625f65493f3e4f40f5e49cd0d5405b6e105b2d9c005950f78dbfb2095fa"
+
+[[files]]
+file = "config/yosbr/config/citresewn-defaults.json"
+hash = "0b333b0bf9a0e573fa14f81610a621b488d5277c9e8f8c6a4c81e6a6cb37e482"
+
+[[files]]
+file = "config/yosbr/config/lambdynlights.toml"
+hash = "3d9a914b30b7ce9b1201a9c302536b96913dc9cbece0f10faa625f2e7f11fc33"
+
+[[files]]
+file = "config/yosbr/config/builtinservers.json"
+hash = "59d9a3421b06f76899ad02989671dd57860607e94ba9d78c84d689fa8e2f7651"
+
+[[files]]
+file = "config/yosbr/config/sodium-options.json"
+hash = "dd6f94bc9b0002d8db083a1f7a4238fd93489046f3084b03ce92338ab5a65b00"
+
+[[files]]
+file = "config/yosbr/config/cem.conf"
+hash = "c869b1e1cf73b7b0d5ca03e4657fdbed845d85ab5aca0449248fd144545ecfb7"
+
+[[files]]
+file = "config/yosbr/config/midnightcontrols.json"
+hash = "b792f2977c2889e388d0a0e83e316ed4f27050729d86c8623e8472accb8a2a46"
+
+[[files]]
+file = "config/yosbr/config/borderlessmining.json"
+hash = "d741b952938056e5c6d07bc3f85b28cbdb4f074ced9ab97220fcba2a43616b68"
+
+[[files]]
+file = "config/yosbr/config/entity_texture_features.json"
+hash = "20d11f8a36d90c2b4d0fdbae2bf105ef339976fa0527557d1ca762d8ae6622a7"
+
+[[files]]
+file = "config/yosbr/config/enhanced_bes.properties"
+hash = "ca533d8079e7965ac14e70ffdc6d6af3b0dc7cb40a94a62e5b328744fe026216"
+
+[[files]]
+file = "config/yosbr/config/tr7zwDonorSettings.json"
+hash = "ef73ff0fcd6f7e7f3727f493ab61fdc8a65d710475426a55f72eb772ef0ed309"
+
+[[files]]
+file = "config/yosbr/config/continuity.json"
+hash = "00267a602028cbb037dcb0b5f803db31bed284235ca9c1ea189ad4179311a2f4"
+
+[[files]]
+file = "config/yosbr/config/capes.json5"
+hash = "7de3087b5a435f770ed45b1b73ac9b37f3d36ab2fd71a1404d7a49e299738821"
+
+[[files]]
+file = "config/yosbr/config/midnightlib.json"
+hash = "f7f7122784c7a6bcdb034e663fd756e16ffe69a668cb1b334e2be622f8c7bd55"
+
+[[files]]
+file = "config/yosbr/config/NoChatReports/NCR-Client.json"
+hash = "547ab8638d23a570798766eda715653914d4fd34fd60317dbfeb62a3c51ba56f"
+
+[[files]]
+file = "config/yosbr/config/NoChatReports/NCR-Common.json"
+hash = "4d945a5abd8801037b2f13352459054152d0a6b9cde735619103aa6a41a72f45"
+
+[[files]]
+file = "config/yosbr/config/NoChatReports/NCR-Encryption.json"
+hash = "707e9af170cd9c9282d25bfb5f1a337039348636183564cfa1a86ebde52f48df"
+
+[[files]]
 file = "resourcepacks/Mod Menu Helper.zip"
-hash = "375bae27c487793fac424d5173d54f309a97278ffe6ef18923e389c9017021fc"
+hash = "de45be08e24ae265c19e72df6d4e18cc7e2aaeadcf6d741e5e9af8019a716d02"
 
 [[files]]
 file = "resourcepacks/PACK_HB_FUTURE_VERSION.zip"

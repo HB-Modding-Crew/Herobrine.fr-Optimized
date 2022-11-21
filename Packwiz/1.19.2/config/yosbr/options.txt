@@ -11,6 +11,7 @@ tutorialStep:none
 skipMultiplayerWarning:true
 joinedFirstServer:true
 chatPreview:false
+lang:fr_fr
 key_key.saveToolbarActivator:key.keyboard.unknown
 key_zoomify.key.zoom:key.keyboard.c
 key_zoomify.key.gui:key.keyboard.unknown
