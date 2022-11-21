@@ -37,17 +37,17 @@ def copy_file(from_path, to_path, from_desc, to_desc):
         print("Skipped " + from_desc + " copying to " + to_desc + ", didn't exist")
 
 # CurseForge to MultiMC directory
-remove_dir(mmc_path + ".minecraft/config/", "MultiMC configs")
-remove_dir(mmc_path + ".minecraft/mods/", "MultiMC mods")
-remove_dir(mmc_path + ".minecraft/resourcepacks/", "MultiMC resourcepacks")
-copy_dir(cf_path + "config/", mmc_path + ".minecraft/config/", "CurseForge configs", "MultiMC")
-copy_dir(cf_path + "mods/", mmc_path + ".minecraft/mods/", "CurseForge mods", "MultiMC")
-copy_dir(cf_path + "resourcepacks/", mmc_path + ".minecraft/resourcepacks/", "CurseForge resource packs", "MultiMC")
+remove_dir(mmc_path + "minecraft/config/", "MultiMC configs")
+remove_dir(mmc_path + "minecraft/mods/", "MultiMC mods")
+remove_dir(mmc_path + "minecraft/resourcepacks/", "MultiMC resourcepacks")
+copy_dir(cf_path + "config/", mmc_path + "minecraft/config/", "CurseForge configs", "MultiMC")
+copy_dir(cf_path + "mods/", mmc_path + "minecraft/mods/", "CurseForge mods", "MultiMC")
+copy_dir(cf_path + "resourcepacks/", mmc_path + "minecraft/resourcepacks/", "CurseForge resource packs", "MultiMC")
 
 # CurseForge to MultiMC files
-remove_file(mmc_path + ".minecraft/options.txt", "MultiMC options.txt")
-remove_file(mmc_path + ".minecraft/servers.dat", "MultiMC servers.dat")
-remove_file(mmc_path + ".minecraft/servers.dat_old", "MultiMC servers.dat_old")
+remove_file(mmc_path + "minecraft/options.txt", "MultiMC options.txt")
+remove_file(mmc_path + "minecraft/servers.dat", "MultiMC servers.dat")
+remove_file(mmc_path + "minecraft/servers.dat_old", "MultiMC servers.dat_old")
 
 # CurseForge to Git directory
 remove_dir(packwiz_path + "/config/", "Packwiz configs in Git")
