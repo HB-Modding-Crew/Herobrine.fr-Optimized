@@ -1,5 +1,10 @@
 import os
 
+# Thick config
+class MultiLayersConfig:
+    # Regex
+    REGEX_REF_PRECEDENT = r"ref:(?P<key>.+)"
+
 # Steps
 class Steps:
     # Fields
