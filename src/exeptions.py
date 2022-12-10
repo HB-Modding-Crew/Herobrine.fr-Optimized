@@ -13,17 +13,20 @@ class MultiLayersConfigError(ModpackCreatorError):
 class MultiLayersConfigReferenceError(MultiLayersConfigError):
     """Raised when a reference is not found in the precedent config."""
 
-    def __init__(self, precedent_key: str):
+    def __init__(self, precedent_key: str, config_level_name: str, precedent_config_level_name: str):
+        config_level_name = config_level_name
+        self.precedent_key = precedent_key
+        precedent_config_level_name = precedent_config_level_name
+
+    def __str__(self):
+        return f"Reference to precedent key '{self.precedent_key}' from config '{self.config_level_name}' not found in precedent config '{self.precedent_config_level_name}'."
+
+class MultiLayersConfigNoPrecedentError(MultiLayersConfigError):
+    """Raised when a precedent config is required but not found."""
+
+    def __init__(self, precedent_key: str, config_level_name: str):
+        config_level_name = config_level_name
         self.precedent_key = precedent_key
 
     def __str__(self):
-        return f"Reference to precedent key '{self.precedent_key}' not found."
-
-class MultiLayersConfigNoPrecedentError(MultiLayersConfigReferenceError):
-    """Raised when a precedent config is required but not found."""
-
-    def __init__(self, precedent_key: str):
-        super().__init__(precedent_key)
-
-    def __str__(self):
-        return f"Reference to precedent key '{self.precedent_key}' not found because there is no config to refer to."
+        return f"Reference to precedent key '{self.precedent_key}' from config '{self.config_level_name}' not found because there is no precedent config."
