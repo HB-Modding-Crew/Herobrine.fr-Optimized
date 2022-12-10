@@ -10,25 +10,33 @@ REF_PRECEDENT = re.compile(ConstMultiLayersConfig.REGEX_REF_PRECEDENT)
 class MultiLayersConfig:
 
     # Init with new config json and precedent ThickConfig
-    def __init__(self, config: dict, precedent: MultiLayersConfig = None):
+    def __init__(self, config: dict, config_level_name: str, precedent: MultiLayersConfig = None):
         self._config = config
         self.precedent = precedent
+        self.config_level_name = config_level_name
 
     # Get attribute
     def __getattribute__(self, __name: str):
+        # Verify if attribute is in config
+        if not __name in self._config.keys():
+            # If no precedent
+            if self.precedent is None:
+                return None
+            # Else return precedent value for __name
+            return self.precedent.__getattribute__(__name)
+
         # Match precedent reference
-        match = REF_PRECEDENT.match(__name)
+        # Default false
+        match = False
+        # If value is string
+        if isinstance(self._config[__name], str):
+            # Try to match precedent reference
+            match = REF_PRECEDENT.match(self._config[__name])
 
         # If not precedent reference
         if not match:
-            # If attribute is in config
-            if __name in self._config.keys():
-                return self._config[__name]
-            # Else verify if precedent exists
-            elif self.precedent is not None:
-                return self.precedent.__getattribute__(__name)
-            # Else return None
-            return None
+            # Return config value
+            return self._config[__name]
 
         # Else if match precedent reference
         # Get precedent key
@@ -37,7 +45,7 @@ class MultiLayersConfig:
         if self.precedent is not None:
             res = self.precedent.__getattribute__(precedent_key)
             if res is None:
-                raise MultiLayersConfigReferenceError(precedent_key)
+                raise MultiLayersConfigReferenceError(precedent_key, self.config_level_name, self.precedent.config_level_name)
             return res
         # Else raise exception
-        raise MultiLayersConfigNoPrecedentError(precedent_key)
+        raise MultiLayersConfigNoPrecedentError(precedent_key, self.config_level_name)
