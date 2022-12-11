@@ -21,5 +21,5 @@ python3 setup.py
 
 ```sh
 # Launch the TestWorkflow workflow
-python3 ./creator.py TestWorkflow
+(python3) ./creator.py execute -w TestWorkflow
 ```
