@@ -1,5 +1,7 @@
 import json
 from src.common.MultiLayersConfig import MultiLayersConfig
+import os
+from src.projects.ProjectData import ProjectData
 
 class Project:
     """A class handling project informations."""
@@ -11,19 +13,33 @@ class Project:
         # Open project.json
         with open(project_json, "r") as f:
             self._project = json.load(f)
-            # Get project name
-            self.name = self._project["name"]
-            # Get project version
-            self.version = self._project["version"]
-            # Get project author
-            self.author = self._project["author"]
-            # Get project workflows list
-            self.workflows = self._project["workflows"]
-            # Get project variables
-            self.variables = self._project["variables"]
+            # Id is the file name
+            self.id: str = os.path.basename(project_json).replace(".json", "")
+            # Validate project data
+            self._data = ProjectData.from_dict(self._project)
         
         # Set config as a MultiLayersConfig
         self.set_config(self.variables)
+
+    @property
+    def version(self):
+        return self._data.version
+
+    @property
+    def author(self):
+        return self._data.author
+    
+    @property
+    def name(self):
+        return self._data.name
+
+    @property
+    def workflows(self):
+        return self._data.workflows
+
+    @property
+    def variables(self):
+        return self._data.variables
 
     # Set _config as a MultiLayersConfig
     def set_config(self, config: dict):

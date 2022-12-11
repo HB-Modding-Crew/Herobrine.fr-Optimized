@@ -1,10 +1,12 @@
 from src.const import Steps, Paths
 from typing import Dict
-from src.steps.AStep import AStep
+from src.steps_types.AStep import AStep
 import os
 import importlib
+from typing import List 
 
-class StepsManager:
+class StepsTypesManager:
+    """A class handling steps types."""
 
     # Dictionary of steps
     steps = Dict[str, AStep]
@@ -17,6 +19,9 @@ class StepsManager:
         # For all directories in the steps folder
         for step in os.listdir(Paths.STEPS_TYPE_ROOT):
             try:
+                # Verify is directory
+                if not os.path.isdir(Paths.STEPS_TYPE_ROOT + Paths.SEPARATOR + step):
+                    continue
                 # Import step module
                 step_module = importlib.import_module(Paths.STEPS_TYPE_ROOT + Paths.IMPORT_SEPARATOR + step)
                 # Get step class
@@ -31,8 +36,13 @@ class StepsManager:
 
     # Get step from type id
     @classmethod
-    def get_step(cls, step_id: str):
+    def get_step_type(cls, step_id: str):
         # Verify step exists
         if step_id not in cls.steps.keys():
             return None
         return cls.steps[step_id]
+
+    # Get all steps types
+    @classmethod
+    def get_steps_types(cls) -> List[str]:
+        return cls.steps.keys()

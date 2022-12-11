@@ -22,6 +22,7 @@ class Paths:
     # Relative paths
     STEPS_TYPE_ROOT = "steps_types"
     WORKFLOW_ROOT = "workflows"
+    PROJECT_ROOT = "projects"
     DEFAULT_WORKFLOW_ROOT = "default_workflows"
     DEFAULT_STEPS_ROOT = "default_steps_types"
 

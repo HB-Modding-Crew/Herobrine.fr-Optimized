@@ -1,7 +1,7 @@
 from __future__ import annotations
 import re
 from src.const import MultiLayersConfig as ConstMultiLayersConfig
-from exeptions import MultiLayersConfigNoPrecedentError, MultiLayersConfigReferenceError
+from src.exeptions import MultiLayersConfigNoPrecedentError, MultiLayersConfigReferenceError
 
 # Reference to precedent value format: "ref:precedent_key"
 REF_PRECEDENT = re.compile(ConstMultiLayersConfig.REGEX_REF_PRECEDENT)
