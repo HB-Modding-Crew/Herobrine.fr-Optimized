@@ -1,11 +1,12 @@
 import json
-from src.const import Workflow as ConstWorkflow, Paths, Steps
+from src.projects.Project import Project
 from src.steps_types.AStep import AStep
 from src.steps_types.StepsTypesManager import StepsTypesManager
 from src.common.InputConfirmation import confirm_yes_or_no
 import os
 from src.workflows.WorkflowData import WorkflowData, StepData
 from typing import List
+from src.common.MultiLayersConfig import MultiLayersConfig
 
 # Workflow class
 # Can be instantiated with a workflow json file
@@ -48,7 +49,7 @@ class Workflow:
         return self._data.name
 
     # Execute workflow
-    def execute(self):
+    def execute(self, project: Project):
         # Succefully executed steps
         executed_steps = []
         # Step type
@@ -57,7 +58,7 @@ class Workflow:
         print("Executing workflow '" + self.id + "'")
         # Execute steps
         for step in self.steps:
-            res = step.execute()
+            res = step.execute(project.variables)
             if res:
                 executed_steps.append(step)
                 continue
