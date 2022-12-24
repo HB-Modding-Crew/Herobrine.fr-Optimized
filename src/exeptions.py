@@ -1,32 +1,53 @@
-"""Custom exceptions for the modpack creator."""
+"""Custom exceptions for the mod pack creator."""
 
-class ModpackCreatorError(Exception):
+
+class ModPackCreatorError(Exception):
     """Base class for exceptions in this module."""
     pass
+
 
 """Thick config exceptions."""
 
-class MultiLayersConfigError(ModpackCreatorError):
+
+class MultiLayersVariablesError(ModPackCreatorError):
     """Base class for exceptions in this module."""
-    pass
 
-class MultiLayersConfigReferenceError(MultiLayersConfigError):
-    """Raised when a reference is not found in the precedent config."""
-
-    def __init__(self, precedent_key: str, config_level_name: str, precedent_config_level_name: str):
-        config_level_name = config_level_name
-        self.precedent_key = precedent_key
-        precedent_config_level_name = precedent_config_level_name
+    def __init__(self, actual_level_name):
+        super().__init__()
+        self.actual_level_name = actual_level_name
 
     def __str__(self):
-        return f"Reference to precedent key '{self.precedent_key}' from config '{self.config_level_name}' not found in precedent config '{self.precedent_config_level_name}'."
+        return f"Error in level {self.actual_level_name}."
 
-class MultiLayersConfigNoPrecedentError(MultiLayersConfigError):
-    """Raised when a precedent config is required but not found."""
 
-    def __init__(self, precedent_key: str, config_level_name: str):
-        config_level_name = config_level_name
-        self.precedent_key = precedent_key
+class MultiLayersVariablesKeyError(MultiLayersVariablesError):
+    """Exception raised when a key is not found in the actual level or in the precedent levels."""
+
+    def __init__(self, actual_level_name, key):
+        super().__init__(actual_level_name)
+        self.key = key
 
     def __str__(self):
-        return f"Reference to precedent key '{self.precedent_key}' from config '{self.config_level_name}' not found because there is no precedent config."
+        return f"Key '{self.key}' not found in level {self.actual_level_name} or in precedent levels."
+
+
+class MultiLayersVariablesReferenceError(MultiLayersVariablesError):
+    """Exception raised when a reference is not found in the precedent levels."""
+
+    def __init__(self, actual_level_name, key, precedent_key):
+        super().__init__(actual_level_name)
+        self.key = key
+
+    def __str__(self):
+        return f"Reference '{self.key}' to key '{self.precedent_key}' not found in precedent levels."
+
+
+class MultiLayersVariablesNoPrecedentError(MultiLayersVariablesReferenceError):
+    """Exception raised when a precedent variables is not defined."""
+
+    def __init__(self, actual_level_name, key, precedent_key):
+        super().__init__(actual_level_name, key, precedent_key)
+
+    def __str__(self):
+        return f"Reference '{self.key}' to key '{self.precedent_key}' not found in precedent levels because there is no precedent levels."
+

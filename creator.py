@@ -89,7 +89,7 @@ class CommandLineTool:
         # Instanciate action
         action: AActions = self._primary_actions[action_txt](self._arg_parser)
         # Execute action
-        action.execute(args)
+        action.execute()
 
 tool = CommandLineTool()
 

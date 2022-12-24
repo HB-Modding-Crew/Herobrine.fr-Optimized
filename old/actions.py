@@ -27,7 +27,7 @@ class AActions:
                 return False
         # Verify that all arguments are valid
         for arg in self.args.keys():
-            if ((arg not in self._mandatory_arguments and arg not in self._optional_arguments) and args[arg] != None) and arg != "action":
+            if ((arg not in self._mandatory_arguments and arg not in self._optional_arguments) and self.args[arg] != None) and arg != "action":
                 print("Invalid argument: '" + arg + "' is not a valid argument for the '" + self._name + "' action.")
                 return False
         return True

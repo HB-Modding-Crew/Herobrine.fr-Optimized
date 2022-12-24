@@ -6,6 +6,6 @@
         "TestWorkflow"
     ],
     "variables": {
-        "myVariable": "myValue"
+        "name": "Test project"
     }
 }

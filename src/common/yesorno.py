@@ -1,5 +1,9 @@
-def confirm_yes_or_no(self, prompt: str) -> bool:
-    """Ask for confirmation, return True or False."""
+def confirm_yes_or_no(prompt: str) -> bool:
+    """
+    @param prompt
+    @return: confirmation
+    @rtype: bool
+    """
     prompt = prompt + ' [Y/N]: '
     while True:
         answer = input(prompt).lower().strip()

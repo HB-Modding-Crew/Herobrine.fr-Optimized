@@ -9,43 +9,45 @@ class AStep:
         # Step id
         self.id = id
         # Step config
-        # Verify that the step config contains the step id
-        if self.id in step_config:
-            self.config = step_config
+
+        self.config = step_config
 
         # Step id can only contain lower alphanumeric characters
         if not self.id.isalnum() or not self.id.islower():
             raise Exception("Invalid step id: '" + self.id + "'. Only lower alphanumeric characters are allowed.")
 
     # Actions to execute when the step is executed
-    def _execute(self, config: MultiLayersConfig):
+    def _execute(self, config: MultiLayersConfig) -> bool:
         # OVERRIDE THIS METHOD TO EXECUTE THE STEP
-        pass
+        raise NotImplementedError("Step '" + self.id + "' has no _execute method")
 
     # Actions to execute when the step is canceled
     def _cancel(self, config: MultiLayersConfig):
         # OVERRIDE THIS METHOD TO CANCEL THE STEP
-        pass
+        # SHOULD NEVER FAIL
+        raise NotImplementedError("Step '" + self.id + "' has no _cancel method")
 
     # Called when execution of the step is requested
     def execute(self, config: MultiLayersConfig) -> bool:
         # DO NOT OVERRIDE THIS METHOD
         print("Executing step '" + self.id + "'")
         try:
-            self._execute(config)
+            self.config = MultiLayersConfig(self.config, "Step config", config)
+            res = self._execute(self.config)
             print("Step '" + self.id + "' executed")
-            return True
+            return res
         except Exception as e:
             print("Step '" + self.id + "' failed")
             print(e)
-            self.cancel()
+            self.cancel(config)
             return False
 
     # Called when cancelation of the step is requested
     def cancel(self, config: MultiLayersConfig):
         # DO NOT OVERRIDE THIS METHOD
+        # SHOULD NEVER FAIL
         print("Canceling step '" + self.id + "' and its changes")
-        self._cancel()
+        self._cancel(config)
         print("Step '" + self.id + "' canceled")
 
     def __str__(self):

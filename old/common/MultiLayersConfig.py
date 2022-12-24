@@ -16,12 +16,12 @@ class MultiLayersConfig:
         self.config_level_name = config_level_name
 
     # Get attribute
-    def __getattribute__(self, __name: str):
+    def __getitem__(self, __name: str):
         # Verify if attribute is in config
         if not __name in self._config.keys():
             # If no precedent
             if self.precedent is None:
-                return None
+                raise KeyError(__name)
             # Else return precedent value for __name
             return self.precedent.__getattribute__(__name)
 
@@ -43,8 +43,9 @@ class MultiLayersConfig:
         precedent_key = match.group("key")
         # If precedent exists
         if self.precedent is not None:
-            res = self.precedent.__getattribute__(precedent_key)
-            if res is None:
+            try:
+                res = self.precedent[precedent_key]
+            except KeyError:
                 raise MultiLayersConfigReferenceError(precedent_key, self.config_level_name, self.precedent.config_level_name)
             return res
         # Else raise exception

@@ -19,7 +19,7 @@ class Project:
             self._data = ProjectData.from_dict(self._project)
         
         # Set config as a MultiLayersConfig
-        self.set_config(self.variables)
+        self.set_config(self._variables)
 
     @property
     def version(self):
@@ -38,10 +38,10 @@ class Project:
         return self._data.workflows
 
     @property
-    def variables(self):
+    def _variables(self):
         return self._data.variables
 
     # Set _config as a MultiLayersConfig
     def set_config(self, config: dict):
-        self._config = MultiLayersConfig(config, "Project Variables", self.variables)
+        self.variables = MultiLayersConfig(config, "Project Variables")
             
