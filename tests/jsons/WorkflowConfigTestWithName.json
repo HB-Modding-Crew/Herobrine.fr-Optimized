@@ -1,0 +1,16 @@
+{
+    "name": "test",
+    "steps": [
+        {
+            "name": "test",
+            "type": "test",
+            "id": "test",
+            "variables": {
+                "test": "test"
+            }
+        }
+    ],
+    "variables": {
+        "test": "test"
+    }
+}

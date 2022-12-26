@@ -1,0 +1,14 @@
+{
+    "steps": [
+        {
+            "type": "test",
+            "id": "test",
+            "variables": {
+                "test": "test"
+            }
+        }
+    ],
+    "variables": {
+        "test": "test"
+    }
+}

@@ -2,9 +2,11 @@ from __future__ import annotations
 from typing import Dict, Any
 import re
 
-from src.exeptions import MultiLayersVariablesKeyError, MultiLayersVariablesReferenceError, MultiLayersVariablesNoPrecedentError
+from src.exeptions import MultiLayersVariablesKeyError, MultiLayersVariablesReferenceError, MultiLayersVariablesNoPrecedentError, MultiLayersVariablesInitError
 
 from src.const import MultiLayersVariables as MultiLayersVariablesConfig
+
+from src.common.StrTypes import DisplayName
 
 # Init reference regex
 reference_regex = re.compile(MultiLayersVariablesConfig.REGEX_REF_PRECEDENT)
@@ -14,9 +16,9 @@ class MultiLayersVariables:
     """ Multi layers configuration class.
     """
 
-    __raw_variables: Dict[str, Any]
-    __precedent_variables: MultiLayersVariables
-    __level_name: str
+    __raw_variables: Dict[str, Any] = None
+    __precedent_variables: MultiLayersVariables = None
+    __level_name: DisplayName = None
 
     def __init__(self, variables: Dict[str, Any], level_name: str, precedent_variables: MultiLayersVariables = None):
         """
@@ -27,19 +29,19 @@ class MultiLayersVariables:
         :param precedent_variables: Precedent variables
         """
 
-        # If precedent variables is defined.
-        if precedent_variables is not None:
-            # If precedent variables is not a MultiLayersVariables instance.
-            if not isinstance(precedent_variables, MultiLayersVariables):
-                raise TypeError("Precedent variables must be a MultiLayersVariables instance.")
-            # Set precedent variables.
-            self.__precedent_variables = precedent_variables
+        try:
+            # If precedent variables is defined.
+            if precedent_variables is not None:
+                # Set precedent variables.
+                self._set_precedent_variables(precedent_variables)
 
-        # Set level name.
-        self._set_level_name(level_name)
+            # Set level name.
+            self._set_level_name(level_name)
 
-        # Set raw variables.
-        self._set_raw_variables(variables)
+            # Set raw variables.
+            self._set_raw_variables(variables)
+        except Exception as e:
+            raise MultiLayersVariablesInitError(level_name) from e
 
     def _set_raw_variables(self, variables: Dict[str, Any]):
         """
@@ -48,6 +50,9 @@ class MultiLayersVariables:
         :return:
         """
 
+        # Verify if variables is a dict.
+        if not isinstance(variables, dict):
+            raise TypeError("Variables must be a dict")
         # Set raw variables.
         self.__raw_variables = variables
 
@@ -58,6 +63,9 @@ class MultiLayersVariables:
         :return:
         """
 
+        # Verify if precedent variables is a MultiLayersVariables.
+        if not isinstance(precedent_variables, MultiLayersVariables):
+            raise TypeError("Precedent variables must be a MultiLayersVariables")
         # Set precedent variables.
         self.__precedent_variables = precedent_variables
 
@@ -68,14 +76,18 @@ class MultiLayersVariables:
         :return:
         """
 
+        # Verify if level name is a str.
+        if not isinstance(level_name, str):
+            raise TypeError("Level name must be a str")
+
         # Set level name.
-        self.__level_name = level_name
+        self.__level_name = DisplayName(level_name)
 
     def __getitem__(self, item: str) -> Any:
         """
         Get item from actual level or precedents levels.
         :param item: Item to get
-        :return:
+        :return: Value of the item
         """
 
         _in_precedent_variables: str = None
@@ -109,9 +121,9 @@ class MultiLayersVariables:
             # If it is a reference.
             if _ref:
                 # Raise no precedent exception.
-                raise MultiLayersVariablesNoPrecedentError(_in_precedent_variables, self.__level_name)
+                raise MultiLayersVariablesNoPrecedentError(self.__level_name, item, _in_precedent_variables)
             # Else raise key error.
-            raise MultiLayersVariablesKeyError(_in_precedent_variables, self.__level_name)
+            raise MultiLayersVariablesKeyError(self.__level_name, item)
         # Try to get item from precedent variables.
         try:
             return self.__precedent_variables[_in_precedent_variables]
@@ -119,6 +131,6 @@ class MultiLayersVariables:
             # If it is a reference.
             if _ref:
                 # Raise reference error.
-                raise MultiLayersVariablesReferenceError(_in_precedent_variables, self.__level_name) from e
+                raise MultiLayersVariablesReferenceError(self.__level_name, item, _in_precedent_variables) from e
             # Else raise key error.
-            raise MultiLayersVariablesKeyError(_in_precedent_variables, self.__level_name) from e
+            raise MultiLayersVariablesKeyError(self.__level_name, item) from e

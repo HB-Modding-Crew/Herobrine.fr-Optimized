@@ -1,0 +1,8 @@
+{
+  "name": "test_name",
+  "type": "test",
+  "id": "test_id",
+  "variables": {
+    "test": "test"
+  }
+}

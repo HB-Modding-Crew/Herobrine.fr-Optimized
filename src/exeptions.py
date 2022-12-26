@@ -20,6 +20,13 @@ class MultiLayersVariablesError(ModPackCreatorError):
         return f"Error in level {self.actual_level_name}."
 
 
+class MultiLayersVariablesInitError(MultiLayersVariablesError):
+    """Exception raised when the init of MultiLayersVariables is not done correctly."""
+
+    def __str__(self):
+        return f"Error in level {self.actual_level_name} during the initialization."
+
+
 class MultiLayersVariablesKeyError(MultiLayersVariablesError):
     """Exception raised when a key is not found in the actual level or in the precedent levels."""
 
@@ -36,6 +43,7 @@ class MultiLayersVariablesReferenceError(MultiLayersVariablesError):
 
     def __init__(self, actual_level_name, key, precedent_key):
         super().__init__(actual_level_name)
+        self.precedent_key = precedent_key
         self.key = key
 
     def __str__(self):
@@ -50,4 +58,16 @@ class MultiLayersVariablesNoPrecedentError(MultiLayersVariablesReferenceError):
 
     def __str__(self):
         return f"Reference '{self.key}' to key '{self.precedent_key}' not found in precedent levels because there is no precedent levels."
+
+
+class RestrictedCharactersError(ModPackCreatorError):
+    """Exception raised when a string contains restricted characters."""
+
+    def __init__(self, value, allowed):
+        super().__init__()
+        self.value = value
+        self.allowed = allowed
+
+    def __str__(self):
+        return f"String '{self.value}' contains restricted characters. Allowed characters are '{self.allowed}'."
 

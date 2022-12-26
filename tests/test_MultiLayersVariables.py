@@ -2,6 +2,8 @@ from unittest import TestCase
 
 from src.common.MultiLayersVariables import MultiLayersVariables
 
+from src.exeptions import MultiLayersVariablesKeyError, MultiLayersVariablesReferenceError, MultiLayersVariablesNoPrecedentError, MultiLayersVariablesInitError
+
 
 class TestMultiLayersVariables(TestCase):
 
@@ -78,3 +80,52 @@ class TestMultiLayersVariables(TestCase):
 
         # Check if the item "test_key" is "precedent_test_item"
         self.assertEqual(handler["test_key"], "precedent_test_item")
+
+    # Test getitem method exeption without precedent variables.
+    def test__getitem__without_precedent_exception(self):
+        # Create a MultiLayersVariables instance without precedent variables
+        handler = MultiLayersVariables(variables={"test_key": "test_item", "ref_item": "ref:invalid_ref"}, level_name="test_name")
+
+        # Try to get an inexistent item
+        with self.assertRaises(MultiLayersVariablesKeyError):
+            handler["invalid_key"]
+
+        # Try to get an item with an invalid reference
+        with self.assertRaises(MultiLayersVariablesNoPrecedentError):
+            handler["ref_item"]
+
+    # Test getitem method exeption with precedent variables.
+    def test__getitem__with_precedent_exception(self):
+        # Create a precedent MultiLayersVariables instance
+        precedent_handler = MultiLayersVariables(variables={"precedent_test_key": "precedent_test_item"}, level_name="precedent_test_name")
+
+        # Create a MultiLayersVariables instance with precedent variables
+        handler = MultiLayersVariables(variables={"test_key": "ref:invalid_ref"}, level_name="test_name", precedent_variables=precedent_handler)
+
+        # Try to get an invalid item
+        with self.assertRaises(MultiLayersVariablesKeyError):
+            handler["MultiLayersVariablesKeyError"]
+
+        # Try to get an item with an invalid reference
+        with self.assertRaises(MultiLayersVariablesReferenceError):
+            handler["test_key"]
+
+    # Test initialization exception.
+    def test__init__exception(self):
+        # Try to create a MultiLayersVariables instance with invalid precedent variables
+        with self.assertRaises(MultiLayersVariablesInitError):
+            MultiLayersVariables(variables={}, level_name="test_name", precedent_variables="precedent_handler")
+
+        # Try to create a MultiLayersVariables instance with invalid level name
+        with self.assertRaises(MultiLayersVariablesInitError):
+            MultiLayersVariables(variables={}, level_name=1)
+
+        # Try to create a MultiLayersVariables instance with invalid raw variables
+        with self.assertRaises(MultiLayersVariablesInitError):
+            MultiLayersVariables(variables=1, level_name="test_name")
+
+        # Try to create a MultiLayersVariables instance with characters not allowed in level name
+        with self.assertRaises(MultiLayersVariablesInitError):
+            MultiLayersVariables(variables={}, level_name="test_name$")
+
+
