@@ -77,7 +77,7 @@ class StepError(ModPackCreatorError):
     pass
 
 
-class StepInitError(StepError):
+class StepTypesInitError(StepError):
     """Exception raised when an error occurred during the initialization of a step."""
     def __init__(self, step_type):
         super().__init__()
@@ -98,7 +98,7 @@ class InvalidStepTypeError(StepError):
         return f"'{self.step_type}' is not a step type. It should be a python module containing a class named 'Step' inheriting from 'AStep'."
 
 
-class StepsNotLoadedError(StepError):
+class StepTypesNotLoadedError(StepError):
     """Exception raised when a step is initialized if the steps are not loaded."""
 
     def __str__(self):
@@ -114,6 +114,19 @@ class StepTypeDoesNotExistError(StepError):
 
     def __str__(self):
         return f"Step type '{self.step_type}' does not exist."
+
+
+class StepInitError(StepError):
+    """Exception raised when an error occurred during the initialization of a step."""
+
+    def __init__(self, step_type, step_config):
+        super().__init__()
+        self.step_type = step_type
+        self.step_config = step_config
+        self.step_name = step_config.name
+
+    def __str__(self):
+        return f"Error during the initialization of step '{self.step_name}' of type '{self.step_type}'."
 
 
 

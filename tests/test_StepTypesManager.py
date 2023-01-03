@@ -4,7 +4,7 @@ from src.Step.AStep import AStep
 
 from typing import Any
 
-from src.exeptions import StepsNotLoadedError, StepTypeDoesNotExistError, StepInitError
+from src.exeptions import StepTypesNotLoadedError, StepTypeDoesNotExistError, StepTypesInitError
 
 
 class TestStepsTypesManager(TestCase):
@@ -42,7 +42,7 @@ class TestStepsTypesManager(TestCase):
         StepTypesManager.set_steps_path("example_steps")
 
         # Try to get step type
-        with self.assertRaises(StepsNotLoadedError):
+        with self.assertRaises(StepTypesNotLoadedError):
             StepTypesManager.get_step_type("teststep")
 
         # Load steps types
@@ -57,5 +57,5 @@ class TestStepsTypesManager(TestCase):
         StepTypesManager.set_steps_path("example_steps_invalid")
 
         # Try to load steps types
-        with self.assertRaises(StepInitError):
+        with self.assertRaises(StepTypesInitError):
             StepTypesManager.load_steps_types()

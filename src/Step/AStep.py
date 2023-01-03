@@ -7,7 +7,7 @@ from src.common.OutputWrapper import OutputWrapper
 
 from src.const import Step as StepConsts, Indents
 
-from src.exeptions import StepsNotLoadedError
+from src.exeptions import StepTypesNotLoadedError
 
 
 # Must not be instantiated
@@ -17,12 +17,8 @@ class AStep:
     __output_wrapper_system: OutputWrapper = OutputWrapper(ident_size=Indents.STEP_LEVEL_SYSTEM)
     output_wrapper_step: OutputWrapper = OutputWrapper(ident_size=Indents.STEP_LEVEL_STEP)
     __step_variables: StepVariables = None
-    __initialized: bool = False
 
-    def __int__(self):
-        pass
-
-    def __init(self, step_config: StepConfig, workflow_variables: WorkflowVariables) -> bool:
+    def __int__(self, step_config: StepConfig, workflow_variables: WorkflowVariables):
         # Init step variables
         try:
             # Init step log
@@ -39,16 +35,12 @@ class AStep:
             # End init step log
             print(
                 self.__output_wrapper_system.fill(StepConsts.INIT_STEP_DONE_FORMAT.format(step_name=step_config.name)))
-            # Return True
-            return True
         except Exception as e:
             # Exception log
             print(self.__output_wrapper_system.fill(str(e)))
             # Failed init step log
             print(self.__output_wrapper_system.fill(
                 StepConsts.INIT_STEP_FAILED_FORMAT.format(step_name=step_config.name)))
-            # Return False
-            return False
 
     def execute(self) -> bool:
         """
@@ -58,10 +50,6 @@ class AStep:
 
         :return:
         """
-
-        # Verify if not initialized
-        if not self.__initialized:
-            raise StepsNotLoadedError()
 
         # Execute step
         try:
@@ -105,9 +93,6 @@ class AStep:
         Should never fail (try all cancellations possible)
         :return:
         """
-        # Verify if not initialized
-        if not self.__initialized:
-            raise StepsNotLoadedError()
 
         # Cancel step
         try:

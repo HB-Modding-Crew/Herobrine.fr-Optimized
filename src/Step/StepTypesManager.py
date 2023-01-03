@@ -1,4 +1,4 @@
-from typing import Dict
+from typing import Dict, Type, Union
 
 from src.Step.AStep import AStep
 from src.const import Paths, Indents
@@ -9,14 +9,14 @@ import os
 
 from src.common.OutputWrapper import OutputWrapper
 
-from src.exeptions import InvalidStepTypeError, StepInitError, StepsNotLoadedError, StepTypeDoesNotExistError
+from src.exeptions import InvalidStepTypeError, StepTypesInitError, StepTypesNotLoadedError, StepTypeDoesNotExistError
 
 
 class StepTypesManager:
 
     # Steps type path
     __step_type_path: str = Paths.STEP_TYPES_ROOT
-    steps_types: Dict[str, AStep] = None
+    steps_types: Union[Dict[str, Type[AStep]], None] = None
     __output: OutputWrapper = OutputWrapper(Indents.STEP_TYPE_LEVEL)
 
     # Load all steps types
@@ -45,7 +45,7 @@ class StepTypesManager:
                 # Output error
                 cls.__output.fill(str(e))
                 cls.__output.fill("Failed to load step type '" + step_type + "'")
-                raise StepInitError(step_type) from e
+                raise StepTypesInitError(step_type) from e
         return True
 
     # Set steps path (for tests)
@@ -59,10 +59,10 @@ class StepTypesManager:
         cls.steps_types = None
 
     @classmethod
-    def get_step_type(cls, step_type_id: str) -> AStep:
+    def get_step_type(cls, step_type_id: str) -> Type[AStep]:
         # Verify steps are loaded
         if not cls._is_initialized():
-            raise StepsNotLoadedError()
+            raise StepTypesNotLoadedError()
         # Verify step exists
         if step_type_id not in cls.steps_types.keys():
             raise StepTypeDoesNotExistError(step_type_id)
