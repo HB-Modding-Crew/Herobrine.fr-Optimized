@@ -1,4 +1,5 @@
 # modpack-creator
+# NOT WORKING FOR NOW
 
 Created from this idea:
 https://github.com/Fabulously-Optimized/fabulously-optimized/issues/537

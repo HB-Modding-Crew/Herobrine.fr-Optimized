@@ -11,18 +11,13 @@ from src.Workflow.WorkflowConfig import WorkflowConfig
 from src.Step.StepVariables import StepVariables
 from src.Step.StepConfig import StepConfig
 
-
-# Create basic user variables
-with open("jsons/UserConfigTest.json", "r") as file:
-    config = json.load(file)
-config = UserConfig.from_dict(config)
-user_variables = UserVariables(user_config=config)
+from tests.test_WorkflowVariables import project_variables
 
 # Create basic workflow variables
 with open("jsons/WorkflowConfigTestWithName.json", "r") as file:
     config = json.load(file)
 config = WorkflowConfig.from_dict(config)
-workflow_variables = WorkflowVariables(workflow_id="test", workflow_config=config, user_variables=user_variables)
+workflow_variables = WorkflowVariables(workflow_id="test", workflow_config=config, project_variables=project_variables)
 
 # Load the config file jsons/StepConfigTestWithName.json
 with open("jsons/StepConfigTestWithName.json", "r") as file:

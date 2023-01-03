@@ -71,3 +71,49 @@ class RestrictedCharactersError(ModPackCreatorError):
     def __str__(self):
         return f"String '{self.value}' contains restricted characters. Allowed characters are '{self.allowed}'."
 
+
+class StepError(ModPackCreatorError):
+    """Base class for exceptions in this module."""
+    pass
+
+
+class StepInitError(StepError):
+    """Exception raised when an error occurred during the initialization of a step."""
+    def __init__(self, step_type):
+        super().__init__()
+        self.step_type = step_type
+
+    def __str__(self):
+        return f"Step type '{self.step_type}' does not exist."
+
+
+class InvalidStepTypeError(StepError):
+    """Exception raised when loading an invalid step."""
+
+    def __init__(self, step_type):
+        super().__init__()
+        self.step_type = step_type
+
+    def __str__(self):
+        return f"'{self.step_type}' is not a step type. It should be a python module containing a class named 'Step' inheriting from 'AStep'."
+
+
+class StepsNotLoadedError(StepError):
+    """Exception raised when a step is initialized if the steps are not loaded."""
+
+    def __str__(self):
+        return f"Steps are not loaded. You should call 'StepsLoader.load_steps()' before using steps."
+
+
+class StepTypeDoesNotExistError(StepError):
+    """Exception raised when a step type does not exist."""
+
+    def __init__(self, step_type):
+        super().__init__()
+        self.step_type = step_type
+
+    def __str__(self):
+        return f"Step type '{self.step_type}' does not exist."
+
+
+
