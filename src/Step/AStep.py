@@ -107,7 +107,7 @@ class AStep:
         """
         # Verify if not initialized
         if not self.__initialized:
-            raise StepNotInitializedError()
+            raise StepsNotLoadedError()
 
         # Cancel step
         try:
