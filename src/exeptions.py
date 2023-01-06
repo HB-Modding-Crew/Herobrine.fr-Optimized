@@ -123,10 +123,59 @@ class StepInitError(StepError):
         super().__init__()
         self.step_type = step_type
         self.step_config = step_config
-        self.step_name = step_config.name
+        self.step_name = step_config.id
 
     def __str__(self):
         return f"Error during the initialization of step '{self.step_name}' of type '{self.step_type}'."
+
+
+class WorkflowError(ModPackCreatorError):
+    """Base class for exceptions in this module."""
+    pass
+
+
+class WorkflowInitError(WorkflowError):
+    """Exception raised when an error occurred during the initialization of a workflow."""
+
+    def __init__(self, workflow_id):
+        super().__init__()
+        self.workflow_id = workflow_id
+
+    def __str__(self):
+        return f"Error during the initialization of workflow '{self.workflow_id}'."
+
+
+class WorkflowPrepareStepsError(WorkflowError):
+    """Exception raised when an error occurred during the preparation of the steps of a workflow."""
+
+    def __init__(self, workflow_id):
+        super().__init__()
+        self.workflow_id = workflow_id
+
+    def __str__(self):
+        return f"Error during the preparation of the steps of workflow '{self.workflow_id}'."
+
+
+class WorkflowExecuteError(WorkflowError):
+    """Exception raised when an error occurred during the execution of a workflow."""
+
+    def __init__(self, workflow_id):
+        super().__init__()
+        self.workflow_id = workflow_id
+
+    def __str__(self):
+        return f"Error during the execution of workflow '{self.workflow_id}'."
+
+
+class WorkflowCancelError(WorkflowError):
+    """Exception raised when an error occurred during the cancellation of a workflow."""
+
+    def __init__(self, workflow_id):
+        super().__init__()
+        self.workflow_id = workflow_id
+
+    def __str__(self):
+        return f"Error during the cancellation of workflow '{self.workflow_id}'."
 
 
 

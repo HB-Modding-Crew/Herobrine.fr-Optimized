@@ -3,6 +3,8 @@ from src.Workflow.WorkflowConfig import WorkflowConfig
 from src.Project.ProjectVariables import ProjectVariables
 from src.common.StrTypes import NoSpaceString, DisplayName
 from src.common.StrTypes import AStr
+from src.Step.StepConfig import StepConfig
+from typing import List
 
 
 class WorkflowVariables(MultiLayersVariables):
@@ -35,3 +37,7 @@ class WorkflowVariables(MultiLayersVariables):
             return self.id
         # Else
         return self.__workflow_config.name
+
+    @property
+    def workflow_steps(self) -> List[StepConfig]:
+        return self.__workflow_config.steps

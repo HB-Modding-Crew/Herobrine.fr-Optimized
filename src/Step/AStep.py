@@ -7,7 +7,7 @@ from src.common.OutputWrapper import OutputWrapper
 
 from src.const import Step as StepConsts, Indents
 
-from src.exeptions import StepTypesNotLoadedError
+from src.exeptions import StepInitError
 
 
 # Must not be instantiated
@@ -16,9 +16,14 @@ class AStep:
 
     __output_wrapper_system: OutputWrapper = OutputWrapper(ident_size=Indents.STEP_LEVEL_SYSTEM)
     output_wrapper_step: OutputWrapper = OutputWrapper(ident_size=Indents.STEP_LEVEL_STEP)
-    __step_variables: StepVariables = None
+    step_variables: StepVariables = None
 
-    def __int__(self, step_config: StepConfig, workflow_variables: WorkflowVariables):
+    def __init__(self, step_config: StepConfig, workflow_variables: WorkflowVariables):
+        """
+        Step initialization
+        :param step_config:
+        :param workflow_variables:
+        """
         # Init step variables
         try:
             # Init step log
@@ -29,18 +34,15 @@ class AStep:
                 raise TypeError("Step config must be a StepConfig")
             if not isinstance(workflow_variables, WorkflowVariables):
                 raise TypeError("Workflow variables must be a WorkflowVariables")
-            # Create step self.__step_variables
-            self.__step_variables = StepVariables(step_config=step_config, workflow_variables=workflow_variables)
+            # Create step self.step_variables
+            self.step_variables = StepVariables(step_config=step_config, workflow_variables=workflow_variables)
 
             # End init step log
             print(
                 self.__output_wrapper_system.fill(StepConsts.INIT_STEP_DONE_FORMAT.format(step_name=step_config.name)))
         except Exception as e:
-            # Exception log
-            print(self.__output_wrapper_system.fill(str(e)))
-            # Failed init step log
-            print(self.__output_wrapper_system.fill(
-                StepConsts.INIT_STEP_FAILED_FORMAT.format(step_name=step_config.name)))
+            # Raise exception
+            raise StepInitError(type(self).__name__, step_config) from e
 
     def execute(self) -> bool:
         """
@@ -54,7 +56,7 @@ class AStep:
         # Execute step
         try:
             # Execute step log
-            print(self.__output_wrapper_system.fill(StepConsts.EXECUTION_STEP_FORMAT.format(step_name=self.__step_variables.step_name)))
+            print(self.__output_wrapper_system.fill(StepConsts.EXECUTION_STEP_FORMAT.format(step_name=self.step_variables.step_name)))
 
             # Execute step
             res = self._execute()
@@ -63,15 +65,15 @@ class AStep:
             # If true
             if res:
                 # End execute step log
-                print(self.__output_wrapper_system.fill(StepConsts.EXECUTION_STEP_DONE_FORMAT.format(step_name=self.__step_variables.step_name)))
+                print(self.__output_wrapper_system.fill(StepConsts.EXECUTION_STEP_DONE_FORMAT.format(step_name=self.step_variables.step_name)))
             # If false
-            print(self.__output_wrapper_system.fill(StepConsts.EXECUTION_STEP_FAILED_FORMAT.format(step_name=self.__step_variables.step_name)))
+            print(self.__output_wrapper_system.fill(StepConsts.EXECUTION_STEP_FAILED_FORMAT.format(step_name=self.step_variables.step_name)))
             return res
         except Exception as e:
             # Exception log
             print(self.__output_wrapper_system.fill(str(e)))
             # Failed execute step log
-            print(self.__output_wrapper_system.fill(StepConsts.EXECUTION_STEP_FAILED_FORMAT.format(step_name=self.__step_variables.step_name)))
+            print(self.__output_wrapper_system.fill(StepConsts.EXECUTION_STEP_FAILED_FORMAT.format(step_name=self.step_variables.step_name)))
             # Return False
             return False
 
@@ -97,19 +99,19 @@ class AStep:
         # Cancel step
         try:
             # Cancel step log
-            print(self.__output_wrapper_system.fill(StepConsts.CANCEL_STEP_FORMAT.format(step_name=self.__step_variables.step_name)))
+            print(self.__output_wrapper_system.fill(StepConsts.CANCEL_STEP_FORMAT.format(step_name=self.step_variables.step_name)))
 
             # Cancel step
             self._cancel()
 
             # End cancel step log
-            print(self.__output_wrapper_system.fill(StepConsts.CANCEL_STEP_DONE_FORMAT.format(step_name=self.__step_variables.step_name)))
+            print(self.__output_wrapper_system.fill(StepConsts.CANCEL_STEP_DONE_FORMAT.format(step_name=self.step_variables.step_name)))
 
         except Exception as e:
             # Exception log
             print(self.__output_wrapper_system.fill(str(e)))
             # Failed cancel step log
-            print(self.__output_wrapper_system.fill(StepConsts.CANCEL_STEP_FAILED_FORMAT.format(step_name=self.__step_variables.step_name)))
+            print(self.__output_wrapper_system.fill(StepConsts.CANCEL_STEP_FAILED_FORMAT.format(step_name=self.step_variables.step_name)))
 
     def _cancel(self):
         """

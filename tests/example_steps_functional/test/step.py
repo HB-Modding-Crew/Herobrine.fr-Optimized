@@ -3,6 +3,7 @@ from src.exeptions import MultiLayersVariablesNoPrecedentError, MultiLayersVaria
 from src.Workflow.WorkflowVariables import WorkflowVariables
 from src.Step.StepConfig import StepConfig
 
+
 # Step class is a step that can be used in a workflow
 class Step(AStep):
     # Constructor

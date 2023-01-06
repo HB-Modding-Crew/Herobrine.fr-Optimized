@@ -40,3 +40,23 @@ class Step:
     CANCEL_STEP_FORMAT = "Cancelling step '{step_name}'"
     CANCEL_STEP_DONE_FORMAT = "Step '{step_name}' cancelled"
     CANCEL_STEP_FAILED_FORMAT = "Step '{step_name}' cancellation failed"
+
+
+class Workflow:
+    """Step types class.
+    """
+
+    # Outputs formats
+    INIT_WORKFLOW_FORMAT = "Initializing step '{workflow_name}'"
+    INIT_WORKFLOW_DONE_FORMAT = "Workflow '{workflow_name}' initialized"
+    INIT_WORKFLOW_FAILED_FORMAT = "Workflow '{workflow_name}' initialization failed"
+    EXECUTION_WORKFLOW_FORMAT = "Executing workflow '{workflow_name}'"
+    EXECUTION_WORKFLOW_DONE_FORMAT = "Workflow '{workflow_name}' executed"
+    EXECUTION_WORKFLOW_FAILED_FORMAT = "Workflow '{workflow_name}' execution failed"
+    CANCEL_WORKFLOW_FORMAT = "Cancelling step '{workflow_name}'"
+    CANCEL_WORKFLOW_DONE_FORMAT = "Workflow '{workflow_name}' cancelled"
+    CANCEL_WORKFLOW_FAILED_FORMAT = "Workflow '{workflow_name}' cancellation failed"
+    PREPARE_STEPS_FORMAT = "Preparing steps"
+    PREPARE_STEPS_DONE_FORMAT = "Steps prepared"
+    EXECUTE_WORKFLOW_FORMAT = "Executing workflow"
+    EXECUTE_WORKFLOW_DONE_FORMAT = "Workflow executed"
