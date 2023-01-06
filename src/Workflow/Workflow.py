@@ -1,5 +1,4 @@
-from typing import List, NamedTuple, Type, Dict, Any
-from collections import namedtuple
+from typing import List, NamedTuple, Type
 
 from src.Step.AStep import AStep
 from src.Step.StepConfig import StepConfig
@@ -28,7 +27,7 @@ class StepTypeConfigTuple(NamedTuple):
 
 class Workflow:
 
-    output_wrapper_workflow: OutputWrapper = OutputWrapper(ident_size=Indents.WORKFLOW_LEVEL)
+    output_wrapper_workflow: OutputWrapper = OutputWrapper(indent_size=Indents.WORKFLOW_LEVEL)
     __workflow_variables: WorkflowVariables = None
     __initialized: bool = False
     # Steps is a list of named tuples containing the step type and the step config

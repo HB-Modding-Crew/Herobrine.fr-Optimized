@@ -14,8 +14,8 @@ from src.exeptions import StepInitError
 # Abstract class
 class AStep:
 
-    __output_wrapper_system: OutputWrapper = OutputWrapper(ident_size=Indents.STEP_LEVEL_SYSTEM)
-    output_wrapper_step: OutputWrapper = OutputWrapper(ident_size=Indents.STEP_LEVEL_STEP)
+    __output_wrapper_system: OutputWrapper = OutputWrapper(indent_size=Indents.STEP_LEVEL_SYSTEM)
+    output_wrapper_step: OutputWrapper = OutputWrapper(indent_size=Indents.STEP_LEVEL_STEP)
     step_variables: StepVariables = None
 
     def __init__(self, step_config: StepConfig, workflow_variables: WorkflowVariables):

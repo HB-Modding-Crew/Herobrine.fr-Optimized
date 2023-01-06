@@ -11,6 +11,7 @@ from src.Step.StepConfig import StepConfig
 class ProjectConfig:
     name: Optional[str]
     variables: Dict[str, Any]
+    workflows: List[str]
 
     @classmethod
     def from_dict(cls, data: Dict[str, Any]):

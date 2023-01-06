@@ -1,7 +1,5 @@
 {
     "name": "My Awesome Project",
-    "version": "1.0.0",
-    "author": "John Doe",
     "workflows": [
         "TestWorkflow"
     ],

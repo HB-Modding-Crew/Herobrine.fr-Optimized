@@ -178,4 +178,42 @@ class WorkflowCancelError(WorkflowError):
         return f"Error during the cancellation of workflow '{self.workflow_id}'."
 
 
+class ProjectError(ModPackCreatorError):
+    """Base class for exceptions in this module."""
+    pass
+
+
+class ProjectConfigError(ProjectError):
+    """Exception raised when an error occurred during the loading of the project configuration."""
+
+    def __init__(self, project_id):
+        super().__init__()
+        self.project_id = project_id
+
+    def __str__(self):
+        return f"Error during the loading of the project configuration of project '{self.project_id}'."
+
+
+class ProjectVariablesError(ProjectError):
+    """Exception raised when an error occurred during the loading of the project variables."""
+
+    def __init__(self, project_id):
+        super().__init__()
+        self.project_id = project_id
+
+    def __str__(self):
+        return f"Error during the loading of the project variables of project '{self.project_id}'."
+
+
+class ProjectInitError(ProjectError):
+    """Exception raised when an error occurred during the initialization of a project."""
+
+    def __init__(self, project_id):
+        super().__init__()
+        self.project_id = project_id
+
+    def __str__(self):
+        return f"Error during the initialization of project '{self.project_id}'."
+
+
 

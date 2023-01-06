@@ -12,6 +12,7 @@ class Indents(Enum):
     COMMAND_LEVEL = 0
     STEP_TYPE_LEVEL = 1
     WORKFLOW_LEVEL = 1
+    PROJECT_INIT_LEVEL = 1
     STEP_LEVEL_SYSTEM = 2
     STEP_LEVEL_STEP = 3
 
@@ -22,8 +23,12 @@ class Paths:
     WILDCARD = "*"
     IMPORT_SEPARATOR = "."
 
+    # Extensions
+    EXTENSION_JSON = ".json"
+
     # Project paths
     STEP_TYPES_ROOT = "StepTypes"
+    PROJECTS_ROOT = "Projects"
 
 
 class Step:
