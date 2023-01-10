@@ -66,8 +66,9 @@ class AStep:
             if res:
                 # End execute step log
                 print(self.__output_wrapper_system.fill(StepConsts.EXECUTION_STEP_DONE_FORMAT.format(step_name=self.step_variables.step_name)))
-            # If false
-            print(self.__output_wrapper_system.fill(StepConsts.EXECUTION_STEP_FAILED_FORMAT.format(step_name=self.step_variables.step_name)))
+            else:
+                # If false
+                print(self.__output_wrapper_system.fill(StepConsts.EXECUTION_STEP_FAILED_FORMAT.format(step_name=self.step_variables.step_name)))
             return res
         except Exception as e:
             # Exception log

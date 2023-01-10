@@ -1,0 +1,16 @@
+{
+    "name": "TestWorkflow",
+    "steps": [
+        {
+            "name": "TestStep",
+            "type": "teststep",
+            "id": "teststepinstance",
+            "variables": {
+                "test": "test"
+            }
+        }
+    ],
+    "variables": {
+        "test": "test"
+    }
+}

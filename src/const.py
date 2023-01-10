@@ -9,10 +9,16 @@ class MultiLayersVariables:
 
 
 class Indents(Enum):
+    # General
     COMMAND_LEVEL = 0
+
+    # Init cmd
     STEP_TYPE_LEVEL = 1
-    WORKFLOW_LEVEL = 1
     PROJECT_INIT_LEVEL = 1
+    USER_INIT_LEVEL = 1
+
+    # Execution
+    WORKFLOW_LEVEL = 1
     STEP_LEVEL_SYSTEM = 2
     STEP_LEVEL_STEP = 3
 
@@ -29,6 +35,8 @@ class Paths:
     # Project paths
     STEP_TYPES_ROOT = "StepTypes"
     PROJECTS_ROOT = "Projects"
+    USER_CONFIG_FILE = "user.json"
+    WORKFLOWS_ROOT = "Workflows"
 
 
 class Step:

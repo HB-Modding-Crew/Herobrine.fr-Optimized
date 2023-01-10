@@ -2,7 +2,7 @@
     "name": "My Awesome Project",
     "version": "1.0.0",
     "workflows": [
-        "TestWorkflow"
+        "testworkflow"
     ],
     "variables": {
         "name": "Test project"

@@ -6,6 +6,16 @@ class ModPackCreatorError(Exception):
     pass
 
 
+class ModPackCreatorInitError(ModPackCreatorError):
+    """Exception raised when the mod pack creator fails to initialize."""
+    pass
+
+
+class ModPackCreatorExecutionInitError(ModPackCreatorError):
+    """Exception raised when the mod pack creator fails to initialize."""
+    pass
+
+
 """Thick config exceptions."""
 
 
@@ -214,6 +224,41 @@ class ProjectInitError(ProjectError):
 
     def __str__(self):
         return f"Error during the initialization of project '{self.project_id}'."
+
+
+class UserError(ModPackCreatorError):
+    """Base class for exceptions in this module."""
+    pass
+
+
+class UserInitError(UserError):
+    """Exception raised when an error occurred during the initialization of a user."""
+
+    def __init__(self):
+        super().__init__()
+
+    def __str__(self):
+        return f"Error during the initialization the user."
+
+
+class UserConfigInitError(UserError):
+    """Exception raised when an error occurred during the initialization of the user configuration."""
+
+    def __init__(self):
+        super().__init__()
+
+    def __str__(self):
+        return f"Error during the initialization of the user configuration."
+
+
+class UserVariablesInitError(UserError):
+    """Exception raised when an error occurred during the initialization of the user variables."""
+
+    def __init__(self):
+        super().__init__()
+
+    def __str__(self):
+        return f"Error during the initialization of the user variables."
 
 
 
