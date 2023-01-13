@@ -9,6 +9,8 @@ from src.const import Step as StepConsts, Indents
 
 from src.exeptions import StepInitError
 
+from src.common.Inputs import confirm_yes_or_no, prompt_with_default
+
 
 # Must not be instantiated
 # Abstract class
@@ -129,3 +131,22 @@ class AStep:
         :return:
         """
         print(self.output_wrapper_step.fill(message))
+
+    @staticmethod
+    def input_confirmation(message: str) -> bool:
+        """
+        Ask user for confirmation
+        :param message:
+        :return:
+        """
+        return confirm_yes_or_no(message)
+
+    @staticmethod
+    def input_string(message: str, default: str = None) -> str:
+        """
+        Ask user for a string
+        :param message:
+        :param default:
+        :return:
+        """
+        return prompt_with_default(message, default)

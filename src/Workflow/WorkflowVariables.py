@@ -26,6 +26,7 @@ class WorkflowVariables(MultiLayersVariables):
         # Precedent variables should be user variables
         if not isinstance(project_variables, ProjectVariables):
             raise TypeError("User variables must be a UserVariables")
+        self.__project_variables = project_variables
         # Super init
         super().__init__(variables=workflow_config.variables, level_name="workflow", precedent_variables=project_variables)
 
@@ -41,3 +42,11 @@ class WorkflowVariables(MultiLayersVariables):
     @property
     def workflow_steps(self) -> List[StepConfig]:
         return self.__workflow_config.steps
+
+    @property
+    def project_id(self) -> NoSpaceString:
+        return self.__project_variables.id
+
+    @property
+    def project_name(self) -> AStr:
+        return self.__project_variables.project_name

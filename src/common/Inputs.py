@@ -14,3 +14,23 @@ def confirm_yes_or_no(prompt: str) -> bool:
         if answer in ('n', 'no'):
             return False
         print('Please answer yes or no.')
+
+
+def prompt_with_default(prompt: str, default: str) -> str:
+    """
+    @param prompt
+    @param default
+    @return: answer
+    @rtype: str
+    """
+    # If default is None
+    if default is None:
+        # Return input
+        prompt = prompt + ': '
+    else:
+        prompt = prompt + ' [' + default + ']: '
+
+    answer = input(prompt).strip()
+    if not answer:
+        return default
+    return answer
