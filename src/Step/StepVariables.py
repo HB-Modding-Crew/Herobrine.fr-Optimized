@@ -30,30 +30,30 @@ class StepVariables(MultiLayersVariables):
         super().__init__(variables=step_config.variables, level_name="step", precedent_variables=workflow_variables)
 
     @property
-    def step_name(self) -> AStr:
+    def step_name(self) -> str:
         # If none
         if self.__step_config.name is None:
             # Return id
-            return self.id
+            return str(self.id)
         # Else
-        return self.name
+        return str(self.name)
 
     @property
-    def step_id(self) -> NoSpaceString:
-        return self.id
+    def step_id(self) -> str:
+        return str(self.id)
 
     @property
-    def project_id(self) -> NoSpaceString:
-        return self.__workflow_variables.project_id
+    def project_id(self) -> str:
+        return str(self.__workflow_variables.project_id)
 
     @property
-    def project_name(self) -> AStr:
-        return self.__workflow_variables.project_name
+    def project_name(self) -> str:
+        return str(self.__workflow_variables.project_name)
 
     @property
-    def workflow_id(self) -> NoSpaceString:
-        return self.__workflow_variables.id
+    def workflow_id(self) -> str:
+        return str(self.__workflow_variables.id)
 
     @property
-    def workflow_name(self) -> AStr:
-        return self.__workflow_variables.workflow_name
+    def workflow_name(self) -> str:
+        return str(self.__workflow_variables.workflow_name)
