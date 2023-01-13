@@ -1,4 +1,5 @@
 from src.common.MultiLayersVariables import MultiLayersVariables
+from src.Workflow.WorkflowVariables import WorkflowVariables
 from src.Step.StepConfig import StepConfig
 from src.common.StrTypes import NoSpaceString, DisplayName
 from src.common.StrTypes import AStr
@@ -8,7 +9,7 @@ class StepVariables(MultiLayersVariables):
 
     __step_config: StepConfig = None
 
-    def __init__(self, step_config: StepConfig, workflow_variables: MultiLayersVariables):
+    def __init__(self, step_config: StepConfig, workflow_variables: WorkflowVariables):
         # Set config after verification type
         if not isinstance(step_config, StepConfig):
             raise TypeError("Step config must be a StepConfig")
@@ -21,8 +22,10 @@ class StepVariables(MultiLayersVariables):
         # Set type
         self.type = NoSpaceString(self.__step_config.type)
         # Precedent variables should be user variables
-        if not isinstance(workflow_variables, MultiLayersVariables):
-            raise TypeError("Precedent variables must be a MultiLayersVariables")
+        if not isinstance(workflow_variables, WorkflowVariables):
+            raise TypeError("Precedent variables must be a WorkflowVariables")
+        # Workflow variables
+        self.__workflow_variables = workflow_variables
         # Super init
         super().__init__(variables=step_config.variables, level_name="step", precedent_variables=workflow_variables)
 
@@ -34,3 +37,23 @@ class StepVariables(MultiLayersVariables):
             return self.id
         # Else
         return self.name
+
+    @property
+    def step_id(self) -> NoSpaceString:
+        return self.id
+
+    @property
+    def project_id(self) -> NoSpaceString:
+        return self.__workflow_variables.project_id
+
+    @property
+    def project_name(self) -> AStr:
+        return self.__workflow_variables.project_name
+
+    @property
+    def workflow_id(self) -> NoSpaceString:
+        return self.__workflow_variables.id
+
+    @property
+    def workflow_name(self) -> AStr:
+        return self.__workflow_variables.workflow_name
