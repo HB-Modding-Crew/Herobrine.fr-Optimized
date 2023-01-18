@@ -110,13 +110,16 @@ class Workflow:
                 self.executed_steps.append(step)
                 # Execute step
                 res = instantiated_step.execute()
-                # Check if step failed
+                # Check if step failed  
                 if not res:
                     # Raise exception
                     raise WorkflowExecuteError(self.__workflow_variables.id)
 
             # End execute workflow log
             print(self.output_wrapper_workflow.fill(WorkflowConsts.EXECUTE_WORKFLOW_DONE_FORMAT.format(workflow_name=self.__workflow_variables.workflow_name)))
+        except WorkflowExecuteError as e:
+            # Raise exception
+            raise e from e.__cause__
         except Exception as e:
             # Raise exception
             raise WorkflowExecuteError(self.__workflow_variables.id) from e

@@ -1,0 +1,12 @@
+{
+    "name": "My Awesome Project",
+    "version": "1.0.0",
+    "workflows": [
+        "testworkflow"
+    ],
+    "variables": {
+        "modpack_name": "Herobrine.fr-Optimized",
+        "minecraft_version": "1.19.2",
+        "curseforge_instance": "Herobrine.fr-Optimized"
+    }
+}

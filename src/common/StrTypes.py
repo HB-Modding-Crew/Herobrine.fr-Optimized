@@ -23,6 +23,11 @@ class RestrictedStringCharacters(UserString):
         if not all(c in allowed for c in value):
             raise RestrictedCharactersError(value, allowed)
 
+    def __add__(self, other: object) -> AStr:
+        if not isinstance(other, RestrictedStringCharacters):
+            return str(self) + str(other)
+        return str(self) + str(other)
+
 
 class DisplayName(RestrictedStringCharacters):
     """A string that can only contain a restricted set of characters.
@@ -33,7 +38,7 @@ class DisplayName(RestrictedStringCharacters):
 
         :param value: String value
         """
-        super().__init__(value, "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_ ")
+        super().__init__(value, "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_- ")
 
 
 class NoSpaceString(RestrictedStringCharacters):
@@ -45,4 +50,4 @@ class NoSpaceString(RestrictedStringCharacters):
 
         :param value: String value
         """
-        super().__init__(value, "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_")
+        super().__init__(value, "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_-")

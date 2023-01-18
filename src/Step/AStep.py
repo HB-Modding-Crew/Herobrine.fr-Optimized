@@ -130,7 +130,7 @@ class AStep:
         :param message:
         :return:
         """
-        print(self.output_wrapper_step.fill(message))
+        print(self.output_wrapper_step.fill(str(message)))
 
     @staticmethod
     def input_confirmation(message: str) -> bool:

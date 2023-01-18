@@ -1,0 +1,14 @@
+{
+    "name": "TestWorkflow",
+    "steps": [
+        {
+            "name": "Update",
+            "type": "UpdateProjectFromCurseforge",
+            "id": "update",
+            "variables": {
+            }
+        }
+    ],
+    "variables": {
+    }
+}
