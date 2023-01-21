@@ -1,9 +1,0 @@
-{
-    "name": "My Awesome Project",
-    "workflows": [
-        "TestWorkflow"
-    ],
-    "variables": {
-        "name": "Test project"
-    }
-}

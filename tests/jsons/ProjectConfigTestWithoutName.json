@@ -1,8 +1,0 @@
-{
-    "variables": {
-        "test": "test"
-    },
-    "workflows": [
-        "Test"
-    ]
-}
