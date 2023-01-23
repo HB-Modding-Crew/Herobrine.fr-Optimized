@@ -1,0 +1,36 @@
+name = "Herobrine.fr - Optimized"
+author = "Hb Modding Crew"
+description = "Improve graphics and perfomances for roleplayers of Herobrine.fr"
+
+[[Resource]]
+name = "Don't Clear Chat History"
+filename = "DCCH-1.18.x.jar" 
+url = "https://cdn.modrinth.com/data/sUbMm93i/versions/2.0+1.17/DCCH-2.0+1.17.jar"
+
+[[Resource]]
+filename = "farsight.fabric-1.18-1.9.jar" 
+action = "remove"
+
+[[Resource]]
+filename = "farsight-fabric-1.19-2.1.jar" 
+url = "https://cdn.modrinth.com/data/LXJlc5WJ/versions/TbJQtyy8/holdthatchunk-2.0.1%2B1.19.jar"
+
+[[Resource]]
+name = "Mod Menu Helper"
+filename = "Mod Menu Helper.zip"
+action = "override"
+
+[[Resource]]
+name = "PACK_HB_FUTURE_VERSION"
+filename = "PACK_HB_FUTURE_VERSION.zip"
+action = "override"
+
+[[Resource]]
+name = "LonguesGlacesNeige"
+filename = "LonguesGlacesNeige.zip"
+action = "override"
+
+[[File]]
+name = "Copy all 3 folders!"
+filename = "Copy all 3 folders!"
+action = "remove"
