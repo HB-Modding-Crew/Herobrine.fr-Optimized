@@ -1,0 +1,13 @@
+name = "Language Reload"
+filename = "language-reload-1.5.4+1.19.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uLbm7CG6/versions/KUSFTKSq/language-reload-1.5.4%2B1.19.2.jar"
+hash-format = "sha512"
+hash = "90979dba7eda514e9f4b23082a01d4c330fc2879c9214bca13a4a02355e4e72c090ab5bfa2f26b04281e28d29581977e4926da2aaca08b97ccebc978c7682dc2"
+
+[update]
+[update.modrinth]
+mod-id = "uLbm7CG6"
+version = "KUSFTKSq"

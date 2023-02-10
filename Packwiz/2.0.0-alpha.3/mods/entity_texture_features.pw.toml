@@ -1,0 +1,13 @@
+name = "Entity Texture Features - [Fabric & Forge]"
+filename = "entity_texture_features_fabric_1.19.2-4.3.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BVzZfTc1/versions/iBJRmSSb/entity_texture_features_fabric_1.19.2-4.3.1.jar"
+hash-format = "sha512"
+hash = "e183db1da57ed04422caf15dae998c9ee31959ca5b9a1d9003b6351cf4102353117da9336bb3e5eabe4ccdfafb52dd653bda4583403a992bec810e5c82802f72"
+
+[update]
+[update.modrinth]
+mod-id = "BVzZfTc1"
+version = "iBJRmSSb"

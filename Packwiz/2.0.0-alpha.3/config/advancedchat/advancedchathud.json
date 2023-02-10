@@ -1,0 +1,169 @@
+{
+  "general": {
+    "vanillHud": false,
+    "chatHeads": true,
+    "tabButtonsOnRight": false,
+    "width": 280,
+    "height": 117,
+    "x": 0,
+    "y": 30,
+    "messageSpace": 1,
+    "lineSpace": 9,
+    "leftPad": 2,
+    "rightPad": 4,
+    "bottomPad": 1,
+    "topPad": 0,
+    "visibility": "vanilla",
+    "advancedchathud.config.general.chatScale": 1.0,
+    "fadeTime": 40,
+    "fadeStart": 100,
+    "fadeType": "linear",
+    "emptyTextColor": "#FFFFFFFF",
+    "hudLineType": "full",
+    "alternateLines": false,
+    "storedLines": 1000,
+    "renderInOther": true,
+    "scrollTime": 200,
+    "scrollType": "quart",
+    "changeStartMessage": true
+  },
+  "maintab": {
+    "name": "All",
+    "order": 0,
+    "startingMessage": "",
+    "forward": true,
+    "abbreviation": "All",
+    "mainColor": "#643F3F3F",
+    "borderColor": "#B4000000",
+    "innerColor": "#64000000",
+    "showUnread": true,
+    "match": [
+      {
+        "pattern": "I will match to text!",
+        "findtype": "literal"
+      }
+    ],
+    "uuid": "2a5d1164-bd2a-4a44-a55b-160725cd5ca3"
+  },
+  "tabs": [
+    {
+      "name": "Télépathie",
+      "order": 2,
+      "startingMessage": "",
+      "forward": true,
+      "abbreviation": "TLP",
+      "mainColor": "#643F3F3F",
+      "borderColor": "#B4000000",
+      "innerColor": "#64000000",
+      "showUnread": false,
+      "match": [
+        {
+          "pattern": "\u003c.*[^\\]]\u003e [^\\(].*",
+          "findtype": "regex"
+        }
+      ],
+      "uuid": "a1e69114-71cf-4b75-90a0-524b12d409a9"
+    },
+    {
+      "name": "RP",
+      "order": 2,
+      "startingMessage": "",
+      "forward": true,
+      "abbreviation": "RP",
+      "mainColor": "#643F3F3F",
+      "borderColor": "#B4000000",
+      "innerColor": "#64000000",
+      "showUnread": false,
+      "match": [
+        {
+          "pattern": "\u003c.*[^\\]]\u003e [^\\(].*",
+          "findtype": "regex"
+        },
+        {
+          "pattern": "\u003c.* \\[dit\\]\u003e .*",
+          "findtype": "regex"
+        },
+        {
+          "pattern": "\u003c.* \\[dit bas\\]\u003e .*",
+          "findtype": "regex"
+        },
+        {
+          "pattern": "\u003c.* \\[dit fort\\]\u003e .*",
+          "findtype": "regex"
+        },
+        {
+          "pattern": "\u003c.* \\[chuchote\\]\u003e .*",
+          "findtype": "regex"
+        },
+        {
+          "pattern": "\u003c.* \\[crie\\]\u003e .*",
+          "findtype": "regex"
+        },
+        {
+          "pattern": "\\*+ .*",
+          "findtype": "regex"
+        },
+        {
+          "pattern": "\\*[^ \\*].*",
+          "findtype": "regex"
+        }
+      ],
+      "uuid": "076c958e-c21c-43c4-b430-a92595ae7d9f"
+    },
+    {
+      "name": "Messages et HRP",
+      "order": 5,
+      "startingMessage": "",
+      "forward": true,
+      "abbreviation": "MSG/HRP",
+      "mainColor": "#643F3F3F",
+      "borderColor": "#B4000000",
+      "innerColor": "#64000000",
+      "showUnread": false,
+      "match": [
+        {
+          "pattern": ".* \u003e .* : .*",
+          "findtype": "regex"
+        },
+        {
+          "pattern": "\u003c.*[^\\]]\u003e \\(.*",
+          "findtype": "regex"
+        }
+      ],
+      "uuid": "9543774f-1ca4-478a-8be2-c2b536a27231"
+    },
+    {
+      "name": "Enca",
+      "order": 4,
+      "startingMessage": "",
+      "forward": true,
+      "abbreviation": "ENCA",
+      "mainColor": "#643F3F3F",
+      "borderColor": "#B4000000",
+      "innerColor": "#64000000",
+      "showUnread": false,
+      "match": [
+        {
+          "pattern": "\\*+ .*",
+          "findtype": "regex"
+        }
+      ],
+      "uuid": "902d6c81-4d2d-4330-a358-79072b8dcbeb"
+    }
+  ],
+  "windows": [
+    {
+      "x": 0.0,
+      "y": 0.8902077151335311,
+      "width": 0.4390625,
+      "height": 0.47774480712166173,
+      "visibility": "vanilla",
+      "tabuuid": "2a5d1164-bd2a-4a44-a55b-160725cd5ca3",
+      "selected": true,
+      "renderRight": false,
+      "renderTopFirst": false,
+      "minimalist": true
+    }
+  ],
+  "config_version": 1
+}

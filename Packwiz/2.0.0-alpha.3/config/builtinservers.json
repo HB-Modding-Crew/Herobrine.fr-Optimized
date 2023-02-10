@@ -1,0 +1,10 @@
+{
+    "badgeVisible": true,
+    "builtinServers": [
+        {
+            "name": "Herobrine.fr",
+            "address": "137.74.234.16:2001",
+            "forced": true
+        }
+    ]
+}
