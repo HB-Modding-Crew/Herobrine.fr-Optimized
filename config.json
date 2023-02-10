@@ -5,7 +5,8 @@
         "config",
         "mods",
         "resourcepacks",
-        "options.txt"
+        "options.txt",
+        "FancyMenuMedias"
     ],
     "modpack_name": "Herobrine.fr-Optimized"
 }
