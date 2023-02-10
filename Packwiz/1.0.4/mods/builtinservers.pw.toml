@@ -1,0 +1,13 @@
+name = "Builtin Servers"
+filename = "builtin-servers-2.0-BETA+1.19.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/IupkwRPf/versions/2.0-BETA%2B1.19/builtin-servers-2.0-BETA%2B1.19.jar"
+hash-format = "sha512"
+hash = "97259360a1be4154c37e4c6742208bd4938b8b5f38322cd41bed631d6f67a855536e262910234f9b6780cdee1d7c15fa2d684a97d1c76652b8e3e981c94c25b1"
+
+[update]
+[update.modrinth]
+mod-id = "IupkwRPf"
+version = "ODShZHOU"
