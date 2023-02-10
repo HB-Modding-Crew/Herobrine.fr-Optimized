@@ -2,7 +2,7 @@
 
 [![Built on Fabulously Optimized](https://raw.githubusercontent.com/intergrav/devins-badges/v2/assets/cozy/built-with/fabulously-optimized_64h.png)](https://github.com/Fabulously-Optimized/fabulously-optimized)
 
-[![Github](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/github_vector.svg)](https://github.com/HB-Modding-Crew/Herobrine.fr-Optimized/releases)[![Curseforge](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/curseforge_vector.svg)](https://www.curseforge.com/minecraft/modpacks/herobrine-fr-optifine-alternative/files)[![Modrinth](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg)](https://modrinth.com/modpack/fabulously-optimized)
+[![Github](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/github_vector.svg)](https://github.com/HB-Modding-Crew/Herobrine.fr-Optimized/releases) [![Curseforge](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/curseforge_vector.svg)](https://www.curseforge.com/minecraft/modpacks/herobrine-fr-optifine-alternative/files) [![Modrinth](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg)](https://modrinth.com/modpack/fabulously-optimized)
 
 Un modpack basé sur Fabric pour Minecraft qui se concentre sur les performances et les optimisations graphiques. Fork du modpack [Fabulously Optimized](https://github.com/Fabulously-Optimized/fabulously-optimized) adapté pour pour le roleplay sur [Herobrine.fr](https://www.herobrine.fr/index.php?p=whatsnew).
 
