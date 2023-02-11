@@ -1,0 +1,10 @@
+# Text files should be auto, unless it's an OS specific file
+# This is also enforced in .editorconfig but since not everyone will have that handle it via Git too
+# and hope they don't fight lol
+* text=crlf
+*.bat eol=crlf
+*.sh eol=lf
+*.pyc binary
+
+.vscode/*.json linguist-language=jsonc
+*.all-contributorsrc linguist-language=json

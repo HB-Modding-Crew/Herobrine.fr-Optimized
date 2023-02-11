@@ -11,3 +11,6 @@ hash = "25e325086052c75c9110a85a22bc8d626d99aec43ca4b5b29f5e9c41c623c7f1c644169a
 [update.modrinth]
 mod-id = "lBFvglCF"
 version = "AirldNcO"
+
+[option]
+optional = true
