@@ -30,11 +30,11 @@ hash = "2ba66afa526d710c9b24d2f9b743cdf92634d45de63d16b0e856a2423a6fbf3b"
 
 [[files]]
 file = "config/colormatic.properties"
-hash = "3dd3d96df0e45bb69a52846af7994995e6ea80804f844e7e9adb64a2040ce9d3"
+hash = "4286a06a31a56c4da75c102d2f58ef920640ee5360dced5a61330f13011c14e1"
 
 [[files]]
 file = "config/builtinservers.json"
-hash = "59d9a3421b06f76899ad02989671dd57860607e94ba9d78c84d689fa8e2f7651"
+hash = "2beaed4c982ff6ff5bd3691e5ccbcefaa541df1e12494c9f8a1b3f23bb2bbb88"
 
 [[files]]
 file = "config/capes.json5"
@@ -42,11 +42,11 @@ hash = "f3557f3ee0e8693f06c1942d4352cb3a43e783614f324d19277b149b40b9cbbd"
 
 [[files]]
 file = "config/ferritecore.mixin.properties"
-hash = "647c97bf8ba08a082324b85ed87ae43356109953b4140fe57847cf7b97448ecd"
+hash = "b95fd739ebab8995117722aaac90aab6bea1aeec3a29b5170e332a69dc6408b6"
 
 [[files]]
 file = "config/lambdabettergrass.toml"
-hash = "5f3efdb858e5044195015292c4de7f976d10746b6bbe88adefc29aafe986386b"
+hash = "34ece0d2f9f699ecabfeb5ab46ff4bbfa8e7a52a36e5c879b581e93b184bd5e1"
 
 [[files]]
 file = "config/modmenu.json"
@@ -78,11 +78,11 @@ hash = "0bb77460e60ef6c004e8b024eec10ef4527e603baab90ccfd9733483c7ebcebf"
 
 [[files]]
 file = "config/lambdynlights.toml"
-hash = "3d9a914b30b7ce9b1201a9c302536b96913dc9cbece0f10faa625f2e7f11fc33"
+hash = "8806e60021c029732ff2d3d775f7aaeffd9f47f8f99baad091975bdcba73547a"
 
 [[files]]
 file = "config/fabrishot.properties"
-hash = "1dcfef3ebaf23e7b79b43cd903125f59c0cae3f041f97251858e0c10f104bc0d"
+hash = "1a5bdc9cf98b3a2c49906cb0bac703a003301bb4715ea2b667db3e2557ac1492"
 
 [[files]]
 file = "config/entityculling.json"
@@ -94,7 +94,7 @@ hash = "051558518a6f3350fadb1546346d937e7f78f69834a075bf91b59921f151cc26"
 
 [[files]]
 file = "config/iris.properties"
-hash = "b8c703c520a03e7b071c2dcc689594e3bdc04d3daa9d1b953b014aebfa8ab6e7"
+hash = "ac79bc15d359114015cbe00ffdb77df06fa14b0c3b45ceeded9dc3b84526be96"
 
 [[files]]
 file = "config/citresewn-defaults.json"
@@ -106,7 +106,7 @@ hash = "f2670360ee57c7a174ba387503ab45c6d3befc57e0c5e933f4dbd4b46926a303"
 
 [[files]]
 file = "config/languagereload.json"
-hash = "01336df7e7dcd8b8523f4698a194d2547e79a0606470279fea24f84174330a4f"
+hash = "df25f5cb6c903c6c4e0012e83bd0034b238cc184d5c8ae7c6dc4596f034dd761"
 
 [[files]]
 file = "config/citresewn.json"
@@ -150,11 +150,11 @@ hash = "ca9e7616ad186e4f58161bdc6ac03fae2ce569f62e75f30307be2d50ab282cac"
 
 [[files]]
 file = "config/indium-renderer.properties"
-hash = "8e6321403f3ae6fd5800beea91d3b2a5ee517420197604f16801731565b79760"
+hash = "4ac0e3b4cd8a74d2eca60e7a4049d1bad3dec04f47dd79f5579c03de6cb99a5d"
 
 [[files]]
 file = "config/rrp.properties"
-hash = "2fd86b06cf329cbd28640aae5cdd86b8ad4cb278f0abec6705768a575eea8b16"
+hash = "03f51eeeac99d4db4cebd71799bf4efdaf2b3db277a225dfa444e2069ce064d5"
 
 [[files]]
 file = "config/tr7zwDonorSettings.json"
@@ -170,7 +170,7 @@ hash = "00267a602028cbb037dcb0b5f803db31bed284235ca9c1ea189ad4179311a2f4"
 
 [[files]]
 file = "config/enhanced_bes.properties"
-hash = "ca533d8079e7965ac14e70ffdc6d6af3b0dc7cb40a94a62e5b328744fe026216"
+hash = "ba8711d6475e80649b7fc8df7c369a16226b11a98216ba85c24822613294adc4"
 
 [[files]]
 file = "config/sodium-extra-options.json"
@@ -186,7 +186,7 @@ hash = "d741b952938056e5c6d07bc3f85b28cbdb4f074ced9ab97220fcba2a43616b68"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "425bc5c9ae60d556ac6bcfd60781f24ba20fab24cff030915b13a32b21eb54ff"
+hash = "14b029558085434479bddaa3c0eac9cce621f2095a315ce0b773f8a6c2ab74e9"
 
 [[files]]
 file = "config/NoChatReports/README.md"
@@ -210,7 +210,7 @@ hash = "df34a1ed7b309c08deaf42c906fa2ea6f29bb3bf8395ce26593fac4834938496"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "7489d3ce0df6cfb39ad7342821926b367adf9c1d0cc144bd0cec9c07f42e013d"
+hash = "eb12da6f1420232577a3abcfcb94daa866345431273c93bfe17c6c8c2e3ae782"
 
 [[files]]
 file = "config/yosbr/config/sodium-options.json"
@@ -222,11 +222,11 @@ hash = "acc20d0a92edcf0497ebb62c7c673a8d9c99d872890bb53027722390f453e9dc"
 
 [[files]]
 file = "config/yosbr/config/colormatic.properties"
-hash = "3dd3d96df0e45bb69a52846af7994995e6ea80804f844e7e9adb64a2040ce9d3"
+hash = "4286a06a31a56c4da75c102d2f58ef920640ee5360dced5a61330f13011c14e1"
 
 [[files]]
 file = "config/yosbr/config/builtinservers.json"
-hash = "59d9a3421b06f76899ad02989671dd57860607e94ba9d78c84d689fa8e2f7651"
+hash = "2beaed4c982ff6ff5bd3691e5ccbcefaa541df1e12494c9f8a1b3f23bb2bbb88"
 
 [[files]]
 file = "config/yosbr/config/capes.json5"
@@ -234,7 +234,7 @@ hash = "7de3087b5a435f770ed45b1b73ac9b37f3d36ab2fd71a1404d7a49e299738821"
 
 [[files]]
 file = "config/yosbr/config/lambdabettergrass.toml"
-hash = "5f3efdb858e5044195015292c4de7f976d10746b6bbe88adefc29aafe986386b"
+hash = "34ece0d2f9f699ecabfeb5ab46ff4bbfa8e7a52a36e5c879b581e93b184bd5e1"
 
 [[files]]
 file = "config/yosbr/config/modmenu.json"
@@ -250,11 +250,11 @@ hash = "c869b1e1cf73b7b0d5ca03e4657fdbed845d85ab5aca0449248fd144545ecfb7"
 
 [[files]]
 file = "config/yosbr/config/lambdynlights.toml"
-hash = "3d9a914b30b7ce9b1201a9c302536b96913dc9cbece0f10faa625f2e7f11fc33"
+hash = "8806e60021c029732ff2d3d775f7aaeffd9f47f8f99baad091975bdcba73547a"
 
 [[files]]
 file = "config/yosbr/config/iris.properties"
-hash = "3f5878535aacbfea79ae6da2f9142963f5662af3141692f0ba945767c9096ce5"
+hash = "08b789827f7cbfaf5bffd5aedb6dfe9889e216e87be4674299781934658767af"
 
 [[files]]
 file = "config/yosbr/config/citresewn-defaults.json"
@@ -298,7 +298,7 @@ hash = "00267a602028cbb037dcb0b5f803db31bed284235ca9c1ea189ad4179311a2f4"
 
 [[files]]
 file = "config/yosbr/config/enhanced_bes.properties"
-hash = "ca533d8079e7965ac14e70ffdc6d6af3b0dc7cb40a94a62e5b328744fe026216"
+hash = "ba8711d6475e80649b7fc8df7c369a16226b11a98216ba85c24822613294adc4"
 
 [[files]]
 file = "config/yosbr/config/borderlessmining.json"
