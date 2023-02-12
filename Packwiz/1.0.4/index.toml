@@ -321,12 +321,12 @@ file = "resourcepacks/Mod Menu Helper.zip"
 hash = "10a431f2271950c30595aaa47bb616a94ba692181adc0e90826b69f748c553a9"
 
 [[files]]
-file = "resourcepacks/LonguesGlacesNeige.zip"
-hash = "41ad6f3776974119c872ad0bb0182dc9ee4d6bec7903cfa0dfdc264777bf9ddf"
-
-[[files]]
 file = "resourcepacks/PACK_HB_FUTURE_VERSION.zip"
 hash = "a3077312ba9735a731a2b63a93ddb0ecb7b81e8f812e0474f5cb18b432dbcd57"
+
+[[files]]
+file = "resourcepacks/LonguesGlacesNeige.zip"
+hash = "41ad6f3776974119c872ad0bb0182dc9ee4d6bec7903cfa0dfdc264777bf9ddf"
 
 [[files]]
 file = "mods/dynamicfps.pw.toml"
