@@ -426,11 +426,6 @@ hash = "f27f3b2e2777f7e353e6c02c5899393c1c02f784b6ca14b5c0fa9dcfbe11e0b4"
 metafile = true
 
 [[files]]
-file = "mods/languagereload.pw.toml"
-hash = "b24968bf45d2c5df88cb5284bc10040cb4af59dc66cb18b8aaed86e8975a0217"
-metafile = true
-
-[[files]]
 file = "mods/fancymenu.pw.toml"
 hash = "e84ef884a37832616d4fab1cc8304842e307d3994f62468a36f7562b974bc5fb"
 metafile = true
