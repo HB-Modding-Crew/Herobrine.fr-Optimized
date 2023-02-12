@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "arikeys.txt"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "icon.png"
-hash = "17ebce97a0fe7506d14863d7e4daa5db083d6feed3d61640f33321eff4c0016e"
-
-[[files]]
 file = "config/crowdin.txt"
 hash = "fadbd1094e4079597c631b59da43ea2e315aa610c47282045384e888894ecc41"
 
@@ -18,7 +10,7 @@ hash = "f67460631e5dd59fd646347174cfe7b8de38be6556bb928bea4619cbd6f32616"
 
 [[files]]
 file = "config/sodium-options.json"
-hash = "d5b0ba2f9789b5230567879cec661573698496a86ae129fae408f73491b86099"
+hash = "02f8b740d03e1a5fb4354b6b6abfcf8716e99c51572e43f4feabf59837626faa"
 
 [[files]]
 file = "config/smoothboot.json"
@@ -26,23 +18,19 @@ hash = "7eb2c9832f1adc79eb19fe0c0262d9cb7ed551cc59f79d4bdcf9373c3194c2c5"
 
 [[files]]
 file = "config/gamecontrollerdatabase.txt"
-hash = "bdcebe748e8d003a094778bca8a675f9c87ecbe7d5f502ae37b6d2a9e9fdec72"
+hash = "1d2193c4a89032787429c16d5e4d4060838dcf65b29acf346373f8b846d16d30"
 
 [[files]]
 file = "config/holdthatchunk.json"
 hash = "acc20d0a92edcf0497ebb62c7c673a8d9c99d872890bb53027722390f453e9dc"
 
 [[files]]
-file = "config/notenoughanimations.json"
-hash = "d7645024f541857dfe9e097c45e1306274b6ec0f26dcd80cc888f9c701920205"
-
-[[files]]
 file = "config/puzzle.json"
-hash = "224b790101a288e4a659c6d54f90736c26fa3305455d3549b5665e123006bdce"
+hash = "2ba66afa526d710c9b24d2f9b743cdf92634d45de63d16b0e856a2423a6fbf3b"
 
 [[files]]
 file = "config/colormatic.properties"
-hash = "6bce934d1b596e180d7c355bb5c4085fb5ea3f558a4bf9eb2cacc79993040270"
+hash = "3dd3d96df0e45bb69a52846af7994995e6ea80804f844e7e9adb64a2040ce9d3"
 
 [[files]]
 file = "config/builtinservers.json"
@@ -65,16 +53,16 @@ file = "config/modmenu.json"
 hash = "d1d9c5f35f12e141b481457831dce52f2a381ccda7272ad432c16ed0fc1ff7a8"
 
 [[files]]
-file = "config/adaptive-tooltips.json"
-hash = "d861667098b663aa703540e28e8b1c0e2ceeab52d26c95d05e0a7181f07529c4"
-
-[[files]]
 file = "config/zoomify.json"
 hash = "8d61a625f65493f3e4f40f5e49cd0d5405b6e105b2d9c005950f78dbfb2095fa"
 
 [[files]]
 file = "config/cem.conf"
 hash = "c869b1e1cf73b7b0d5ca03e4657fdbed845d85ab5aca0449248fd144545ecfb7"
+
+[[files]]
+file = "config/advancementinfo.json5"
+hash = "82fb3f9fd7931ded27c4c0cc78b86bed8a82e2d17b587f26f3a094a8589e13e6"
 
 [[files]]
 file = "config/cull-less-leaves.json"
@@ -86,19 +74,15 @@ hash = "76765e8e5ff8e927d80beb0739aababcf36e7babfd94262f2afece256cc5cd2e"
 
 [[files]]
 file = "config/debugify.json"
-hash = "c3b0a39030d7d2f63059b8b9c1aa70b101874830099e9b1244e8f03eb67c531d"
-
-[[files]]
-file = "config/skinswapper.json"
-hash = "1a1e32ae3777ef8baacfb04f9c6afad987d1e7335a11e06c8c99a8f157df5925"
+hash = "0bb77460e60ef6c004e8b024eec10ef4527e603baab90ccfd9733483c7ebcebf"
 
 [[files]]
 file = "config/lambdynlights.toml"
-hash = "4e2a27ffec3034f897c490875e79682d6f72a49ae960da564e002667d71db8c8"
+hash = "3d9a914b30b7ce9b1201a9c302536b96913dc9cbece0f10faa625f2e7f11fc33"
 
 [[files]]
 file = "config/fabrishot.properties"
-hash = "1a55232ce829fe4543bc7f70139205307f9cb5dd7cf6539afd1f8571fe8f97c4"
+hash = "1dcfef3ebaf23e7b79b43cd903125f59c0cae3f041f97251858e0c10f104bc0d"
 
 [[files]]
 file = "config/entityculling.json"
@@ -110,7 +94,7 @@ hash = "051558518a6f3350fadb1546346d937e7f78f69834a075bf91b59921f151cc26"
 
 [[files]]
 file = "config/iris.properties"
-hash = "29b04dc189a63193469d8a2df829850f2270f7cbb7e859bce817437424455b62"
+hash = "b8c703c520a03e7b071c2dcc689594e3bdc04d3daa9d1b953b014aebfa8ab6e7"
 
 [[files]]
 file = "config/citresewn-defaults.json"
@@ -122,7 +106,7 @@ hash = "f2670360ee57c7a174ba387503ab45c6d3befc57e0c5e933f4dbd4b46926a303"
 
 [[files]]
 file = "config/languagereload.json"
-hash = "549ce543c25bf474db32fc9770b798dd1acda154214bad1250b4634a074307ec"
+hash = "01336df7e7dcd8b8523f4698a194d2547e79a0606470279fea24f84174330a4f"
 
 [[files]]
 file = "config/citresewn.json"
@@ -134,7 +118,7 @@ hash = "1966f13d3dbb8a4e9ef746f08468fc5b583bb5dc82ce187cacbf60da0cf2e585"
 
 [[files]]
 file = "config/debugify-descriptions.json"
-hash = "b09f0237bd0131c13037c8fec0ccd4ac2662eb6c5979735da5093cee53883bcb"
+hash = "9e0cfe1421d7f9bd81e0f00b8aa158f8e92bb4864e2674b4c6f5f0cda10db4fe"
 
 [[files]]
 file = "config/sodium-extra.properties"
@@ -142,11 +126,15 @@ hash = "a2f1b47c1eaa119ab34727f1d43c2506cb3d7f17ba8fb4efb49e20c8e0b58e70"
 
 [[files]]
 file = "config/farsight.json"
-hash = "98a9f53e1e21247108a90e80b9cf4141fd7b432e219a262672ffedd5730afbab"
+hash = "7a9309407d0c2a571b4202c361d572212547f43cffb23b57b00d95f727055d62"
 
 [[files]]
 file = "config/dynamicfps.toml"
-hash = "d8630af251e1ebc98a7aa009758963d69218be385b9eaa40dae5f3745f74aea9"
+hash = "00adc4f855ed41412f3c3eb48b859c4ae68b5f2c30ba4c332e66f38e79a0c449"
+
+[[files]]
+file = "config/fabric_loader_dependencies.json"
+hash = "ac6ffe48afd1e9e00770eddb4c667e49d26d6b8647a3937ed5550b3e198954eb"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
@@ -158,15 +146,15 @@ hash = "f7f7122784c7a6bcdb034e663fd756e16ffe69a668cb1b334e2be622f8c7bd55"
 
 [[files]]
 file = "config/midnightcontrols.json"
-hash = "b792f2977c2889e388d0a0e83e316ed4f27050729d86c8623e8472accb8a2a46"
+hash = "ca9e7616ad186e4f58161bdc6ac03fae2ce569f62e75f30307be2d50ab282cac"
 
 [[files]]
 file = "config/indium-renderer.properties"
-hash = "48fbc19063aabd810cf5ad56c1230020f99aa047ee6a602f1037bccfc83d0f27"
+hash = "8e6321403f3ae6fd5800beea91d3b2a5ee517420197604f16801731565b79760"
 
 [[files]]
 file = "config/rrp.properties"
-hash = "181e0548193884c014d51e7a31faf84aeb6002789c56dc2fe6c9c9c48662d226"
+hash = "2fd86b06cf329cbd28640aae5cdd86b8ad4cb278f0abec6705768a575eea8b16"
 
 [[files]]
 file = "config/tr7zwDonorSettings.json"
@@ -174,7 +162,7 @@ hash = "ef73ff0fcd6f7e7f3727f493ab61fdc8a65d710475426a55f72eb772ef0ed309"
 
 [[files]]
 file = "config/entity_texture_features.json"
-hash = "ecd23bec14e35fc30628099320e6c64587c0241be668f6ec9b9ba8af99f6b311"
+hash = "20d11f8a36d90c2b4d0fdbae2bf105ef339976fa0527557d1ca762d8ae6622a7"
 
 [[files]]
 file = "config/continuity.json"
@@ -182,7 +170,7 @@ hash = "00267a602028cbb037dcb0b5f803db31bed284235ca9c1ea189ad4179311a2f4"
 
 [[files]]
 file = "config/enhanced_bes.properties"
-hash = "ca240423baa8bf8b0ebe242b4edeaa74bb68e3e7675fd759a460236cdfe09623"
+hash = "ca533d8079e7965ac14e70ffdc6d6af3b0dc7cb40a94a62e5b328744fe026216"
 
 [[files]]
 file = "config/sodium-extra-options.json"
@@ -193,132 +181,12 @@ file = "config/animatica.properties"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
-file = "config/firstperson.json"
-hash = "89ce0f258ca66314aa9af1f2048809cece0de23293ae79dad629a722549bd10b"
-
-[[files]]
 file = "config/borderlessmining.json"
-hash = "eec64e18df0ed6ff0b5062c505701b290ab4610d399dd21552e00de04682514b"
-
-[[files]]
-file = "config/malilib.json"
-hash = "a4976d6a5206a02939ee0ad164b06eb0bd0530dc5ffff42c9372327d1f5e5b64"
-
-[[files]]
-file = "config/fancyvideo-api.cfg"
-hash = "20dd949772e9f00f0e16c280087a3dceaf3d158ef1612629a557b645d5335c98"
-
-[[files]]
-file = "config/presencefootsteps/updater.json"
-hash = "1e7c61df09c105e1eeca8cf3dcbdfeb976700e9904bcb3983fc7791adb7fad2e"
-
-[[files]]
-file = "config/presencefootsteps/userconfig.json"
-hash = "14ecffcc36f1ae6bd504a2c0dce55c7e3c196908df8449466ae5092dcf777119"
+hash = "d741b952938056e5c6d07bc3f85b28cbdb4f074ced9ab97220fcba2a43616b68"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "d9f09930b21bccb37d1698a4a539eb93d9c1f07c2e14b89d1b976313db320b03"
-
-[[files]]
-file = "config/.puzzle_cache/mojangstudios.png"
-hash = "27b2ea2946ca5b00841ce7d1813b42dfb7e36b12ad50c7c9bea09053ac226cf3"
-
-[[files]]
-file = "config/konkrete/locals/pl_pl.local"
-hash = "d38a7776e362e4de6082078d803c1c9358d9d40526edfe4bdfd29c552aef76d8"
-
-[[files]]
-file = "config/konkrete/locals/en_us.local"
-hash = "fdf1864fd049b3f1b9af1f8db6c5125a627be7d06a451c778da3329843d3c39a"
-
-[[files]]
-file = "config/konkrete/locals/de_de.local"
-hash = "79a34cfd15c2d9c06498dc221be79279507d9b57666cd44f8d2c2cf95d3582ef"
-
-[[files]]
-file = "config/konkrete/locals/pt_br.local"
-hash = "dca55a2792451b31424cd5c24037141ec57cdca51955d062dd908fa9ca6a3e9c"
-
-[[files]]
-file = "config/advancedchat/colors.toml"
-hash = "f79eb281c66b4e66c3846c38aadf065956ec0ab9c406e4525aadc694681ccd58"
-
-[[files]]
-file = "config/advancedchat/advancedchatcore.json"
-hash = "1f8df224b27f38533ba5b1b4116b15eca64cfc4ac234076620a39218f363a4e4"
-
-[[files]]
-file = "config/advancedchat/advancedchathud.json"
-hash = "812e47bce81e98741058c410e198046ed1dd1b357e1890f40d4770f1146b2b9c"
-
-[[files]]
-file = "config/dsurround/dsurround.json"
-hash = "53832512be0f6949f273806bf6393196e05890bd4f12b021d85518a97eab2c43"
-
-[[files]]
-file = "config/dsurround/soundconfig.json"
-hash = "c109310f8d38eb24fdec7fc6551aad98a3ea400554dd27456ac64fd5869f92e9"
-
-[[files]]
-file = "config/fancymenu/customizablemenus.txt"
-hash = "6f839fad9a09709e9c2d1b269218da6a515ea31495575de5bdbc901147740327"
-
-[[files]]
-file = "config/fancymenu/user_variables.db"
-hash = "d2d55a621e0ca0765db2ffc20084e053b090e9076516e83b88a65b57a6d33557"
-
-[[files]]
-file = "config/fancymenu/config.txt"
-hash = "2302137c0e5224ebcf199a6b084b1b76b7414f365f36e66a961730facd1309e4"
-
-[[files]]
-file = "config/fancymenu/menu_identifiers.db"
-hash = "003a1c89846741e0eb9475089d4ed653896fd08e0b994667fae452b4ad894a72"
-
-[[files]]
-file = "config/fancymenu/extensions/fmvideo/config.cfg"
-hash = "14faaf244d0713d263529d7c566adcc0e3010931d733d7ed8e98c42bf28e424c"
-
-[[files]]
-file = "config/fancymenu/extensions/fmvideo/video_volume.properties"
-hash = "00fee1c83bd9c4372410affe6246143c86e9d6849fe91c78bbd90ad22407f1de"
-
-[[files]]
-file = "config/fancymenu/extensions/fmvideo/locals/en_us.local"
-hash = "379793218a38d5af73b1fe366cc53a7f3fba9f54a291f718ce1090dd54f49e6b"
-
-[[files]]
-file = "config/fancymenu/locals/pl_pl.local"
-hash = "66d4e9b270d4d92bffd85b13255def475d3ff6c865965deaa700be2ed1b08bc0"
-
-[[files]]
-file = "config/fancymenu/locals/en_us.local"
-hash = "6e5f6a7fce57921106335d54801ca78557bfb7db45bb10122240ec9fb6503b34"
-
-[[files]]
-file = "config/fancymenu/locals/zh_cn.local"
-hash = "50cf30919fd2c7b11f6ce246425d657e3b93dfb919a0b6fe4730dc5d9fee0d2a"
-
-[[files]]
-file = "config/fancymenu/locals/de_de.local"
-hash = "13485f1d678322a328e798c34f1ff9f7f9c690464d1050e2e7c1ea02b0f49b61"
-
-[[files]]
-file = "config/fancymenu/locals/pt_br.local"
-hash = "0b19fc1d8bd8c86435eb39886116aceb3b4554fa749561fc87be2df0157a134c"
-
-[[files]]
-file = "config/fancymenu/customization/HbTrailer2022.txt"
-hash = "29c3b8a50d66b18798b703a9f8601c1eec639cc29c9363da2d50bffd99c88c0b"
-
-[[files]]
-file = "config/fancymenu/customization/HerobrineMainMenu.txt"
-hash = "9e81dac563c9c903a50516f60cc9b7632b347cb913943bc1861ea3419fccae9c"
-
-[[files]]
-file = "config/fancymenu/customization/.disabled/Default.txt"
-hash = "be8647a7461a83ff649f73fab87b3d7ba66bf26f5768d82863b93d0f3c51e874"
+hash = "425bc5c9ae60d556ac6bcfd60781f24ba20fab24cff030915b13a32b21eb54ff"
 
 [[files]]
 file = "config/NoChatReports/README.md"
@@ -330,7 +198,7 @@ hash = "fdf38fd061bb38e0389ffb008eb33f454f762e504080e8adf2ed5e3911554a8c"
 
 [[files]]
 file = "config/NoChatReports/NCR-Client.json"
-hash = "0aeb8dabd8dde2e53e8f99f5eda765d0ae15de9eb22016ff90b9e17653aee1c6"
+hash = "7be72af68fc47f6bb11daf3f66f8112877aa6678c03d635c5da3b4ee95cec835"
 
 [[files]]
 file = "config/NoChatReports/NCR-Common.json"
@@ -453,12 +321,12 @@ file = "resourcepacks/Mod Menu Helper.zip"
 hash = "10a431f2271950c30595aaa47bb616a94ba692181adc0e90826b69f748c553a9"
 
 [[files]]
-file = "resourcepacks/PACK_HB_FUTURE_VERSION.zip"
-hash = "a3077312ba9735a731a2b63a93ddb0ecb7b81e8f812e0474f5cb18b432dbcd57"
-
-[[files]]
 file = "resourcepacks/LonguesGlacesNeige.zip"
 hash = "41ad6f3776974119c872ad0bb0182dc9ee4d6bec7903cfa0dfdc264777bf9ddf"
+
+[[files]]
+file = "resourcepacks/PACK_HB_FUTURE_VERSION.zip"
+hash = "a3077312ba9735a731a2b63a93ddb0ecb7b81e8f812e0474f5cb18b432dbcd57"
 
 [[files]]
 file = "mods/dynamicfps.pw.toml"

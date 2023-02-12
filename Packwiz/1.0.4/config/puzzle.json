@@ -1,11 +1,21 @@
 {
   "disabledIntegrations": [
-    "entity_texture_features"
+    "cem",
+    "citresewn",
+    "continuity",
+    "cullleaves",
+    "entity_texture_features",
+    "iris",
+    "lambdabettergrass",
+    "lambdynlights",
+    "dynamicfps",
+    "borderlessmining",
+    "colormatic"
   ],
-  "enablePuzzleButton": true,
+  "enablePuzzleButton": false,
   "debugMessages": false,
-  "checkUpdates": true,
-  "showPuzzleInfo": true,
+  "checkUpdates": false,
+  "showPuzzleInfo": false,
   "resourcepackSplashScreen": true,
   "unlimitedRotations": true,
   "biggerModels": true,

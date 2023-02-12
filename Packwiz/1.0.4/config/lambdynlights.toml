@@ -4,7 +4,6 @@ mode = "fancy"
 	water_sensitive_check = false
 	block_entities = true
 	entities = true
-	self = true
 	tnt = "simple"
 	creeper = "simple"
 
