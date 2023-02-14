@@ -3,7 +3,7 @@ Ceci est le changelog pour le modpack Fabric [Herobrine.fr - Optimized](https://
 
 # 1.19.2
 
-## 2.0.0-alpha.4 (En cours)
+## 2.0.0-alpha.4 (2023-02-12)
 
 <br>
 
