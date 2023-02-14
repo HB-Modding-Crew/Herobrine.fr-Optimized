@@ -81,7 +81,7 @@ Principaux changements:
 - Ajout de **Presence Footstep**, **désactivé par défaut** !
 - Ajout de **Advanced Chat Core** et **Advanced Chat HUD**, **désactivés par défaut** !
 - Ajout de **Dynamic Surrounding**, **désactivé par défaut** !
-- Ajout de **Fancy Menu** !
+- Ajout de **Fancy Menu** ! Merci à Sylakbe pour son trailer épique !
 - Ajout de **Simple Discord RPC** !
 - Ajout de **IBE Editor** !
 
