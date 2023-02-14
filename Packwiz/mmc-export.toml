@@ -8,8 +8,8 @@ filename = "Mod Menu Helper.zip"
 action = "override"
 
 [[Resource]]
-name = "PACK_HB_FUTURE_VERSION"
-filename = "PACK_HB_FUTURE_VERSION.zip"
+name = "HBCubemonde21-01-2023"
+filename = "HBCubemonde21-01-2023.zip"
 action = "override"
 
 [[Resource]]

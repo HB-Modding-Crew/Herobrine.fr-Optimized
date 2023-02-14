@@ -1,9 +1,9 @@
 {
     "curseforge_instance": "/mnt/c/Users/paulb/curseforge/minecraft/Instances/Herobrine.fr-Optimized",
-    "mmc_instance": "/mnt/c/Users/paulb/mmc-stable-windows/MultiMC/instances/Herobrine.fr-Optimized 1.0.4",
+    "mmc_instance": "/mnt/c/Users/paulb/mmc-stable-windows/MultiMC/instances/Herobrine.fr-Optimized 2.0.0-alpha.4",
     "instance_includes_list": [
         "config/yosbr",
-        "config",
+        "config/isxander-main-menu-credits.json",
         "mods",
         "resourcepacks",
         "FancyMenuMedias"

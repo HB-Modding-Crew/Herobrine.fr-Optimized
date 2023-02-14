@@ -1,8 +1,0 @@
-type = customizablemenus
-
-io.github.darkkronicle.advancedchatcore.config.gui.GuiConfig {
-}
-
-net.minecraft.class_442 {
-}
-

@@ -3,7 +3,7 @@ Ceci est le changelog pour le modpack Fabric [Herobrine.fr - Optimized](https://
 
 # 1.19.2
 
-## 2.0.0-alpha.3 (En cours)
+## 2.0.0-alpha.4 (En cours)
 
 <br>
 
@@ -79,9 +79,11 @@ Principaux changements:
 - Ajout du mod **AriKeys**. **Désactivé par défaut** car il n'a pour l'insstant aucun effet.
 - Ajout de **SkinSwapper**, **désactivé par défaut** !
 - Ajout de **Presence Footstep**, **désactivé par défaut** !
-- Ajout de **Advanced Chat Core** et **Advanced Chat HUD**, , **désactivés par défaut** !
+- Ajout de **Advanced Chat Core** et **Advanced Chat HUD**, **désactivés par défaut** !
 - Ajout de **Dynamic Surrounding**, **désactivé par défaut** !
 - Ajout de **Fancy Menu** !
+- Ajout de **Simple Discord RPC** !
+- Ajout de **IBE Editor** !
 
 <br>
 
