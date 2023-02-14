@@ -26,7 +26,7 @@ Principaux changements:
 
 <br>
 
-## Options:
+### Options:
 
 <br>
 
@@ -45,7 +45,7 @@ Principaux changements:
 - Désactivation de la **gestion de Entity Texture Feature** dans le mod **Puzzle** pour éviter un crash dans les menus.
 - Désactivation des **skins transparents** dans Entity Texture Feature au bénéfice de CustomSkinLoader. Temporaire.
 
-## Mods:
+### Mods:
 
 <br>
 
