@@ -1,0 +1,53 @@
+name: Report de problème
+description: Reporter un problème avec le modpack. Problème de performance ? Bug ? Problème de praticité ?
+labels: bug
+body:
+- type: markdown
+  attributes:
+    value: |
+      Avant de reporter un problème, [vérifiez](https://github.com/Fabulously-Optimized/fabulously-optimized/issues) qu'il n'a pas déjà été reporté.. 
+
+- type: textarea
+  attributes:
+    label: Décrivez le problème
+    description: Décrivez votre problème.
+  validations:
+    required: true
+
+- type: input
+  attributes:
+    label: Version du modpack
+    description: Quelle version du modpack utilisez vous ?
+    placeholder: Trouvez là dans le coin inférieur gauche du Menu Principal.
+  validations:
+    required: true
+
+- type: dropdown
+  attributes:
+    label: Launcher
+    description: Quel launcher utilisez vous ?
+    options:
+      - CurseForge Launcher
+      - MultiMC
+      - Prism Launcher
+      - Minecraft Launcher (vanilla)
+      - Autre (précisez dans le contexte additionel)
+  validations:
+    required: true
+
+- type: checkboxes
+  attributes:
+    label: D'autres choses.
+    description: Cochez si vous êtes dans ce cas.
+    options:
+      - label: Je viens d'update HO (précisez de quelle version vers quelle version dans le contexte)
+      - label: J'ai ajouté, désactivé ou supprimé des mods
+    
+- type: textarea
+  attributes:
+    label: Contexte additionel
+    description: Images, vidéos, logs et informations complémentaires
+    placeholder: |
+      Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+  validations:
+    required: false

@@ -1,0 +1,81 @@
+name: REquête de mod
+description: Suggérez un nouveau mod pour HO
+labels: mod
+body:
+- type: markdown
+  attributes:
+    value: |
+      ## Mod name ⤴️
+      Avant de demandez un mod, [s'il vous plaît vérifiez](https://github.com/HB-Modding-Crew/Herobrine.fr-Optimized/issues) que la demande n'a pas déjà été faite.
+
+- type: input
+  attributes:
+    label: Lien CurseForge
+    description: Renseignez si il existe.
+    placeholder: https://www.curseforge.com/minecraft/mc-mods/...
+  validations:
+    required: false
+      
+- type: dropdown
+  attributes:
+    label: Distribution CurseForge du mod
+    description: A remplir si le mod est sur CurseForge.
+    multiple: false
+    options:
+      - Allowed
+      - Not allowed
+  validations:
+    required: false
+    
+- type: markdown
+  attributes:
+    value: |
+      1. Go to https://cflookup.com
+      2. Paste the mod link to "Project Id / Slug" and click `Search project`
+      3. Look at the `Mod Distribution` value and select it above
+
+- type: input
+  attributes:
+    label: Lien Modrinth
+    description: Renseignez si il existe.
+    placeholder: https://modrinth.com/mod/...
+  validations:
+    required: false
+
+- type: input
+  attributes:
+    label: Sources et autres liens
+    description: Un repository Github ? Optionnel
+    placeholder: https://...
+  validations:
+    required: false
+
+- type: textarea
+  attributes:
+    label: Que fait-il ?
+    description: Une description courte.
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Pourquoi dans Herobrine.fr-Optimized ?
+    description: Quels sont les bénéfices pour l'expérience RP, la qualité de vie, ou autre ?
+  validations:
+    required: false
+
+- type: textarea
+  attributes:
+    label: Des défauts ?
+    description: C'est important aussi
+    placeholder: |
+      Examples: not available in CurseForge/Modrinth, still in beta, depends on something, has confusing settings, not very vanilla-like etc.
+  validations:
+      required: false
+    
+- type: textarea
+  attributes:
+    label: Détails additionels
+    description: Anything else you want to add?
+  validations:
+    required: false

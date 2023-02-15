@@ -1,0 +1,24 @@
+name: Changement de setting
+description: Suggérez un changement dans les options par défaut du modpack
+labels: option
+body:
+- type: textarea
+  attributes:
+    label: Quelle configuration est à changer ?
+    description: Décrivez le changement.
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Pourquoi ?
+    description: Quel est le bénéfice pour le modpack et ses joueurs ?
+  validations:
+    required: true
+    
+- type: textarea
+  attributes:
+    label: Contexte additionel
+    description: Autre chose à ajouter ?
+  validations:
+    required: false
