@@ -1,3 +1,10 @@
 name: Tâche interne
 about: N'utilisez pas ce type d'issue a part si un contributeur vous l'a demandé.
 labels: intern
+body:
+- type: textarea
+  attributes:
+    label: Tâche interne
+    description: Qu'y a-t-il à faire ?
+  validations:
+    required: false
