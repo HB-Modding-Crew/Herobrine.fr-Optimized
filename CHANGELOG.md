@@ -7,10 +7,6 @@ Ceci est le changelog pour le modpack Fabric [Herobrine.fr - Optimized](https://
 
 <br>
 
-En cours
-
-<br>
-
 ### Options:
 
 - Désactivation de l'accès aux **menu de configuration** de Simple Discord RPC.

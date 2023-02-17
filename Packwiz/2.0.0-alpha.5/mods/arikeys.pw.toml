@@ -11,3 +11,6 @@ hash = "9e2554b4a5e4b49240656a0a836267bc548290a2e0e8083f11bff4eec6d67fbda029918c
 [update.modrinth]
 mod-id = "JH2im5qG"
 version = "DxdTL300"
+
+[option]
+optional = true

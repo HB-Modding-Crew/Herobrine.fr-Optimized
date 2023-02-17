@@ -11,3 +11,6 @@ hash = "5c94eb59e6c65008a5e6ba450a0de33b1db45b70b6dff63c0364b2fdfd48dd680731c17e
 [update.modrinth]
 mod-id = "E9sX1ncV"
 version = "JEltPXI7"
+
+[option]
+optional = true

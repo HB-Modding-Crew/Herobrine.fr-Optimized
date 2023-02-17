@@ -11,3 +11,6 @@ hash = "849a00f41968614a872cfe585e52d4ec63b2fb11c3a4012b721ef20a26c6fbba2ee05086
 [update.modrinth]
 mod-id = "4TSI7dRt"
 version = "taoK2TUO"
+
+[option]
+optional = true
