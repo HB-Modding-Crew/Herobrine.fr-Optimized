@@ -142,3 +142,6 @@ output/*
 
 # Ignore gitkeep files
 !*gitkeep
+
+# Ignore genrated files
+generated.*

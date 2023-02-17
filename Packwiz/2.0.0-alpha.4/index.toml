@@ -459,7 +459,7 @@ metafile = true
 
 [[files]]
 file = "mods/capes.pw.toml"
-hash = "d64ba80776e0fb345ecb50911f0287a9b0e40727cc548eab69cb4ba1c7f7a54a"
+hash = "a41c5ee92444521f3d3aef0b8ac6daf829bcfdcf7ed7dcbec746237258fdad0e"
 metafile = true
 
 [[files]]

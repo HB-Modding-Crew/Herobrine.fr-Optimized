@@ -3,7 +3,7 @@ Ceci est le changelog pour le modpack Fabric [Herobrine.fr - Optimized](https://
 
 # 1.19.2
 
-## 2.0.0-alpha.5 (????-??-??)
+## 2.0.0-alpha.5 (2023-02-17)
 
 <br>
 
@@ -11,15 +11,32 @@ En cours
 
 <br>
 
+### Options:
+
+- Désactivation de l'accès aux **menu de configuration** de Simple Discord RPC.
+- Changement de baucoup de **touches par défaut** (activations de mods / fonctionalités, accès aux menus de mods, rechargements de shaders, etc.)
+
+<br>
+
 ### Mods:
+
+- Suppression de **More Chat History**. (Inutile avec le mod Advanced Chat Core).
+- Suppression de **AntiGhost**.
 
 <br>
 
 - Ajout de **NotEnoughAnimations** et **FirstPersonModel** ! **Désactivés par défaut**. Attention ! **Incompatibles avec SkinSwapper**. Ne pas avoir SkinSwapper et NotEnoughAnimations/FirstPersonModel activés en même temps.
 - Ajout de **BetterF3** !
 - Ajout de **Skins Layers 3D** ! **Désactivé par défaut**.
+- Ajout de **Amecs** ! Allows to use CTRL, ALT, SHIFT, etc. to create custom keybinds.
+
+<br>
 
 - Retour à une ancienne version de **YetAnotherConfigLib** pour résoudre des problèmes d'incompatibilité.
+
+<br>
+
+- **IBE Editor** est maintenant Optionel, **désactivé par défaut**.
 
 
 ## 2.0.0-alpha.4 (2023-02-12)

@@ -1,0 +1,217 @@
+type = menu
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = element
+  orientation_element = dae9943e-ffb0-4913-808c-8f62735da4021675612845366
+  x = 8
+  action = movebutton
+  y = 30
+}
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 112
+  action = resizebutton
+  height = 20
+}
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  seconds = 2.5
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:modmenu_titlescreen_mods_button
+  x = 38
+  action = movebutton
+  y = 30
+}
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 104
+  action = resizebutton
+  height = 20
+}
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  seconds = 4.5
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+customization {
+  identifier = %id=810980%
+  orientation = bottom-left
+  x = 3
+  action = movebutton
+  y = -10
+}
+customization {
+  identifier = %id=810980%
+  seconds = 6.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_options_button
+  x = 19
+  action = movebutton
+  y = 30
+}
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 77
+  action = resizebutton
+  height = 20
+}
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  seconds = 4.5
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 8
+  action = movebutton
+  y = 30
+}
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 79
+  action = resizebutton
+  height = 20
+}
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  seconds = 2.5
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  orientation = mid-right
+  x = -155
+  action = movebutton
+  y = -37
+}
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  width = 150
+  action = resizebutton
+  height = 20
+}
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  seconds = 4.5
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 207
+  action = deep_customization_element:title_screen_branding
+  actionid = 63546cc8-7382-4b64-9029-9de99da1b3de1675611739317
+  y = 325
+  height = 10
+}
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = c1bc5915-4f46-470e-9fcb-707c4db4441d1675611739317
+  y = 190
+  height = 13
+}
+customization {
+  orientation = top-left
+  hidden = false
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 5e08d702-bcf7-48d7-9f07-76dc906735f61675611739317
+  y = 30
+  height = 52
+}
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = false
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 3435a875-1911-47ca-b7cd-26a03b2cb1be1675611739317
+  y = 0
+  height = 30
+}
+customization {
+  orientation = mid-left
+  restartbackgroundanimations = true
+  delayappearanceseconds = 2.5
+  buttonaction = joinserver
+  label = Se connecter sur Herobrine.fr
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 1.0
+  x = 5
+  width = 179
+  actionid = dae9943e-ffb0-4913-808c-8f62735da4021675612845366
+  action = addbutton
+  y = -37
+  delayappearance = true
+  value = 137.74.234.16:2001
+  delayappearanceeverytime = false
+  height = 20
+}
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  seconds = 6.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}

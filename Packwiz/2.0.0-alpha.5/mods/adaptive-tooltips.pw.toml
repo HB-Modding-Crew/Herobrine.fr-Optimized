@@ -1,0 +1,13 @@
+name = "Adaptive Tooltips"
+filename = "AdaptiveTooltips-1.0.1-fabric-1.19.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/wFv8yCxM/versions/tO4SUCby/AdaptiveTooltips-1.0.1-fabric-1.19.2.jar"
+hash-format = "sha512"
+hash = "c67b33e72496c11860609135510317cac3d46155cf91a6fd8d605f7bf222011439dfafce4ddd9a26b6e4dfa030503729ec8fc65cad3d37ed65ca1b9262e36433"
+
+[update]
+[update.modrinth]
+mod-id = "wFv8yCxM"
+version = "tO4SUCby"
