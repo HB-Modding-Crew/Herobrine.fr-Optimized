@@ -1,6 +1,6 @@
 # Liste de mods
 
-Liste de tous les mods inclus dans le modpack:
+## Tous les mods:
 
 | Mod 	| Version 	| Optionnel 	| Catégorie 	|
 |:---:	|:---:	|:---:	|:---:	|
@@ -72,3 +72,5 @@ Liste de tous les mods inclus dans le modpack:
 | [Skin Layers 3D (by tr9zw)](https://www.curseforge.com/minecraft/mc-mods/skin-layers-3d) 	| v1.5.2 	| Oui 	| Ambiance/Améliorations graphiques et sonores 	|
 | [Amecs (by Siphalor)](https://www.curseforge.com/minecraft/mc-mods/amecs) 	| v1.3.8 	| Non 	| Confort de jeu 	|
 | [First-person Model (by tr9zw)](https://www.curseforge.com/minecraft/mc-mods/first-person-model) 	| v2.2.0 	| Oui 	| Ambiance/Améliorations graphiques et sonores 	|
+
+## Mods Optionnels
