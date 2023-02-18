@@ -73,4 +73,20 @@
 | [Amecs (by Siphalor)](https://www.curseforge.com/minecraft/mc-mods/amecs) 	| v1.3.8 	| Non 	| Confort de jeu 	|
 | [First-person Model (by tr9zw)](https://www.curseforge.com/minecraft/mc-mods/first-person-model) 	| v2.2.0 	| Oui 	| Ambiance/Améliorations graphiques et sonores 	|
 
-## Mods Optionnels
+## Mods Optionnels:
+
+| Mod 	| Catégorie 	| Description 	|
+|:---:	|:---:	|:---:	|
+| [CustomSkinLoader (by xfl03)](https://www.curseforge.com/minecraft/mc-mods/customskinloader) 	| Confort de jeu 	| Pour voir le moignon de Narkol (parties de skin invisibles) 	|
+| [AdvancedChatHUD (by DarkKronicle)](https://www.curseforge.com/minecraft/mc-mods/advancedchathud) 	| Confort de jeu 	| Onglets de chat (dépend de AdvancedChatCore) 	|
+| [Dynamic Surroundings: Remastered Edition (by maksim789456)](https://www.curseforge.com/minecraft/mc-mods/dynamic-surroundings-remastered-fabric-edition) 	| Ambiance/Améliorations graphiques et sonores 	| Ambiance très poussée, réverbération et blocages/atténuations de sons selon l'environnement du joueur 	|
+| [Advanced Tooltips (by NebelNidas)](https://www.curseforge.com/minecraft/mc-mods/advanced-tooltips) 	| Confort de jeu 	| Voir le contenu de sa shulker depuis l'inventaire 	|
+| [IBE Editor (by Franckyi)](https://www.curseforge.com/minecraft/mc-mods/ibe-editor) 	| Staff 	| Pour le staff, édition de données d'objets, blocks, et entités 	|
+| [Skin Swapper (by cobrasrock_)](https://www.curseforge.com/minecraft/mc-mods/skin-swapper) 	| Confort de jeu 	| Permet de changer de skin en jeu. Incompatible avec NotEnoughAnimations et FirstPersonModel 	|
+| [AriKeys (by ASangarin)](https://www.curseforge.com/minecraft/mc-mods/arikeys) 	| Confort de jeu 	| Non fonctionnel pour le moment, ne pas inclure. (SOON) 	|
+| [Farsight (by someaddon)](https://www.curseforge.com/minecraft/mc-mods/farsight-fabric) 	| Confort de jeu 	| Permet de voir plus loin que la render distance maximum du serveur. 	|
+| [AdvancedChatCore (by DarkKronicle)](https://www.curseforge.com/minecraft/mc-mods/advancedchatcore) 	| Confort de jeu 	| Meilleur chat 	|
+| [Presence Footsteps (by S0llace)](https://www.curseforge.com/minecraft/mc-mods/presence-footsteps) 	| Ambiance/Améliorations graphiques et sonores 	| Améliore les sons de pas 	|
+| [Not Enough Animations (by tr9zw)](https://www.curseforge.com/minecraft/mc-mods/not-enough-animations) 	| Ambiance/Améliorations graphiques et sonores 	| Améliore les animations 	|
+| [Skin Layers 3D (by tr9zw)](https://www.curseforge.com/minecraft/mc-mods/skin-layers-3d) 	| Ambiance/Améliorations graphiques et sonores 	| Améliore l'apparence du skin 	|
+| [First-person Model (by tr9zw)](https://www.curseforge.com/minecraft/mc-mods/first-person-model) 	| Ambiance/Améliorations graphiques et sonores 	| Permet de voir son personnage à la première personne 	|
