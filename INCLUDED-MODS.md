@@ -87,6 +87,6 @@
 | [Farsight (by someaddon)](https://www.curseforge.com/minecraft/mc-mods/farsight-fabric) 	| Confort de jeu 	| Permet de voir plus loin que la render distance maximum du serveur. 	|
 | [AdvancedChatCore (by DarkKronicle)](https://www.curseforge.com/minecraft/mc-mods/advancedchatcore) 	| Confort de jeu 	| Meilleur chat 	|
 | [Presence Footsteps (by S0llace)](https://www.curseforge.com/minecraft/mc-mods/presence-footsteps) 	| Ambiance/Améliorations graphiques et sonores 	| Améliore les sons de pas 	|
-| [Not Enough Animations (by tr9zw)](https://www.curseforge.com/minecraft/mc-mods/not-enough-animations) 	| Ambiance/Améliorations graphiques et sonores 	| Améliore les animations 	|
+| [Not Enough Animations (by tr9zw)](https://www.curseforge.com/minecraft/mc-mods/not-enough-animations) 	| Ambiance/Améliorations graphiques et sonores 	| Améliore les animations. Incompatible avec SkinSwapper 	|
 | [Skin Layers 3D (by tr9zw)](https://www.curseforge.com/minecraft/mc-mods/skin-layers-3d) 	| Ambiance/Améliorations graphiques et sonores 	| Améliore l'apparence du skin 	|
-| [First-person Model (by tr9zw)](https://www.curseforge.com/minecraft/mc-mods/first-person-model) 	| Ambiance/Améliorations graphiques et sonores 	| Permet de voir son personnage à la première personne 	|
+| [First-person Model (by tr9zw)](https://www.curseforge.com/minecraft/mc-mods/first-person-model) 	| Ambiance/Améliorations graphiques et sonores 	| Permet de voir son personnage à la première personne. Incompatible avec SkinSwapper 	|
