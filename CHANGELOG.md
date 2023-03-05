@@ -50,6 +50,7 @@ Ceci est le changelog pour le modpack Fabric [Herobrine.fr - Optimized](https://
 - Ajout de **Raised**. Corrige la hauter de la barre d'items.
 - Ajout de **Stendhal**, optionnel, **désactivé par défaut**. Sert pour laditions de livres et de panneaux.
 - Ajout de **Bobby**, optionnel, **désactivé par défaut**. Garde les chunks chargés en mémoire pour voir plus loin.
+- Ajout de **FM Resource Pack Updater**. Extension de FancyMenu, permet de mettre à jour le pack de ressources HBCubemonde depuis le menu principal de Minecraft.
 
 <br>
 
