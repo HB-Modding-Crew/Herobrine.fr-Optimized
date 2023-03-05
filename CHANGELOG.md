@@ -9,7 +9,7 @@ Ceci est le changelog pour le modpack Fabric [Herobrine.fr - Optimized](https://
 
 ### Fonctionnalités générales du modpack:
 
-- Un bouton est maintenant disponible dans le menu principal de Minecraft pour **mettre a jour le pack de ressrouces HBCubemonde** ! (En cours d'intégration)
+- Un bouton est maintenant disponible dans le menu principal de Minecraft pour **mettre a jour le pack de ressources HBCubemonde** !
 - Avec la **suppression de SkinSwapper**, **tous les mods** du modpack sont maintenant **compatibles entre eux** ! Vous pouvez activer les mods optionnels **sans crainte de conflits**.
 - Toutes les **commandes dont vous ne vous souvenez jamais des keybinds** (Exemple: Recharger les shaders) sont maintenant accessibles via le mod **TooManyBinds**. *Appuyez sur **H** en jeux et testez* !
 
