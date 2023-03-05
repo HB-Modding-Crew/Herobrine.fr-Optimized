@@ -1,0 +1,3 @@
+runcmd:[windows:./launch_script.bat DownloadHBCubemondeLatest.jar]; [linux:./launch_script.sh DownloadHBCubemondeLatest.jar]; [macos:./launch_script.sh DownloadHBCubemondeLatest.jar];
+runcmd:[windows:./launch_script.bat EnableLastHBCubemonde.jar]; [linux:./launch_script.sh EnableLastHBCubemonde.jar]; [macos:./launch_script.sh EnableLastHBCubemonde.jar];
+quitgame

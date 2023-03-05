@@ -1,0 +1,41 @@
+type = menu
+customization-meta {
+  identifier = custom_main_menu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = -83
+  width = 167
+  actionid = 95a5aacb-4b6b-4992-ac8b-c4dd7d7ca78a1677974569466
+  action = addbutton
+  y = -10
+  label = Se connecter sur Herobrine.fr
+  value = 
+  height = 20
+}
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  label = Menu vanilla
+  loopbackgroundanimations = true
+  orientation_element = 95a5aacb-4b6b-4992-ac8b-c4dd7d7ca78a1677974569466
+  x = 33
+  width = 100
+  actionid = 09d333b0-becd-4618-927c-d31b4e6ea0401677974640735
+  action = addbutton
+  y = 30
+  value = net.minecraft.class_442
+  height = 20
+}

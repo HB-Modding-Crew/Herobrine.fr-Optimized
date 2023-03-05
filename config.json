@@ -1,13 +1,18 @@
 {
     "curseforge_instance": "/mnt/c/Users/paulb/curseforge/minecraft/Instances/Herobrine.fr-Optimized",
-    "mmc_instance": "/mnt/c/Users/paulb/mmc-stable-windows/MultiMC/instances/Herobrine.fr-Optimized 2.0.0-alpha.5",
+    "mmc_instance": "/mnt/c/Users/paulb/mmc-stable-windows/MultiMC/instances/Herobrine.fr-Optimized 2.0.0-alpha.6",
     "instance_includes_list": [
         "config/yosbr",
         "config/isxander-main-menu-credits.json",
-        "config/simple-rpc",
+        "config/fancymenu",
+        "config/entity_texture_features.json",
+        "config/capes.json5",
+        "config/notenoughanimations.json",
         "mods",
         "resourcepacks",
-        "FancyMenuMedias"
+        "FancyMenuMedias",
+        "options.txt",
+        "options.amecsapi.txt"
     ],
     "modpack_name": "Herobrine.fr-Optimized"
 }

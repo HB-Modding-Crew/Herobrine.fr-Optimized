@@ -1,0 +1,13 @@
+name = "FM Resource Pack Updater"
+filename = "rpupdater-0.0.2-1.19.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/f5lMVJ79/versions/iCMYGxso/rpupdater-0.0.2-1.19.2.jar"
+hash-format = "sha512"
+hash = "bad243734ee7f0c7f5ed1378c9a7307a0482e27e9f2063e18bafd6584cae1af2233dc0fe099ad541312efb46776e40fd6111689fc0e9436035386d3e524f6957"
+
+[update]
+[update.modrinth]
+mod-id = "f5lMVJ79"
+version = "iCMYGxso"

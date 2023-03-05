@@ -1,0 +1,26 @@
+type = menu
+customization-meta {
+  identifier = avdancedmainmenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton
+  x = 216
+  width = 100
+  actionid = 8db3c6f3-49d2-44e5-b998-28c9af7e799d1677973523289
+  action = addbutton
+  y = 123
+  label = Solo
+  value = net.minecraft.class_442:button_compatibility_id:mc_titlescreen_singleplayer_button
+  height = 20
+}

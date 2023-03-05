@@ -1,0 +1,10 @@
+enabled = true
+version = 2
+[[entry]]
+		ip = "137.74.234.16:2001"
+		description = "Est actuellement en train de roleplay !"
+		state = "Avec %players% joueurs !"
+		largeImageKey = [""]
+		largeImageText = "It's Herobrine.fr, but better !"
+		smallImageKey = [""]
+		smallImageText = ""

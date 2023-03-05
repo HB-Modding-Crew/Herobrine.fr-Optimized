@@ -3,6 +3,56 @@ Ceci est le changelog pour le modpack Fabric [Herobrine.fr - Optimized](https://
 
 # 1.19.2
 
+## 2.0.0-alpha.6 (2023-03-05)
+
+<br>
+
+### Fonctionnalités générales du modpack:
+
+- Un bouton est maintenant disponible dans le menu principal de Minecraft pour **mettre a jour le pack de ressrouces HBCubemonde** ! (En cours d'intégration)
+- Avec la **suppression de SkinSwapper**, **tous les mods** du modpack sont maintenant **compatibles entre eux** ! Vous pouvez activer les mods optionnels **sans crainte de conflits**.
+- Toutes les **commandes dont vous ne vous souvenez jamais des keybinds** (Exemple: Recharger les shaders) sont maintenant accessibles via le mod **TooManyBinds**. *Appuyez sur **H** en jeux et testez* !
+
+<br>
+
+### Options:
+
+- Changement des **KeyBinds** par défaut pour éviter les conflits de touches entre les mods. SERA FORCE SUR LA MISE A JOUR ! (vous perdrez donc vos en mettant à jour vers cette alpha).
+
+<br>
+
+- Désactivation de **MinecraftCapes** et des textures de la cape sur les elytras sur le mod **Capes**.
+- Désactivation du port de l'épée en fourreau intégré de base avec **NotEnoughAnimations**.
+
+<br>
+
+### Mods:
+
+- Suppresion de **SkinSwapper**. Incompatible avec NotEnoughAnimations et FirstPersonModel. Pourra éventuellement être réintégré dans une future version du modpack.
+- Suppression de **NoFade**. Non mis à jour sur Modrinth, et peu d'utilité.
+- Suppression de **Farsight**. Non mis à jour sur Modrinth, remplacé par Bobby.
+- Suppression de **CustomSkinLoader**. La fonctionnalité de skin transparents est maintenant gérée par le mod **Entity Texture Features**.
+
+<br>
+
+- Update de **Fabric API**.
+- Update de **Entity Texture Features**. Gère maintenant les skins transparents !
+
+<br>
+
+- Ajout de **Better Ping Display** !
+- Ajout de **TooManyBinds** ! Permet d'avoir une barre de recherches pour les raccourcis clavier dont on ne se souvient pas. Exemple: Recharger les shaders.
+- Ajout de **ClickThrough**. Permet de cliquer au travers des pannneaux et item frames pour accéder à vos coffres et autres conteneurs.
+- Ajout du mod **Effective**, optionnel, **désactivé par défaut**.
+- Ajout de **Perspective Mod Redux**, utile pour les sapères. Optionel, désactivé par défaut.
+- Ajout de **Falling Leaves**, optionnel, **désactivé par défaut**.
+- Ajout de **Camera Overhaul**, optionnel, **désactivé par défaut**.
+- Ajout de **Raised**. Corrige la hauter de la barre d'items.
+- Ajout de **Stendhal**, optionnel, **désactivé par défaut**. Sert pour laditions de livres et de panneaux.
+- Ajout de **Bobby**, optionnel, **désactivé par défaut**. Garde les chunks chargés en mémoire pour voir plus loin.
+
+<br>
+
 ## 2.0.0-alpha.5 (2023-02-17)
 
 <br>
