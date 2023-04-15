@@ -1,0 +1,8 @@
+type = cached_variables
+
+variables {
+  rp_need_update = false
+  rp_latest_available_version = HBCubemonde21-01-2023-fix-2.zip
+  rp_actual_version = HBCubemonde21-01-2023-fix-2.zip
+}
+

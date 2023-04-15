@@ -1,0 +1,13 @@
+name = "Herobrine.fr - Optimized"
+author = "Hb Modding Crew"
+version = "2.0.0-alpha.7"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "a0274ba132f7b4d50cb850a733387ffb90b994be8485c4bfa8087e10f71d69e5"
+
+[versions]
+fabric = "0.14.19"
+minecraft = "1.19.4"

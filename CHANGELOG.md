@@ -1,6 +1,71 @@
 # Herobrine.fr - Optimized changelog
 Ceci est le changelog pour le modpack Fabric [Herobrine.fr - Optimized](https://www.curseforge.com/minecraft/modpacks/herobrine-fr-optimized).
 
+# 1.19.4
+
+## 2.0.0-alpha.7 (2023-04-15)
+
+<br>
+
+### Fonctionnalités générales du modpack:
+
+- Menu principal:
+    - Les boutons du menu principal sont maintenant transparents pour plus d'immersion.
+- Pack de resource lanterne mis à jour pour la lanterne bleue et ajouté au modpack !
+- Ajout du pack lanterne à votre liste de pack de resources !
+- Passage à la 1.19.4
+- Autres changements que j'ai pu oublier
+
+<br>
+
+### Options:
+
+- Changement de la touche pour **activer/désactiver la vue première personne** à F12, car alt+F6 ne fonctionne pas.
+- Désactivation d'un bugfixe du mod **Debugify** qui empêchait de spectate un joueur ou une entité.
+
+<br>
+
+### Mods:
+
+<br>
+
+#### Changements définitifs:
+
+- Ajout de **Litematica** ! **Désactivé par défaut**.
+- Ajout de **WorldEdit** ! **Désactivé par défaut**.
+- Ajout de **WorldEditCUI** ! **Désactivé par défaut**.
+
+<br>
+
+- Suppression de **Main Menu Credits**. Inutile avec le mod **FancyMenu**.
+- Suppression de **Built-ins servers**. Inutile avec le mod **FancyMenu**.
+- Suppression de **LazyDFU**. Inutile en 1.19.4.
+
+<br>
+
+- Remplacement de **CEM** par  **Entity Model Features**.
+- Remplacement de **Item Model Fix** par **Model Gap Fix**.
+
+<br>
+
+#### Mods pas encore mis à jour:
+
+- **Perspective Mod Redux**
+- **Animatica**, certaines animations ne fonctionneront pas.
+- **Effective**.
+- **Mixin Conflict Helper**.
+- **Dynamic Surroundings**.
+- **Advanced Tooltips**.
+- **Arikeys**.
+- **Fabrishot**.
+- **ClickThrough**.
+- **Colormatic** on va croiser les doitgs qu'aucun staffeu ai l'envie de faire des ciels customs dans les semaines qui viennent.
+- **Fancy Menu Video**, plus de video en arrière plan du menu principal.
+- **Enhanced Block Entities**, on va laguer un plus plus qu'avant.
+- **IBE Editor**.
+
+<br>
+
 # 1.19.2
 
 ## 2.0.0-alpha.6 (2023-03-05)
