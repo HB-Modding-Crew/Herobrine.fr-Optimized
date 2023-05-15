@@ -1,0 +1,72 @@
+type = menu
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 165
+  action = deep_customization_element:title_screen_branding
+  actionid = d9f1fd3f-e117-48e1-844a-647a1166692b1675729145846
+  y = 258
+  height = 10
+}
+customization {
+  orientation = top-left
+  hidden = false
+  x = 343
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 7a2b20c0-48fc-4a6a-a4f5-0cca50ab858e1675729145856
+  y = 167
+  height = 13
+}
+customization {
+  orientation = top-left
+  hidden = false
+  x = 103
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 158be68f-75cf-4445-aeb5-7812773fc7b51675729145856
+  y = 30
+  height = 52
+}
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = false
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = e4d18924-4010-4c09-a1e5-e26bec0ce3991675729145856
+  y = 0
+  height = 30
+}
+customization {
+  orientation = element
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_quit_button
+  buttonaction = disable_layout;Default%btnaction_splitter_fm%enable_layout;HerobrineMainMenu%btnaction_splitter_fm%
+  x = -68
+  width = 133
+  action = addbutton
+  actionid = cc191c58-7fc9-4750-b250-7db9294bbeb21677975225266
+  y = 30
+  label = Retour au menu principal
+  height = 20
+}
+customization {
+  identifier = %id=2980%
+  action = hidebutton
+}

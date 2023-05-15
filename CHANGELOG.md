@@ -3,6 +3,51 @@ Ceci est le changelog pour le modpack Fabric [Herobrine.fr - Optimized](https://
 
 # 1.19.4
 
+## 2.0.0-alpha.8 (2023-05-15)
+
+### Configuration:
+
+- Intervalle entre les checks pour l'update du modpack sur le menu principal passé de 5 secondes à 5 minutes.
+
+<br>
+
+### Mods:
+
+<br>
+
+#### Changements définitifs:
+
+- Mise à jour de **Zoomify**.
+- Mise à jour de **Better F3**.
+- Mise à jour de **Adaptative Tooltips**.
+- Mise à jour de **Entity Model Features**.
+- Mise à jour de **Entity Textures Features**.
+- Mise à jour de **Fancy Menu**.
+- Mise à jour de **Litematica**.
+
+<br>
+
+- Retour de **Fabrishot**.
+
+<br>
+
+#### Mods pas encore en 1.19.4:
+
+- **Perspective Mod Redux**
+- **Animatica**, certaines animations ne fonctionneront pas.
+- **Effective**.
+- **Mixin Conflict Helper**.
+- **Dynamic Surroundings**.
+- **Advanced Tooltips**.
+- **Arikeys**.
+- **ClickThrough**.
+- **Colormatic**. Plus de couleurs de ciel custom.
+- **Fancy Menu Video**, plus de video en arrière plan du menu principal.
+- **Enhanced Block Entities**, on va laguer un plus plus qu'avant.
+- **IBE Editor**.
+
+<br>
+
 ## 2.0.0-alpha.7 (2023-04-15)
 
 <br>
