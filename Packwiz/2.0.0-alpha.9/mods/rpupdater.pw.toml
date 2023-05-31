@@ -1,0 +1,13 @@
+name = "FM Resource Pack Updater"
+filename = "rpupdater-0.0.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/f5lMVJ79/versions/DO3TpWz3/rpupdater-0.0.4.jar"
+hash-format = "sha512"
+hash = "2f8e635d5d7163d66dbf7a3d3f4ce015fc80a944f6f436050fb9e101b49efc1cfc897d355ebd4c39eaf9514d8da4b12535e2a641daefe13de5ac0f446530aff2"
+
+[update]
+[update.modrinth]
+mod-id = "f5lMVJ79"
+version = "DO3TpWz3"

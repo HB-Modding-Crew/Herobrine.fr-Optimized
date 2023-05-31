@@ -1,12 +1,13 @@
 {
     "curseforge_instance": "/mnt/c/Users/paulb/curseforge/minecraft/Instances/HBFR 1.19.4",
-    "mmc_instance": "/mnt/c/Users/paulb/mmc-stable-windows/MultiMC/instances/Herobrine.fr-Optimized 2.0.0-alpha.8",
+    "mmc_instance": "/mnt/c/Users/paulb/mmc-stable-windows/MultiMC/instances/Herobrine.fr-Optimized 2.0.0-alpha.9",
     "instance_includes_list": [
-        "config/yosbr",
-        "config/fancymenu",
         "mods",
-        "resourcepacks",
         "FancyMenuMedias",
+        "resourcepacks",
+        "resources",
+        "config/fancymenu",
+        "config/yosbr",
         "config/citresewn-defaults.json",
         "config/citresewn.json",
         "config/debugify.json",

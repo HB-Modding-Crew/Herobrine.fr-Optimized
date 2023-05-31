@@ -3,7 +3,71 @@ Ceci est le changelog pour le modpack Fabric [Herobrine.fr - Optimized](https://
 
 # 1.19.4
 
+## 2.0.0-alpha.9 (2023-??-??)
+
+<br>
+
+### Résumé des changements:
+
+<br>
+
+- Retour de mods qui étaient présent avant la mise à jour en 1.19.4
+- Amélioration de l'interface utilisateur (retours au menu après la déconnexion, bouton de mise à jour du pack de ressources mis en avant, etc...)
+- Petits changements des configurations par défaut
+- Mise à jour de certains mods
+- Mise à jour du pack lanterne pour fix les particules quand on marche sur une lanterne
+
+<br>
+
+### Configuration:
+
+<br>
+
+- Le bouton déconnexion emmènera désormais directement au menu principal si le menu n'est pas en mode Vanilla
+- Bobby vous permet maintenant d'avoir une render distance jusqu'à 128 par défaut
+- Il n'est plus possible de démarrer le jeu sur le menu vanilla, ce qui oblige à voir l'écran avec la mise à jour du pack de ressource
+- Le bouton de mise à jour du pack de ressources est maintenant clignotant
+
+<br>
+
+### Mods:
+
+<br>
+
+#### Changements définitifs:
+
+- Mise à jour de Better Ping Display vers la version officielle.
+
+<br>
+
+- Retour de Advanced Chat (Core et HUD), désactivés par défaut.
+- Retour de Animatica
+
+<br>
+
+- Ajout de Better Third Person (pour remplacer Perspective Mod Redux)
+- Ajout de Load My Resource pour certaines fonctionnalités du Fancy Menu
+
+<br>
+
+#### Mods pas encore en 1.19.4:
+
+- **Effective**.
+- **Mixin Conflict Helper**.
+- **Dynamic Surroundings**.
+- **Advanced Tooltips**.
+- **Arikeys**.
+- **ClickThrough**.
+- **Colormatic**. Plus de couleurs de ciel custom.
+- **Fancy Menu Video**, plus de video en arrière plan du menu principal.
+- **Enhanced Block Entities**, on va laguer un plus plus qu'avant.
+- **IBE Editor**.
+
+<br>
+
 ## 2.0.0-alpha.8 (2023-05-15)
+
+<br>
 
 ### Configuration:
 
