@@ -1,0 +1,13 @@
+name = "Load My Resources"
+filename = "loadmyresources_fabric_1.0.4_MC_1.19.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/TqCKvqjC/versions/lsBN5Uh2/loadmyresources_fabric_1.0.4_MC_1.19.3.jar"
+hash-format = "sha512"
+hash = "d50ca11bd530211a830ab39e0d6ebd29afe0b8f49dab9e31ea28204149b17640678d321ac542953ac3d0e37a8f4045ee0493be547edfb27010fb202f9d6ba5d1"
+
+[update]
+[update.modrinth]
+mod-id = "TqCKvqjC"
+version = "lsBN5Uh2"

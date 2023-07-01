@@ -1,0 +1,13 @@
+name = "Bobby"
+filename = "bobby-4.0.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/M08ruV16/versions/fdmNcTR4/bobby-4.0.5.jar"
+hash-format = "sha512"
+hash = "62e6409d1ce4e0555778c7836212b7d96944a4c2433369832762a226fbc7e8e714e457ec0ddd94b9e764ae970fbc9a5f5a266a2429bdd1b62fd2e4143a2a4a42"
+
+[update]
+[update.modrinth]
+mod-id = "M08ruV16"
+version = "fdmNcTR4"

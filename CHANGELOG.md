@@ -1,9 +1,90 @@
 # Herobrine.fr - Optimized changelog
 Ceci est le changelog pour le modpack Fabric [Herobrine.fr - Optimized](https://www.curseforge.com/minecraft/modpacks/herobrine-fr-optimized).
 
+# 1.20.1
+
+## 2.0.0-alpha.11 (2023-??-??) (En cours de développement)
+
+<br>
+
+### Résumé des changements:
+
+- Mise à jour vers la 1.20.1
+- Retour de plusieurs mods
+- Suppression de mods obselètes
+
+<br>
+
+### Mods:
+
+
+<br>
+
+#### Changements définitifs:
+
+<br>
+
+- Suppression de **Smooth Boot**. Il n'est plus nécessaire depuis la mise à jour en 1.20.1.
+
+<br>
+
+- Mise à jour de tous les mods en 1.20.1
+
+<br>
+
+- Retour de **Mixin Conflict Helper**
+- Retour de **ClickThrough**.
+- Retour de **Enhanced Block Entities**.
+
+<br>
+
+#### Mods pas encore en 1.20.1:
+
+- **Adaptative Tooltips**
+- **Advanced Chat**
+- **Better Third Person**
+- **Smooth Boot**
+- **Resource Pack Updater**
+- **Too Many Binds**
+- **WorldEdit CUI**
+- **Effective**.
+- **Dynamic Surroundings**.
+- **Advanced Tooltips**.
+- **Arikeys**.
+- **Colormatic**. Plus de couleurs de ciel custom.
+- **Fancy Menu Video**, plus de video en arrière plan du menu principal.
+
 # 1.19.4
 
-## 2.0.0-alpha.9 (2023-??-??)
+## 2.0.0-alpha.10 (2023-07-01)
+
+### Mods:
+
+#### Changements définitifs:
+
+- Suppression du **Resource Pack Updater**. Il n'est plus nécessaire depuis la nouvelle gestion des resources pack sur le serveur.
+
+- Retour de **IBE editor**
+
+- Ajout de **Server Pack Unlocker**. Permet de changer la place du resource pack de serveur dans la liste des resource packs.
+
+#### Mods pas encore en 1.19.4:
+
+- **Effective**.
+- **Mixin Conflict Helper**.
+- **Dynamic Surroundings**.
+- **Advanced Tooltips**.
+- **Arikeys**.
+- **ClickThrough**.
+- **Colormatic**. Plus de couleurs de ciel custom.
+- **Fancy Menu Video**, plus de video en arrière plan du menu principal.
+- **Enhanced Block Entities**, on va laguer un plus plus qu'avant.
+
+### Autre:
+
+- Mise à jour du pack lanterne pour fix les particules quand on marche sur une lanterne (encore...)
+
+## 2.0.0-alpha.9 (2023-05-31)
 
 <br>
 

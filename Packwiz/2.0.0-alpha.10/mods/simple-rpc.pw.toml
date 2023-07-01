@@ -1,0 +1,13 @@
+name = "Simple RPC"
+filename = "simple-rpc-fabric-1.19.4-3.2.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ObXSoyrn/versions/AKhtuZR9/simple-rpc-fabric-1.19.4-3.2.2.jar"
+hash-format = "sha512"
+hash = "117f116e2fee030ae1a5c40aa67de147534bd0cbeda0361baca9163b24bc17277424ca25bbda731a2bea310c61fa65364a5d0f31256e6149c43a4b547fb5f14e"
+
+[update]
+[update.modrinth]
+mod-id = "ObXSoyrn"
+version = "AKhtuZR9"

@@ -8,16 +8,6 @@ filename = "Mod Menu Helper.zip"
 action = "override"
 
 [[Resource]]
-name = "HBCubemonde21-01-2023-fix-2"
-filename = "HBCubemonde21-01-2023-fix-2.zip"
-action = "override"
-
-[[Resource]]
-name = "HBCubemonde15-04-2023"
-filename = "HBCubemonde15-04-2023.zip"
-action = "override"
-
-[[Resource]]
 name = "Lanternes_pack"
 filename = "Lanternes_pack"
 action = "override"
@@ -25,10 +15,5 @@ action = "override"
 [[Resource]]
 name = "LonguesGlacesNeige"
 filename = "LonguesGlacesNeige.zip"
-action = "override"
-
-[[Resource]]
-name = "Too Many Binds"
-filename = "toomanybinds-0.3.3.jar" 
 action = "override"
 

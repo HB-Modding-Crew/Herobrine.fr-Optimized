@@ -1,0 +1,14 @@
+name = "Stendhal"
+filename = "stendhal-1.3.7-1.19.4.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/BWloQ9jK/versions/NriKkvat/stendhal-1.3.7-1.19.4.jar"
+hash-format = "sha512"
+hash = "31ae261e5bdcc2a60d48b6a77a61bcca6f34536c738835a120cb37a50cde5ee131475554961aa77a425dc9f7b15c752d884457b33fcbe87a618819ad5bbc4406"
+
+[update]
+[update.modrinth]
+mod-id = "BWloQ9jK"
+version = "NriKkvat"

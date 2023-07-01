@@ -1,0 +1,14 @@
+name = "AdvancedChatHUD"
+filename = "AdvancedChatHUD-1.19.4-1.3.8.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/lBFvglCF/versions/CtESPdJC/AdvancedChatHUD-1.19.4-1.3.8.jar"
+hash-format = "sha512"
+hash = "9b5e4ef971156ca5b1ccbc0eb64d7a54d2834de536124a7cc71f2cfe392ac6040b0191757efd2c469fcd9365f3dd64e31d9502765d30d6177c849099945a5153"
+
+[update]
+[update.modrinth]
+mod-id = "lBFvglCF"
+version = "CtESPdJC"
