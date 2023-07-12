@@ -9,6 +9,7 @@
 pip install mmc-export==2.8.5
 ```
 - Installer le Prism Launcher
+- Clonez forkez ce repository et clonez le
 
 ## Modifier et mettre à jour le modpack
 
@@ -59,7 +60,7 @@ Un mod peut-être supprimé tant qu'aucun autre mod n'en dépend. Si vous effect
 
 ### Vérifications et actions à effectuer avant l'export
 
-#### Changement de version
+#### Changement de la version affichée
 
 La version du modpack est affichée dans le menu principal du jeu. Il faut la changer manuellement avant d'exporter le modpack en dehors du launcher. Voici comment faire:
 
@@ -98,6 +99,71 @@ Avec tous les mods activés:
 
 #### Vérification du fonctionnement des mods
 
-Avec tous les mods activés, vérifiez:
-- Que le jeu est jouable avec les performances attendues
-- Que la première personne est bien celle du mod FirstPersonModel (on doit voir ses pieds en baissant la tête)
+##### Général:
+- Le jeu est jouable avec les performances attendues
+- Les items dans les items frames prennent bien leur texture custom (exemple: Claymore)
+- Le ciel est bien custom avec le pack de ressources (2 soleils)
+- Bordures des vitres vitres non visibles quand groupées
+- Vérifier que le menu ne comporte pas de bug en général sur les pages custom:
+    - Les deux version des menus principaux
+    - Le menu de pause du jeu (en particulier le bouton pour quitter)
+
+##### FirstPersonModel, 3DSkinLayer, NEA:
+- La première personne est bien celle du mod FirstPersonModel (on doit voir ses pieds en baissant la tête)
+- Le skin apparait bien avec les textures 3D
+
+##### CIT Resewn, Animatica, Entity Texture Feature, Entity Model Feature
+- La texture de la grande torche fonctionne et **est animée**
+- Le marcheur lunaire à bien sa texture et les bras repliés contre le corps
+
+##### Clicthrought
+- Clic droit sur un coffre caché par un panneau/item frame pour ouvrir le coffre
+- Shift clic pour édition
+
+##### Iris, Litematica, WorldEdit et WE CUI
+- Vérifier que les changements de rendus d'aucun de ces mods ne fasse cracher ou buguer sévèrement le jeu
+
+##### Stendhal
+- Vérifier les interfaces d'édition des livres, enclumes, et autres
+- Redémarrer le jeu sans advanced chat pour voir l'interface du chat
+
+### Export de l'instance
+
+Une fois toutes les vérifications effectuées, il vous faut exporter l'instance. La fonction export vous propose de filtrer les données que vous exportez, mais notre workflow inclue déjà une fonctionnalité de filtre dans une étape ultérieure, donc **exportez l'ensemble de l'instance** (laissez tout sélectionné). Le .zip qui en résultera doit être placé dans le dossier "exports" de ce projet.
+
+![Export d'instance](images/export_instance.png)
+
+Pour la suite, il faudra vous assurer que votre .zip est correctement nommé comme dans un des deux formats suivants:
+
+Herobrine.fr-Optimized-x.x.x
+<br>
+Exemple: Herobrine.fr-Optimized-2.0.0
+
+Herobrine.fr-Optimized-x.x.x-<alpha|beta>.x
+<br>
+Exemple: Herobrine.fr-Optimized-2.0.0-beta.1
+
+### Création du modpack dans ses différents formats
+
+#### Configuration
+
+Dans le fichier config.json, vous pouvez décider du contenu de l'instance qui sera gardé lors de la création du modpack. Généralement, cela sert pour rajouter une configuration qui overridera ce qui se trouve dans l'instance de l'utlisateur final (on l'utilise pour la configuration de FancyMenu par exemple, qui n'est pas censée être changée par l'utilisateur, ou bien debugify parce que les options sont lues avant même le chargement des options par défaut, donc on ne peut pas le mettre dans le dossier config/yosbr de l'instance).
+
+#### Ressources non sourcées du modpack
+
+Les ressources incluent, mais ne s'y limitent pas: Pack de ressources, mods, Pack de Shaders... ect
+Plus généralement, ce sont les contenus qui peuvent être uploadés en donnant seulement les références du projet associé sur Modrinth.
+
+Dans notre cas, plusieurs de ces ressources n'ont pas de projet associé en ligne. C'est le cas de certains mods, selon l'état du modpack, mais aussi des ressources packs supplémentaires du modpack. Si vous avez besoin d'ajouter une telle ressource, cela se passe dans le Packwiz/mmc-export.toml. Vous pouvez prendre pour modèle les entrée déjà créées et vous fier la la [documentation](https://github.com/RozeFound/mmc-export#specify-source-url) de mmc-export.
+
+#### Création du modpack
+
+Finalement, il ne vous manque plus qu'à créer le modpack avec la commande suivante:
+
+```
+python ./modpack-creator.py <instance_export>
+```
+
+#### Push et pull request
+
+Pushez vos modifications et faites une pull request décrivant vos changements sur le repository principal.
