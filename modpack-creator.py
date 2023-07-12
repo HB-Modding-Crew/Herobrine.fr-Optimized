@@ -253,7 +253,10 @@ def run():
     zip_name = " ".join(sys.argv[1:])
     zip_name = zip_name.removeprefix("'")
     zip_name = zip_name.removesuffix("'")
-    instance = PrismInstance(PATH_EXPORTS + "/" + zip_name)
+    if zip_name[0] != "/":
+        instance = PrismInstance(PATH_EXPORTS + "/" + zip_name)
+    else:
+        instance = PrismInstance(zip_name)
     instance.pack_modrinth()
     instance.pack_packwiz()
 

@@ -7,13 +7,6 @@ body:
     value: |
       ## Mod name ⤴️
       Avant de demandez un mod, [s'il vous plaît vérifiez](https://github.com/HB-Modding-Crew/Herobrine.fr-Optimized/issues) que la demande n'a pas déjà été faite.
-    
-- type: markdown
-  attributes:
-    value: |
-      1. Go to https://cflookup.com
-      2. Paste the mod link to "Project Id / Slug" and click `Search project`
-      3. Look at the `Mod Distribution` value and select it above
 
 - type: input
   attributes:

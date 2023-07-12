@@ -3,9 +3,7 @@ Ceci est le changelog pour le modpack Fabric [Herobrine.fr - Optimized](https://
 
 # 1.20.1
 
-## 2.0.0-alpha.11 (2023-??-??) (En cours de développement)
-
-<br>
+## 2.0.0-beta.1 (2023-??-??) (En cours de développement)
 
 ### Résumé des changements:
 
@@ -16,9 +14,6 @@ Ceci est le changelog pour le modpack Fabric [Herobrine.fr - Optimized](https://
 <br>
 
 ### Mods:
-
-
-<br>
 
 #### Changements définitifs:
 
@@ -37,22 +32,6 @@ Ceci est le changelog pour le modpack Fabric [Herobrine.fr - Optimized](https://
 - Retour de **Enhanced Block Entities**.
 
 <br>
-
-#### Mods pas encore en 1.20.1:
-
-- **Adaptative Tooltips**
-- **Advanced Chat**
-- **Better Third Person**
-- **Smooth Boot**
-- **Resource Pack Updater**
-- **Too Many Binds**
-- **WorldEdit CUI**
-- **Effective**.
-- **Dynamic Surroundings**.
-- **Advanced Tooltips**.
-- **Arikeys**.
-- **Colormatic**. Plus de couleurs de ciel custom.
-- **Fancy Menu Video**, plus de video en arrière plan du menu principal.
 
 # 1.19.4
 
