@@ -1,0 +1,16 @@
+name: Modrinth Publish
+run-name: ${{ github.actor }} is publishing Herobrine.fr-Optimized on modrinth
+on: workflow_dispatch
+jobs:
+  build:
+    steps:
+      - uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          modrinth-id: 2FonbpBI
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+
+          modrinth-featured: true
+          modrinth-unfeature-mode: subset
+
+          files: |
+            modrinth_latest/*.mrpack
