@@ -12,3 +12,6 @@ jobs:
 
           modrinth-featured: true
           modrinth-unfeature-mode: subset
+
+          files: |
+            modrinth_latest/*.mrpack
