@@ -221,7 +221,8 @@ class PrismInstance:
         cmd = MMC_EXPORT_TO_PACKWIZ_COMMAND.format(self.get_version(), self.get_version())
         print(cmd)
         os.system(cmd)
-        copy_file("./output/" + MODPACK_NAME + "-" + self.get_version() + ".zip", "./modrinth_latest/" + MODPACK_NAME + "-" + self.get_version() + ".zip", "output directory", "last version directory")
+        print("COPY FROM: " +  "./output/" + MODPACK_NAME + "-" + self.get_version() + ".zip")
+        copy_file("./output/" + MODPACK_NAME + "-" + self.get_version() + ".mrpack", "./modrinth_latest/" + MODPACK_NAME + "-" + self.get_version() + ".mrpack", "output directory", "last version directory")
 
         # Unzip and put packiz output in the right directory
 
