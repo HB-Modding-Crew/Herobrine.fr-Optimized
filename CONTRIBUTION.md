@@ -8,6 +8,10 @@
 ```
 pip install mmc-export==2.8.5
 ```
+- Installer modrinth pour python
+```
+pip install modrinth
+```
 - Installer le Prism Launcher
 - Clonez forkez ce repository et clonez le
 
