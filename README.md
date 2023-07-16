@@ -31,3 +31,4 @@ Tous les liens et tutoriels d'installation sont disponibles sur le discord dédi
 <br>
 
 Pour contribuer, veuillez suivre les indications du guide suivant:
+https://github.com/HB-Modding-Crew/Herobrine.fr-Optimized/blob/main/CONTRIBUTION.md

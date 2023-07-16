@@ -3,13 +3,15 @@ Ceci est le changelog pour le modpack Fabric [Herobrine.fr - Optimized](https://
 
 # 1.20.1
 
-## 2.0.0-beta.1 (2023-??-??) (En cours de développement)
+## 2.0.0-beta.1 (2023-07-16)
 
 ### Résumé des changements:
 
 - Mise à jour vers la 1.20.1
 - Retour de plusieurs mods
 - Suppression de mods obselètes
+- Ajout de fonctionalité: la lanterne ne sera modifiée que sur le mod NEI est activé, et n'aura pas un angle bizarre dans le cas contraire
+- Reset de options.txt et de toutes les options de mods pour que tout le monde reparte sur une bonne base
 
 <br>
 
@@ -20,6 +22,8 @@ Ceci est le changelog pour le modpack Fabric [Herobrine.fr - Optimized](https://
 <br>
 
 - Suppression de **Smooth Boot**. Il n'est plus nécessaire depuis la mise à jour en 1.20.1.
+
+- Ajout de **Respackopts**. Permet d'ajouter des options et des conditions de chargements pour des parties spécifiques d'un pack de texture
 
 <br>
 

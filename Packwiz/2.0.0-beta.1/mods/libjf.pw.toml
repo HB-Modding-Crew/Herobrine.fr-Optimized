@@ -1,0 +1,13 @@
+name = "LibJF"
+filename = "libjf-3.9.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/WKwQAwke/versions/red65dxr/libjf-3.9.0.jar"
+hash-format = "sha512"
+hash = "28687e6619abf78ecb1b4e6d8bfb2eeb1691cb62c05c868dd1d6ecf821dd3cdb2ce706c937c696ff4b19c892eb175a2caab764e206138a5b18208c973d5ed8f7"
+
+[update]
+[update.modrinth]
+mod-id = "WKwQAwke"
+version = "red65dxr"

@@ -1,0 +1,29 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_500
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  tick_delay = 0
+  tickeraction_0_opengui = net.minecraft.class_442
+  is_async = false
+  x = 16
+  width = 70
+  action = custom_layout_element:fancymenu_customization_item_ticker
+  actionid = 936b48ad-71db-4bdf-8984-e3db97b8bc511685476509227
+  y = 35
+  [loading_requirement:fancymenu_visibility_requirement_is_layout_enabled][requirement_mode:if][req_id:2a7eb5e0-2f38-4a2d-ae91-10772ac9113a1685476532072] = HerobrineMainMenu
+  tick_mode = normal
+  height = 70
+}

@@ -4,12 +4,8 @@
         "FancyMenuMedias",
         "resourcepacks",
         "resources",
-        "config/fancymenu",
-        "config/yosbr",
-        "config/citresewn-defaults.json",
-        "config/citresewn.json",
-        "config/debugify.json",
-        "config/debugify-descriptions.json"
+        "config",
+        "options.txt"
     ],
     "modpack_name": "Herobrine.fr-Optimized"
 }

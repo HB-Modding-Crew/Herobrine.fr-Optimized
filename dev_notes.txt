@@ -1,0 +1,16 @@
+Config permanente:
+"instance_includes_list": [
+        "mods",
+        "FancyMenuMedias",
+        "resourcepacks",
+        "resources",
+        "config/fancymenu",
+        "config/simple-rpc",
+        "config/yosbr",
+        "config/citresewn-defaults.json",
+        "config/citresewn.json",
+        "config/debugify.json",
+        "config/debugify-descriptions.json"
+    ]
+
+    https://github.com/jaraco/keyring/issues/566
