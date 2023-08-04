@@ -180,6 +180,8 @@ class PrismInstance:
                 copy_file(PATH_UNPACKED_PRISM_BEFORE_INCLUDE + "/" + self.minecraft_dir + "/" + file, PATH_UNPACKED_PRISM_AFTER_INCLUDE + "/" + self.minecraft_dir + "/" + file, file, "prepared profile")
             if os.path.isdir(PATH_UNPACKED_PRISM_BEFORE_INCLUDE + "/" + self.minecraft_dir + "/" + file):
                 copy_dir(PATH_UNPACKED_PRISM_BEFORE_INCLUDE + "/" + self.minecraft_dir + "/" + file, PATH_UNPACKED_PRISM_AFTER_INCLUDE + "/" + self.minecraft_dir + "/" + file, file, "prepared profile")
+        # Remove .index directory from mod directory
+        remove_dir(PATH_UNPACKED_PRISM_AFTER_INCLUDE + "/" + self.minecraft_dir + "/mods/.index", "\".index\" directory")
 
     def normalize_file_ending(self):
         # Normalize all end of lines with CRLF

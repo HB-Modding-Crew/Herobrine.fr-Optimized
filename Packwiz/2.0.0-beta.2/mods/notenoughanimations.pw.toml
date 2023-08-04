@@ -11,3 +11,6 @@ hash = "ff4ad244f553e2b75f264eb2487f831745ade306dd1039522f25010608db6f27b9283517
 [update.modrinth]
 mod-id = "MPCX6s5C"
 version = "6auoqhMp"
+
+[option]
+optional = true
