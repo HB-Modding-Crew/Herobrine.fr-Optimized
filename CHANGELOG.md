@@ -3,6 +3,30 @@ Ceci est le changelog pour le modpack Fabric [Herobrine.fr - Optimized](https://
 
 # 1.20.1
 
+## 2.0.0-beta.2 (2023-08-03)
+
+### Configuration:
+
+- Fix des panneaux bleus qui n'étaient plus rendu transparents à cause du rendu custom des panneaux de **Enhanced Block Entity**
+- Changement de l'intervalle de changement des CIT (plus instantané pour éviter les lags) (**CIT Rewewn**)
+
+<br>
+
+### Mods:
+
+<br>
+
+- Update de **Amecs**
+- Update de **Continuity**
+- Update de **FabricSkyBoxes**
+- Update de **Falling Leaves**
+- Update de **ImmediatlyFast**
+- Update de **Mod Menu**
+- Update de **OptiGUI**
+- Update de **Reese's Sodium Options**
+- Update de **Sodium Extra**
+- Update de **Zoomify**
+
 ## 2.0.0-beta.1 (2023-07-16)
 
 ### Résumé des changements:

@@ -1,0 +1,270 @@
+{
+    "lambdynamiclights": {
+        "category": "ingame_features",
+        "optional": false
+    },
+    "simple-discord-rpc": {
+        "category": "external_integration",
+        "optional": false
+    },
+    "lithium": {
+        "category": "performance_optimization",
+        "optional": false
+    },
+    "zoomify": {
+        "category": "ingame_features",
+        "optional": false
+    },
+    "betterf3": {
+        "category": "quality_of_life",
+        "optional": false
+    },
+    "yacl": {
+        "category": "libraries",
+        "optional": false
+    },
+    "yosbr": {
+        "category": "background_modpack_features",
+        "optional": false
+    },
+    "cit-resewn": {
+        "category": "ingame_features",
+        "optional": false
+    },
+    "immediatelyfast": {
+        "category": "performance_optimization",
+        "optional": false
+    },
+    "borderless-mining": {
+        "category": "quality_of_life",
+        "optional": false
+    },
+    "cameraoverhaul": {
+        "category": "quality_of_life",
+        "optional": true
+    },
+    "first-person-model": {
+        "category": "ingame_features",
+        "optional": true
+    },
+    "konkrete": {
+        "category": "libraries",
+        "optional": false
+    },
+    "mixin-conflict-helper": {
+        "category": "background_modpack_features",
+        "optional": false
+    },
+    "malilib": {
+        "category": "libraries",
+        "optional": false
+    },
+    "capes": {
+        "category": "ingame_features",
+        "optional": false
+    },
+    "sodium": {
+        "category": "performance_optimization",
+        "optional": false
+    },
+    "language-reload": {
+        "category": "quality_of_life",
+        "optional": false
+    },
+    "raised": {
+        "category": "game_fixes",
+        "optional": false
+    },
+    "bobby": {
+        "category": "ingame_features",
+        "optional": false
+    },
+    "ferrite-core": {
+        "category": "performance_optimization",
+        "optional": false
+    },
+    "fabric-language-kotlin": {
+        "category": "libraries",
+        "optional": false
+    },
+    "no-chat-reports": {
+        "category": "game_fixes",
+        "optional": false
+    },
+    "starlight": {
+        "category": "performance_optimization",
+        "optional": false
+    },
+    "animatica": {
+        "category": "ingame_features",
+        "optional": false
+    },
+    "entitytexturefeatures": {
+        "category": "ingame_features",
+        "optional": false
+    },
+    "modmenu": {
+        "category": "quality_of_life",
+        "optional": false
+    },
+    "better-ping-display-fabric": {
+        "category": "quality_of_life",
+        "optional": false
+    },
+    "reeses-sodium-options": {
+        "category": "quality_of_life",
+        "optional": false
+    },
+    "puzzle": {
+        "category": "quality_of_life",
+        "optional": false
+    },
+    "memoryleakfix": {
+        "category": "performance_optimization",
+        "optional": false
+    },
+    "mixintrace": {
+        "category": "background_modpack_features",
+        "optional": false
+    },
+    "fabrishot": {
+        "category": "ingame_features",
+        "optional": false
+    },
+    "entityculling": {
+        "category": "performance_optimization",
+        "optional": false
+    },
+    "not-enough-animations": {
+        "category": "ingame_features",
+        "optional": true
+    },
+    "stendhal": {
+        "category": "ingame_features",
+        "optional": true
+    },
+    "craterlib": {
+        "category": "libraries",
+        "optional": false
+    },
+    "libjf": {
+        "category": "libraries",
+        "optional": false
+    },
+    "fabric-api": {
+        "category": "libraries",
+        "optional": false
+    },
+    "fabricskyboxes": {
+        "category": "ingame_features",
+        "optional": false
+    },
+    "litematica": {
+        "category": "power_user_features",
+        "optional": true
+    },
+    "entity-model-features": {
+        "category": "ingame_features",
+        "optional": false
+    },
+    "clickthrough": {
+        "category": "ingame_features",
+        "optional": true
+    },
+    "moreculling": {
+        "category": "ingame_features",
+        "optional": false
+    },
+    "ibe-editor": {
+        "category": "power_user_features",
+        "optional": true
+    },
+    "fallingleaves": {
+        "category": "ingame_features",
+        "optional": false
+    },
+    "continuity": {
+        "category": "ingame_features",
+        "optional": false
+    },
+    "optigui": {
+        "category": "quality_of_life",
+        "optional": false
+    },
+    "dynamic-fps": {
+        "category": "performance_optimization",
+        "optional": false
+    },
+    "ebe": {
+        "category": "performance_optimization",
+        "optional": false
+    },
+    "fabricskyboxes-interop": {
+        "category": "ingame_features",
+        "optional": false
+    },
+    "worldedit": {
+        "category": "power_user_features",
+        "optional": true
+    },
+    "satin-api": {
+        "category": "libraries",
+        "optional": false
+    },
+    "presence-footsteps": {
+        "category": "ingame_features",
+        "optional": false
+    },
+    "fancymenu": {
+        "category": "quality_of_life",
+        "optional": false
+    },
+    "sodium-extra": {
+        "category": "quality_of_life",
+        "optional": false
+    },
+    "load-my-resources": {
+        "category": "background_modpack_features",
+        "optional": false
+    },
+    "cloth-config": {
+        "category": "libraries",
+        "optional": false
+    },
+    "respackopts": {
+        "category": "background_modpack_features",
+        "optional": false
+    },
+    "modelfix": {
+        "category": "game_fixes",
+        "optional": false
+    },
+    "server-pack-unlocker": {
+        "category": "background_modpack_features",
+        "optional": false
+    },
+    "amecs": {
+        "category": "quality_of_life",
+        "optional": false
+    },
+    "iris": {
+        "category": "ingame_features",
+        "optional": false
+    },
+    "debugify": {
+        "category": "game_fixes",
+        "optional": false
+    },
+    "indium": {
+        "category": "performance_optimization",
+        "optional": false
+    },
+    "3dskinlayers": {
+        "category": "ingame_features",
+        "optional": true
+    },
+    "better-mount-hud": {
+        "category": "ingame_features",
+        "optional": false
+    }
+}

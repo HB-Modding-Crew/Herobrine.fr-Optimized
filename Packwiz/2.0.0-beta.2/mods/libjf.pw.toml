@@ -1,0 +1,13 @@
+name = "LibJF"
+filename = "libjf-3.10.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/WKwQAwke/versions/JXCsSuCl/libjf-3.10.2.jar"
+hash-format = "sha512"
+hash = "4fbef07ee80592e8bc3e6697b64a69f63ebe9de58c8b982472c2b99f23970aae417b2d8cc4552a23507479cfeef9dd42ef67438c4b67f7332b955d630bb2bedf"
+
+[update]
+[update.modrinth]
+mod-id = "WKwQAwke"
+version = "JXCsSuCl"

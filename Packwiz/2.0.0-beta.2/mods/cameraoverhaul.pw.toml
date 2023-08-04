@@ -1,0 +1,13 @@
+name = "Camera Overhaul"
+filename = "CameraOverhaul-1.4.0-fabric-universal.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/m0oRwcZx/versions/fzCKxnmb/CameraOverhaul-1.4.0-fabric-universal.jar"
+hash-format = "sha512"
+hash = "afd0483e14b0c61136be183eb83670e15ff3b7fdb6e29fd22396529c030405b6870beaabe60fcc35b0574cab7313162941208388b4985416aabbfa44d7b6ecb6"
+
+[update]
+[update.modrinth]
+mod-id = "m0oRwcZx"
+version = "fzCKxnmb"

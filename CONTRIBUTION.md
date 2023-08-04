@@ -12,6 +12,14 @@ pip install mmc-export==2.8.5
 ```
 pip install modrinth
 ```
+- Installer py-markdown-table
+```
+pip install py-markdown-table
+```
+- Installer toml
+```
+pip install toml
+```
 - Installer le Prism Launcher
 - Clonez forkez ce repository et clonez le
 
@@ -41,8 +49,10 @@ Le plus important à savoir pour les mods de l'instance c'est qu'il faut prioris
 >#### Ajouter un mod depuis une autre source
 >
 >Ajouter un mod depuis une autre source est plus compliqué. Comme le mod sera en dur dans le pack téléchargeable, cela équivaut à une redistribution du mod, et il faut alors vérifier la license d'utilisation de celui-ci.
+
 <br>
->*TODO: Ajouter la méthode pour vérifier et ajouter la license*
+
+*TODO: Ajouter la méthode pour vérifier et ajouter la license*
 
 ### Mettre à jour les mods
 

@@ -18,7 +18,7 @@ Tous les liens et tutoriels d'installation sont disponibles sur le discord dédi
 
 <br>
 
-<a href=""><img alt="Discord" height="40" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/social/discord-plural_vector.svg"></a>
+<a href="https://discord.gg/bUTTvqMHhh"><img alt="Discord" height="40" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/social/discord-plural_vector.svg"></a>
 
 <br>
 

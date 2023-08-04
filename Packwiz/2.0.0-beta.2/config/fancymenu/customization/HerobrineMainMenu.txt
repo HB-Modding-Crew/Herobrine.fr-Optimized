@@ -1,0 +1,319 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:modmenu_titlescreen_mods_button
+  x = 38
+  action = movebutton
+  y = -30
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 104
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  seconds = 2.5
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  orientation = mid-right
+  x = -59
+  action = movebutton
+  y = 2
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  width = 150
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  seconds = 4.5
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=2980%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 19
+  action = movebutton
+  y = -30
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 77
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  seconds = 2.5
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:modmenu_titlescreen_mods_button
+  x = 38
+  action = movebutton
+  y = 30
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 104
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  seconds = 4.5
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = element
+  orientation_element = dae9943e-ffb0-4913-808c-8f62735da4021675612845366
+  x = 95
+  action = movebutton
+  y = 30
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 84
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = FancyMenuMedias/179_20_button_hovered.png
+  backgroundnormal = FancyMenuMedias/179_20_button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 207
+  action = deep_customization_element:title_screen_branding
+  actionid = 63546cc8-7382-4b64-9029-9de99da1b3de1675611739317
+  y = 325
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = c1bc5915-4f46-470e-9fcb-707c4db4441d1675611739317
+  y = 190
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 5e08d702-bcf7-48d7-9f07-76dc906735f61675611739317
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 3435a875-1911-47ca-b7cd-26a03b2cb1be1675611739317
+  y = 0
+  height = 30
+}
+
+customization {
+  path = FancyMenuMedias/hb3d-2.png
+  orientation = mid-centered
+  x = -196
+  width = 392
+  action = addtexture
+  actionid = 2b502f5f-b035-42e6-8520-1b3aa95234d31681250581768
+  y = -137
+  height = 80
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = joinserver;137.74.234.16:2001%btnaction_splitter_fm%
+  backgroundhovered = FancyMenuMedias/179_20_button_hovered.png
+  label = Se connecter sur Herobrine.fr
+  loopbackgroundanimations = true
+  x = -89
+  width = 179
+  action = addbutton
+  actionid = dae9943e-ffb0-4913-808c-8f62735da4021675612845366
+  y = -10
+  backgroundnormal = FancyMenuMedias/179_20_button.png
+  height = 20
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = enable_layout;Default%btnaction_splitter_fm%disable_layout;HerobrineMainMenu%btnaction_splitter_fm%
+  backgroundhovered = FancyMenuMedias/179_20_button_hovered.png
+  label = Vanilla Menu
+  loopbackgroundanimations = true
+  orientation_element = dae9943e-ffb0-4913-808c-8f62735da4021675612845366
+  x = 0
+  width = 84
+  action = addbutton
+  actionid = 6f8e959b-563a-45fe-9b70-39202babf6181677975903238
+  y = 30
+  backgroundnormal = FancyMenuMedias/179_20_button.png
+  height = 20
+}
+
+customization {
+  orientation = element
+  basecolor = #ffff00
+  shadow = true
+  rotation = -20.0
+  scale = 1.0
+  refresh = false
+  bouncing = true
+  vanilla-like = true
+  orientation_element = 2b502f5f-b035-42e6-8520-1b3aa95234d31681250581768
+  x = 291
+  actionid = d2dd7637-2f57-48d8-8311-efd4593f50cb1678031684642
+  action = addsplash
+  y = 50
+  text = La Bulle !
+}
+
+customization {
+  orientation = bottom-left
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = Herobrine.fr-Optimized 2.0.0-beta.2
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 2
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 40792954-d5b4-487b-94f3-fd41d687a6d91681557270268
+  y = -11
+  alignment = left
+  height = 14
+}
+
+customization {
+  tickeraction_0_set_variable = on_start:false
+  orientation = top-left
+  tick_delay = 0
+  is_async = false
+  x = 2
+  width = 70
+  action = custom_layout_element:fancymenu_customization_item_ticker
+  actionid = 309846be-92af-44cd-a649-76973e558a9d1685497172440
+  y = 178
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if_not][req_id:20c9f0ea-456f-4651-a6e4-6dc6c5fd600c1685495117991] = on_start:false
+  tick_mode = normal
+  height = 70
+}

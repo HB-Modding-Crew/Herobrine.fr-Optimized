@@ -2,10 +2,16 @@
     "instance_includes_list": [
         "mods",
         "FancyMenuMedias",
-        "resourcepacks",
         "resources",
-        "config",
-        "options.txt"
+        "resourcepacks/Lanternes_pack.zip",
+        "resourcepacks/Lanternes_pack.zip.rpo",
+        "config/fancymenu",
+        "config/simple-rpc",
+        "config/yosbr",
+        "config/citresewn-defaults.json",
+        "config/citresewn.json",
+        "config/debugify.json",
+        "config/debugify-descriptions.json"
     ],
     "modpack_name": "Herobrine.fr-Optimized"
 }
